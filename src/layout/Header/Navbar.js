@@ -9,6 +9,7 @@ import {
   navHomeTwo,
   navCompanyLinks,
   navCompanyPage,
+  offcanvasMenuData
 } from '../../utils/data';
 import dynamic from 'next/dynamic';
 
@@ -66,7 +67,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
             </a>
           </Link>
           <button
-            className="navbar-toggler position-absolute right-0 border-0"
+            className="navbar-toggler position-absolute right-5 border-1"
             id="#offcanvasWithBackdrop"
             role="button"
           >
@@ -117,6 +118,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 </div>
               </li>
               <li>
+              
                 <Link href="services">
                   <a className="nav-link">Services</a>
                 </Link>
@@ -177,6 +179,40 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                   </div>
                 </div>
               </li>
+              <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+                <div className="dropdown-grid rounded-custom width">
+                <div className="dropdown-grid-item">
+                {offcanvasMenuData.map((navH, i) => (
+                  <span key={i + 1}>
+                    <Link href={navH.href}>
+                      <a
+                        className="dropdown-link"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                      >
+                        <span className="dropdown-info mb-0">
+                          <span className="drop-title">{navH.title}</span>
+                          <span>{navH.info}</span>
+                        </span>
+                      </a>
+                    </Link>
+                  </span>
+                ))}
+              </div>
+                  
+                </div>
+              </div>
+            </li>
             </ul>
           </div>
 

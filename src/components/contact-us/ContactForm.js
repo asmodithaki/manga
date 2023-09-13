@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
-import { Formik,} from 'formik';
+import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
 // Form validation schema
@@ -13,12 +13,18 @@ const formSchema = Yup.object().shape({
 });
 
 const ContactForm = () => {
+  const [isFormSubmitted, setFormSubmitted] = useState(false);
   const handleSubmit = async (values, { setSubmitting }) => {
     // make API request here
+    setFormSubmitted(true); // set form submitted state to true
     setSubmitting(false);
   };
 
   return (
+    <div>
+    {isFormSubmitted ? (
+      <div>Form Submitted</div>
+    ) : (
     <section
       className="contact-us-form pt-60 pb-120"
       style={{
@@ -35,94 +41,45 @@ const ContactForm = () => {
               </p>
             </div>
             <Formik
-              initialValues={{ firstName: '', lastName: '', phone: '', email: '', yourMessage: '' }}
-              validationSchema={formSchema}
-              onSubmit={handleSubmit}
-            >
-              {({ isSubmitting }) => (
-                console.log(isSubmitting),
-                <form action="/api/submitForm" method="post" className="register-form">
-                  <div className="row">
-                    <div className="col-sm-6">
-                      <label htmlFor="firstName" className="mb-1">
-                        First name <span className="text-danger">*</span>
-                      </label>
-                      <div className="input-group mb-3">
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="firstName"
-                          required
-                          placeholder="First name"
-                          aria-label="First name"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-sm-6 ">
-                      <label htmlFor="lastName" className="mb-1">
-                        Last name
-                      </label>
-                      <div className="input-group mb-3">
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="lastName"
-                          placeholder="Last name"
-                          aria-label="Last name"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-sm-6">
-                      <label htmlFor="phone" className="mb-1">
-                        Phone <span className="text-danger">*</span>
-                      </label>
-                      <div className="input-group mb-3">
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="phone"
-                          required
-                          placeholder="+1 234 567 8901"
-                          aria-label="Phone"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-sm-6">
-                      <label htmlFor="email" className="mb-1">
-                        Email Address<span className="text-danger">*</span>
-                      </label>
-                      <div className="input-group mb-3">
-                        <input
-                          type="email"
-                          className="form-control"
-                          id="email"
-                          required
-                          placeholder="Company Email"
-                          aria-label="Email"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <label htmlFor="yourMessage" className="mb-1">
-                        Message <span className="text-danger">*</span>
-                      </label>
-                      <div className="input-group mb-3">
-                        <textarea
-                          className="form-control"
-                          id="yourMessage"
-                          required
-                          placeholder="How can we help you?"
-                          style={{ height: '120px' }}
-                        ></textarea>
-                      </div>
-                    </div>
+            initialValues={{ firstName: '', lastName: '', phone: '', email: '', yourMessage: '' }}
+            validationSchema={formSchema}
+            onSubmit={handleSubmit}
+          >
+            {({ isSubmitting }) => (
+              <Form action="/api/submitForm" method="post" className="register-form">
+                <div className="row">
+                  <div className="col-sm-6">
+                    <label htmlFor="firstName">First name <span className="text-danger">*</span></label>
+                    <Field name="firstName" type="text" className="form-control" placeholder="First name" />
+                    <ErrorMessage name="firstName" component="div" className="text-danger" />
                   </div>
-                  <button type="submit" className="btn btn-primary mt-4">
+                  <div className="col-sm-6">
+                    <label htmlFor="lastName">Last name</label>
+                    <Field name="lastName" type="text" className="form-control" placeholder="Last name" />
+                    <ErrorMessage name="lastName" component="div" className="text-danger" />
+                  </div>
+                  <div className="col-sm-6">
+                    <label htmlFor="phone">Phone <span className="text-danger">*</span></label>
+                    <Field name="phone" type="text" className="form-control" placeholder="+1 234 567 8901" />
+                    <ErrorMessage name="phone" component="div" className="text-danger" />
+                  </div>
+                  <div className="col-sm-6">
+                    <label htmlFor="email">Email Address<span className="text-danger">*</span></label>
+                    <Field name="email" type="email" className="form-control" placeholder="Company Email" />
+                    <ErrorMessage name="email" component="div" className="text-danger" />
+                  </div>
+                  <div className="col-12">
+                    <label htmlFor="yourMessage">Message <span className="text-danger">*</span></label>
+                    <Field name="yourMessage" as="textarea" className="form-control" placeholder="How can we help you?" style={{ height: '120px' }} />
+                    <ErrorMessage name="yourMessage" component="div" className="text-danger" />
+                  </div>
+                  <button type="submit" className="btn btn-primary mt-4" disabled={isSubmitting}>
                     Get in Touch
                   </button>
-                </form> 
-              )}
-            </Formik>
+                </div>
+              </Form>
+            )}
+          </Formik>
           </div>
           <div className="col-lg-5 col-md-10">
             <div className="contact-us-img">
@@ -138,6 +95,8 @@ const ContactForm = () => {
         </div>
       </div>
     </section>
+    )}
+    </div>
   );
 };
 

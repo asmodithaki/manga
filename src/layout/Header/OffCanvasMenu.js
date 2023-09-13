@@ -9,66 +9,67 @@ import {
 const OffCanvasMenu = () => {
   return (
     <div className="offcanvas-body">
-      <ul className="nav col-15 col-md-auto justify-content-center main-menu">
-        <li className="nav-item dropdown">
-          <a
-            className="nav-link dropdown-toggle d-flex justify-content-between"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Products
-          </a>
-          <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
-            <div className="dropdown-grid rounded-custom width-half">
-              <div className="dropdown-grid-item">
+    <ul className="nav col-15 col-md-auto justify-content-center main-menu">
+      <li className="nav-item dropdown">
+        <a
+          className="nav-link dropdown-toggle d-flex justify-content-between"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Products
+        </a>
+        <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+          <div className="dropdown-grid rounded-custom width-half">
+            <div className="dropdown-grid-item">
 
-                {offcanvasMenuData.map((navH, i) => (
-                  <span key={i + 1}>
-                    <Link href={navH.href}>
-                      <a
-                        className="dropdown-link"
-                        data-bs-dismiss="offcanvas"
-                        aria-label="Close"
-                      >
-                        <span className="dropdown-info mb-0">
-                          <span className="drop-title">{navH.title}</span>
-                          <span>{navH.info}</span>
-                        </span>
-                      </a>
-                    </Link>
-                  </span>
-                ))}
-              </div>
+              {offcanvasMenuData.map((navH, i) => (
+                <span key={i + 1}>
+                  <Link href={navH.href}>
+                    <a
+                      className="dropdown-link"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    >
+                      <span className="dropdown-info mb-0">
+                        <span className="drop-title">{navH.title}</span>
+                        <span>{navH.info}</span>
+                      </span>
+                    </a>
+                  </Link>
+                </span>
+              ))}
             </div>
           </div>
-        </li>
-        <li data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link href="/services">
-            <a className="nav-link">Services</a>
-          </Link>
-        </li>
-        <li data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link href="/about-us">
-            <a className="nav-link">About</a>
-          </Link>
-        </li>
-        <li data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link href="/pricing">
-            <a className="nav-link">Pricing</a>
-          </Link>
-        </li>
-        <li className="nav-item dropdown">
-          <a
-            className="nav-link dropdown-toggle d-flex justify-content-between"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Resources
-          </a>
+        </div>
+      </li>
+      <li data-bs-dismiss="offcanvas" aria-label="Close">
+        <Link href="/services">
+          <a className="nav-link">Services</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="contact-us">
+          <a className="nav-link">Contact</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="about-us">
+          <a className="nav-link">About</a>
+        </Link>
+      </li>
+     
+      <li className="nav-item dropdown">
+        <a
+          className="nav-link dropdown-toggle"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Resources
+        </a>
           <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
             <div className="dropdown-grid rounded-custom width-full">
               <div className="dropdown-grid-item">

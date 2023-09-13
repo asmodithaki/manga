@@ -1,40 +1,27 @@
-import { body, validationResult } from 'express-validator';
-import { client } from "../../database.js";
+import { Pool } from 'pg';
 
-// Rest of your code...
+const pool = new Pool({
+  user: 'mortimer',
+  host: 'localhost',
+  database: 'thurisalabs',
+  password: 'satanika112205',
+  port: 5432,
+});
 
 export default async function handler(req, res) {
-
-    // Run validations
-    await Promise.all([
-        body('firstName').notEmpty().run(req),
-        body('lastName').notEmpty().run(req),
-        body('phone').notEmpty().run(req),
-        body('email').isEmail().run(req),
-        body('yourMessage').notEmpty().run(req),
-    ]);
-
-    // Check if validation result contains any error
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-        return res.status(400).json({ errors: errors.array() });
-    }
+  if (req.method === 'POST') {
+    const { firstName, lastName, phone, email, yourMessage } = req.body;
 
     try {
-        // Ensures that the client is connected
-        if (!client.isConnected()) await client.connect();
+      const result = await pool.query(
+        `INSERT INTO form_submissions (first_name, last_name, phone, email, your_message)
+        VALUES ($1, $2, $3, $4, $5) RETURNING *`,
+        [firstName, lastName, phone, email, yourMessage]
+      );
 
-        const collection = client.db("test").collection("contactUsForm");
-
-        // insert form data into the collection
-        const result = await collection.insertOne(req.body);
-        res.status(200).json({ message: 'Form submitted successfully' });
-
-        console.log(result);
-
-        res.status(200).send({ status: 'Form submitted successfully' });
+      return res.status(200).json(result.rows[0]);
     } catch (err) {
-        console.log(err);
-        res.status(500).send(err);
+      return res.status(500).json({ error: err.message });
     }
+  }
 }
