@@ -6,7 +6,7 @@ import HeroTitle from "../common/HeroTitle";
 const HeroSectionFourth = ({ bgDark }) => {
   return (
     <section
-      className={`hero-section ptb-120 ${bgDark ? "bg-dark" : "bg-white"}`}
+      className={`hero-section ptb-100 ${bgDark ? "bg-dark" : "bg-white"}`}
       style={{
         background:
           "url('/shape/dot-dot-wave-shape.svg')no-repeat bottom center",
@@ -17,9 +17,8 @@ const HeroSectionFourth = ({ bgDark }) => {
           <div className="col-xl-5 col-lg-5">
             <div className="hero-content-wrap mt-5 text-center text-xl-start text-lg-start">
               <HeroTitle
-                title="Advanced Solutions for Your Business"
-                desc="Proactively coordinate quality quality vectors vis-a-vis
-                  supply chains client-centric web services."
+                title="Advanced AI Solution for Your Business"
+                desc="Deploy Athena today, integrate AI that knows your business"
               />
               <div className="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block">
                 <form
@@ -46,8 +45,8 @@ const HeroSectionFourth = ({ bgDark }) => {
                 <ul className="nav subscribe-feature-list mt-3">
                   <li className="nav-item">
                     <span className="ms-0">
-                      <FaRegCheckCircle className="far me-2 text-primary" />
-                      Free 14-day trial
+                      <FaRegCheckCircle className="far me-4 text-primary" />
+                     BizAssit is your personal business assitant
                     </span>
                   </li>
                   <li className="nav-item">

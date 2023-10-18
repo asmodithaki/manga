@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 const Layout = ({
     children,
-    title = 'Thurisa Labs - Your window into the future',
+    title = 'Your window into the future',
     desc = 'Thurisa Labs is a software development company specializing in web and mobile application development.',
     hasClass = false,
     classOpt = ''
@@ -34,7 +34,7 @@ const Layout = ({
           })(window, document, "clarity", "script", "hnujz6tfvp");`,
                 }}
             />
-            <title>Thurisa Labs | {title}</title>
+            <title>Thurisa Labs |{title}</title>
             {desc && <meta name="description" content={desc} />}
             <link rel="icon" href="/favicon.png" />
         </Head>

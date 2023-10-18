@@ -6,6 +6,7 @@ const pool = new Pool({
   database: 'thurisalabs',
   password: 'satanika112205',
   port: 5432,
+  ssl: true,
 });
 
 export default async function handler(req, res) {
@@ -25,3 +26,6 @@ export default async function handler(req, res) {
     }
   }
 }
+
+
+
