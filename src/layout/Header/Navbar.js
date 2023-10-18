@@ -133,52 +133,6 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                   <a className="nav-link">About</a>
                 </Link>
               </li>
-             
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Resources
-                </a>
-                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
-                  <div className="dropdown-grid rounded-custom width-full">
-                    <div className="dropdown-grid-item">
-                      <h6 className="drop-heading">Thurisa+</h6>
-                      {navCompanyLinks.map((navLink, i) => (
-                        <div key={i + 1}>
-                          <Link href={navLink.href}>
-                            <a className="dropdown-link px-0">
-                              <span className="me-2">{navLink.icon}</span>
-                              <span className="drop-title mb-0">
-                                {navLink.title}{' '}
-                              </span>
-                            </a>
-                          </Link>
-                        </div>
-                      ))}
-                    </div>
-                    <div className="dropdown-grid-item radius-right-side bg-light">
-                      <h6 className="drop-heading">Utility</h6>
-                      {navCompanyPage.map((navPage, i) => (
-                        <div key={i + 1}>
-                          <Link href={navPage.href}>
-                            <a className="dropdown-link">
-                              <span className="me-2">{navPage.icon}</span>
-                              <span className="drop-title mb-0">
-                                {navPage.title}{' '}
-                              </span>
-                            </a>
-                          </Link>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </li>
               <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -213,6 +167,52 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 </div>
               </div>
             </li>
+            
+            <li className="nav-item dropdown">
+            <a
+              className="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Resources
+            </a>
+            <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+              <div className="dropdown-grid rounded-custom width-full">
+                <div className="dropdown-grid-item">
+                  <h6 className="drop-heading">Thurisa+</h6>
+                  {navCompanyLinks.map((navLink, i) => (
+                    <div key={i + 1}>
+                      <Link href={navLink.href}>
+                        <a className="dropdown-link px-0">
+                          <span className="me-2">{navLink.icon}</span>
+                          <span className="drop-title mb-0">
+                            {navLink.title}{' '}
+                          </span>
+                        </a>
+                      </Link>
+                    </div>
+                  ))}
+                </div>
+                <div className="dropdown-grid-item radius-right-side bg-light">
+                  <h6 className="drop-heading">Utility</h6>
+                  {navCompanyPage.map((navPage, i) => (
+                    <div key={i + 1}>
+                      <Link href={navPage.href}>
+                        <a className="dropdown-link">
+                          <span className="me-2">{navPage.icon}</span>
+                          <span className="drop-title mb-0">
+                            {navPage.title}{' '}
+                          </span>
+                        </a>
+                      </Link>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </li>
             </ul>
           </div>
 
