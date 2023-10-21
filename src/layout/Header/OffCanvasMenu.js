@@ -11,7 +11,7 @@ const OffCanvasMenu = () => (
       <li data-bs-dismiss="offcanvas">
         <Link href="/services"><a className="nav-link">Services</a></Link>
       </li>
-      {/* More individual links */}
+      {/* More individual as I build */}
       <li><Link href="/contact-us"><a className="nav-link">Contact</a></Link></li>
       <li><Link href="/about-us"><a className="nav-link">About</a></Link></li>
     </ul>
