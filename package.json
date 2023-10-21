@@ -1,9 +1,10 @@
 {
-  "name": "thurisa",
+  "name": "umojaa",
   "private": true,
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -28,16 +29,17 @@
     "yup": "^1.2.0"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "@jridgewell/sourcemap-codec": "^1.4.15",
-    "@rollup/plugin-terser": "^0.4.3",
-=======
-    "@types/node": "^20.8.6",
->>>>>>> 79b9ccf26e4546f18f2ee3912a790e98527a8eb7
-    "eslint": "7.32.0",
-    "eslint-config-next": "12.0.3",
-    "eslint-config-prettier": "^9.0.0",
-    "prisma": "^5.4.2",
-    "workbox-webpack-plugin": "^7.0.0"
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@types/node": "^16.11.12",
+    "@types/react": "^17.0.37",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "jest": "^27.4.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.0",
+    "typescript": "^4.5.4"
   }
 }

@@ -84,13 +84,21 @@
 }
 
 .circle-shape-wrap {
-  grid-column-end: 4;
-  -ms-grid-column: 3;
-  grid-column-start: 3;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
+  /* Standard CSS Grid for modern browsers */
+  @supports (display: grid) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  /* IE 11 */
+  @supports not (display: grid) {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1; // Since there's no -ms-grid-column-end
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1; // Since there's no -ms-grid-row-end
+  }
 }
 .circle-img-1 {
   position: absolute;

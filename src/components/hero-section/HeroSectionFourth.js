@@ -88,16 +88,10 @@ const HeroSectionFourth = ({ bgDark }) => {
               )}
               <div className="hero-img-wrap position-relative">
                 <div className="hero-screen-wrap">
-                  <div className="phone-screen">
-                    <img
-                      src="/screen/phone-screen.png"
-                      alt="hero"
-                      className="position-relative img-fluid"
-                    />
-                  </div>
+                 
                   <div className="mac-screen">
                     <img
-                      src="/screen/mac-screen.png"
+                      src="/athena/14.png"
                       alt="hero "
                       className="position-relative img-fluid rounded-custom"
                     />

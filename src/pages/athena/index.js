@@ -18,7 +18,6 @@ const athena = () => {
     <Layout>
       <Navbar navDark />
       <HeroSectionFourth bgDark />
-      <Customer gray />
       <PromoThree />
       <FeatureImgContentTwo cardDark />
       <SingleServiceFeature />
