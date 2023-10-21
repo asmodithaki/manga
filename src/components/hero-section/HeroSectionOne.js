@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
 import Link from "next/link";
-import { IoPlayCircleOutline } from "react-icons/io5";
 import ModalVideo from "react-modal-video";
 
 const ButtonLink = ({ href, children, className }) => (
@@ -10,7 +9,7 @@ const ButtonLink = ({ href, children, className }) => (
   </Link>
 );
 
-const HeroSectionOne = () => {
+const  HeroSectionOne = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
@@ -33,24 +32,15 @@ const HeroSectionOne = () => {
               </h2>
               <p className="lead ">
                 <strong>
-                  Build the next big thing?
-                  <br></br>Meet the experts, ask the right questions.
+                 We are Building Intelligent and Integratable Data Driven Software For Individuals, SME&apos;s &amp; Large Business Ventures for the Future of African E-commerce
+                  
                 </strong>
               </p>
               <div className="action-btns mt-5 d-flex align-items-center">
-                <ButtonLink href="/request-demo" className="btn btn-primary me-3">
-                  Request For Demo
+                <ButtonLink href="/request-discuss" className="btn btn-primary me-3">
+                 Let&apos;s Talk
                 </ButtonLink>
-                <div>
-                  <a
-                    href="#!"
-                    onClick={() => setOpen(true)}
-                    type="button"
-                    className="text-white text-decoration-none d-flex align-items-center watch-now-btn"
-                  >
-                    <IoPlayCircleOutline className="me-2" /> Watch Demo
-                  </a>
-                </div>
+               
               </div>
             </div>
           </div>

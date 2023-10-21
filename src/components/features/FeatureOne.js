@@ -42,9 +42,7 @@ const FeatureImgSix = () => {
                     <div className="icon-content">
                       <h3 className="h3">Business Compliance </h3>
                       <p>
-                        Create entities, manage business compliance with ease.
-                        With the Duly Legal App you can streamline your business and stay compliant with the law.
-                        Assess once, enjoy compliance across board.
+                        Create entities, manage compliance and other business management processes with AutomaLaw, Streamline your business and stay compliant in few easy steps. 
                       </p>
                     </div>
                   </li>
@@ -72,7 +70,7 @@ const FeatureImgSix = () => {
                     <div className="icon-content">
                       <h3 className="h3">Logistics</h3>
                       <p>
-                        LodgeTrack employs AI to simplify fleet management.
+                        Manage logistics needs, just ship and track
                         It offers real-time tracking of your fleet, efficient management of drivers,
                         and up-to-the-minute updates on your deliveries,
                         including AI-assisted route optimization. All these features are conveniently accessible via your mobile device
@@ -101,7 +99,7 @@ const FeatureImgSix = () => {
                     <div className="icon-content">
                       <h3 className="h3"> Business Advisory</h3>
                       <p>
-                        Manage your business and get technical support from our team of experts. Available 24/7
+                        Manage your business needs, enjoy exceptionally great technical support, and get access to a team of business experts to help you grow your business aligning with your business needs
                       </p>
                     </div>
                   </li>
