@@ -27,12 +27,12 @@ const  HeroSectionOne = () => {
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-10">
             <div className="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
-              <h2 className="fw-bold display-1 ptb-100 text-white ">
-                Your Window into the future
+              <h2 className="fw-bold display-4 ptb-100 text-white ">
+              AI Powered Business Management Software
               </h2>
               <p className="lead ">
                 <strong>
-                 We are Building Intelligent and Integratable Data Driven Software For Individuals, SME&apos;s &amp; Large Business Ventures for the Future of African E-commerce
+                Employ Integratable data driven solutions for your business, increasing management efficiency and productivity
                   
                 </strong>
               </p>

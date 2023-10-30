@@ -9,20 +9,18 @@ const PromoThree = ({ hasBg }) => {
           <div className="row justify-content-center">
             <div className="col-md-10 col-lg-6">
               <SectionTitle
-                title="Everything We Do it With Love"
-                description=" Progressively deploy market positioning catalysts for change
-                  and technically sound authoritatively e-enable
-                  resource-leveling infrastructures."
+                title="We Know The Problem; Join Us, We Are Solving It!"
+                description="."
                 centerAlign
               />
             </div>
           </div>
           <div className="row">
             <div className="col-md-6 col-lg-4">
-              <div className="promo-card-wrap promo-border-hover border border-2 bg-white rounded-custom p-5 mb-4 mb-lg-0 mb-md-4">
+              <div className="promo-card-wrap promo-border border-color-purple border-2 bg-dark rounded-custom p-5 mb-4 mb-lg-0 mb-md-4">
                 <div className="promo-card-info">
-                  <h3 className="display-5 fw-medium mb-4">150+</h3>
-                  <h2 className="h5">Completed Projects</h2>
+                  <h3 className="display-5 fw-medium mb-4">Automate Efficiency</h3>
+                  <h2 className="h5">Complete tasks in record time</h2>
                   <p className="mb-0">
                     Rapidiously embrace distinctive best practices after B2B
                     syndicate.{" "}
@@ -31,19 +29,18 @@ const PromoThree = ({ hasBg }) => {
               </div>
             </div>
             <div className="col-md-6 col-lg-4">
-              <div className="promo-card-wrap promo-border-hover border border-2 bg-white rounded-custom p-5 mb-4 mb-lg-0 mb-md-4">
+              <div className="promo-card-wrap border border-2 bg-purple rounded-custom p-5 mb-4 mb-lg-0 mb-md-4">
                 <div className="promo-card-info">
-                  <h3 className="display-5 fw-medium mb-4">1.5k</h3>
-                  <h2 className="h5">Happy Client</h2>
+                  <h3 className="display-5 fw-medium mb-4">Analyza Data</h3>
+                  <h2 className="h5">Make sense out of data</h2>
                   <p className="mb-0">
-                    Energistically impact synergistic convergence for
-                    leadership..
+                    Tailor your service provisioning with superb analytics plugged into your business processes.{" "}
                   </p>
                 </div>
               </div>
             </div>
             <div className="col-md-6 col-lg-4">
-              <div className="promo-card-wrap promo-border-hover border border-2 bg-white rounded-custom p-5 mb-4 mb-lg-0 mb-md-0">
+              <div className="promo-card-wrap promo-border border-2 bg-dark rounded-custom p-5 mb-4 mb-lg-0 mb-md-4">
                 <div className="promo-card-info">
                   <h3 className="display-5 fw-medium mb-4">90%</h3>
                   <h2 className="h5">24/7 Support</h2>

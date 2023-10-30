@@ -16,8 +16,7 @@ const FeatureImgContentTwo = ({ bgWhite }) => {
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 col-md-12">
             <div className="section-heading">
-              <h4 className="h5 text-primary">Our Values</h4>
-              <h2>The Core Values that Drive Everything</h2>
+              <h2>Drive Business With Data</h2>
               <p>
                 Quickly incubate functional channels with multidisciplinary
                 architectures. Authoritatively fabricate formulate exceptional

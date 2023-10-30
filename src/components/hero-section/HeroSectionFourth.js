@@ -45,13 +45,13 @@ const HeroSectionFourth = ({ bgDark }) => {
                 <ul className="nav subscribe-feature-list mt-3">
                   <li className="nav-item">
                     <span className="ms-0">
-                      <FaRegCheckCircle className="far me-4 text-primary" />
-                     BizAssit is your personal business assitant
+                      <FaRegCheckCircle className="far me-1 text-primary" />
+                     Athena&apos;s BizAssit is your assitant, how you like it.
                     </span>
                   </li>
                   <li className="nav-item">
                     <span>
-                      <FaRegCheckCircle className="far me-2 text-primary" />
+                      <FaRegCheckCircle className="far me-1 text-primary" />
                       No credit card required
                     </span>
                   </li>
@@ -88,6 +88,13 @@ const HeroSectionFourth = ({ bgDark }) => {
               )}
               <div className="hero-img-wrap position-relative">
                 <div className="hero-screen-wrap">
+                <div className="phone-screen">
+                    <img
+                      src="/athena/assistant.png"
+                      alt="hero "
+                      className="position-relative img-fluid rounded-custom"
+                    />
+                  </div>
                  
                   <div className="mac-screen">
                     <img
