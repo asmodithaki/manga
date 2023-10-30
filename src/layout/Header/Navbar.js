@@ -218,7 +218,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
 
           <div className="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
             
-            <Link href="request-demo">
+            <Link href="request-discuss">
               <a
                 className={
                   insurance ? 'ins-btn ins-primary-btn' : 'btn btn-primary'
