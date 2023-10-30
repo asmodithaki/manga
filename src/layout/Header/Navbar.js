@@ -67,7 +67,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
             </a>
           </Link>
           <button
-            className="navbar-toggler position-absolute right-5 border-1"
+            className="navbar-toggler position-fixed right-5 border-1"
             id="#offcanvasWithBackdrop"
             role="button"
           >
