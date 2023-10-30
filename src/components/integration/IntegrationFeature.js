@@ -12,7 +12,9 @@ const IntegrationFeature = () => {
             {integrationFeature.map((integration, i) => (
               <div key={i + 1} className="col-lg-4 col-md-6">
                 <Link href="/integration-single">
-                  <a className="position-relative text-decoration-none connected-app-single bg-white border border-2 bg-white my-4 mt-lg-0 mt-md-0 transition-base rounded-custom d-block overflow-hidden p-5">
+                  <a className="position-relative text-decoration-none connected-app-single 
+                  bg-white border border-2 bg-white my-4 mt-lg-0 mt-md-0 
+                  transition-base rounded-custom d-block overflow-hidden p-5">
                     <div className="position-relative connected-app-content">
                       <div className="integration-logo bg-white rounded-circle p-2 d-inline-block">
                         <img

@@ -11,11 +11,12 @@ import IntegrationFeature from '@components/integration/IntegrationFeature';
 
 const Integrations = () => {
   return (
-    <Layout title="Integrations" desc="This is integrations page">
+    <Layout title="Integrations" desc="We integrate other providers.">
       <Navbar classOption="navbar-light" />
       <PageHeader
-        title="Featured Integrations"
-        desc="Enjoy our suite of integrated solutions all in one place for ease of business activities."
+        title="We know you need these apps all in one place"
+        desc="Integrate anything, connect all and create your personalized business ecosystem, It is like owning a fleet of cars and knowing where they all are. 
+         MAKE IT SIMPLE."
       />
       <IntegrationFeature />
       <Promo bgWhite />

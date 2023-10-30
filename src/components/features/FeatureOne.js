@@ -27,9 +27,9 @@ const FeatureImgSix = () => {
                     </div>
                     <div className="icon-content">
                       <h3 className="h3">AI Integration</h3>
-                      <p>
-                        Leverage Ai to automate your business processes, increase productivity, efficiency and profitability.
-                        We are designing your personal business assistant to help you manage your business and increase your bottom line
+                      <p> 
+                        Leverage AI, automate your business processes, increase productivity, efficiency and profitability.
+                        It&apos;s your personal business assistant, built to help you navigate your business landscape with ease.
                       </p>
                     </div>
                   </li>
@@ -40,7 +40,7 @@ const FeatureImgSix = () => {
                       </span>
                     </div>
                     <div className="icon-content">
-                      <h3 className="h3">Business Compliance </h3>
+                      <h3 className="h3">Business Compliance</h3>
                       <p>
                         Create entities, manage compliance and other business management processes with AutomaLaw, Streamline your business and stay compliant in few easy steps. 
                       </p>

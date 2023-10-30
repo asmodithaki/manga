@@ -576,7 +576,7 @@ const integrationFeature = [
     logo: "/integations/1.png",
     type: "Popular",
     class: "bg-primary-soft text-primary",
-    title: "Inshopper Insta Connect+",
+    title: "Inshopper",
     info: "Using Inshopper, connect your Instagram account to your Inshopper Storefront.",
   },
   {
@@ -584,7 +584,7 @@ const integrationFeature = [
     type: "Free",
     class: "bg-warning-soft text-warning",
     title: "Google Drive",
-    info: "Bring all your Documents to Inshopper and access them from anywhere",
+    info: "Bring all your files to one place, access them from anywhere",
   },
   {
     logo: "/integations/3.png",

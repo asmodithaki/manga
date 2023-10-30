@@ -18,11 +18,9 @@ const NotFoundPage = () => {
                 <h2 className="error-404 text-warning">404</h2>
                 <h1 className="display-5 fw-bold">Page Not Found</h1>
                 <p className="lead">
-                  Efficiently reinvent next-generation scenarios without focused
-                  networks. Collaboratively productize superior technology
-                  before robust potentialities.{' '}
-                </p>
-
+      Oops! The page you're looking for doesn't exist or has been moved.
+      Double-check the URL or head back to our homepage.
+    </p>
                 <Link href="/">
                   <a className="btn btn-primary mt-4">Go Back Home</a>
                 </Link>
@@ -47,7 +45,7 @@ const NotFoundPage = () => {
                   </li>
                   <li className="layer" data-depth="0.04">
                     <img
-                      src="/shape/circle-1.svg"
+                      src="/cyber_banner_img.png"
                       alt="shape"
                       className="circle-shape-item type-2 hero-1"
                     />
