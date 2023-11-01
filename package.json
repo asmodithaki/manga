@@ -1,0 +1,62 @@
+{
+
+  "name": "umojaa",
+
+  "version": "1.0.0",
+
+  "description": "Thurisa Labs: Business Integration Solutions Welcome to the Thurisa Labs GitHub repository! Here, you will find a collection of resources, sample code, and example projects related to our comprehensive suite of business integration solutions. We are committed to helping organizations streamline their workflows and enhance productivity by seamlessly connecting applications, data, and processes.",
+
+  "main": "next.config.js",
+
+  "private": true,
+
+  "directories": {
+
+    "doc": "docs"
+
+  },
+
+  "scripts": {
+
+    "dev": "next dev",
+
+    "build": "next build",
+
+    "start": "next start",
+
+    "lint": "next lint",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+
+  "keywords": [
+
+    "automation, digital personal assistant, digital marketing, digital marketing automation, business integration, business integration solutions, business integration"
+
+  ],
+
+  "author": "Royale Titus Orimolade",
+
+  "organization": "Thurisa Labs Limited",
+
+  "license": "ISC",
+
+  "dependencies": {
+
+    "next": "^14.0.1",
+
+    "react": "^18.2.0",
+
+    "react-dom": "^18.2.0"
+
+  },
+
+  "devDependencies": {
+
+    "@types/node": "^20.8.10"
+
+  }
+
+}
+
