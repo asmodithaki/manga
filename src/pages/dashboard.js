@@ -8,15 +8,14 @@ import SupportOne from "@components/support/SupportOne";
 import IntegrationOne from "@components/integration/IntegrationOne";
 import TestimonialOne from "@components/testimonial/TestimonialOne";
 import WorkProcessOne from "@components/workprocess/WorkProcessOne";
-import HeroSectionOne from "@components/hero-section/HeroSectionOne";
+import HeroDashBoard from "@components/hero-section/HeroDashBoard";
 import FeatureImgContentOne from "@components/feature-img-content/FeatureImgContentOne";
 
 const  Dashboard = () =>  {
   return (
     <Layout>
       <Navbar navDark />
-      <HeroSectionOne />
-      <FeatureOne />
+      <HeroDashBoard />
       <FeatureImgContentOne />
       <TestimonialOne darkBg />
       <WorkProcessOne />

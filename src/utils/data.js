@@ -4,11 +4,13 @@ import {
   BiRocket,
   BiHelpCircle,
   BiLogIn,
+  BiChat,
 
 } from "react-icons/bi";
 import { HiOutlineAcademicCap } from "react-icons/hi";
 import { BsHeadset } from "react-icons/bs";
 import { FaLaptopCode, FaRegClock } from "react-icons/fa";
+import ChatWindow from "@components/chat/ChatWindow";
 
 const IconBoxData = [
   {
@@ -326,6 +328,12 @@ const navCompanyLinks = [
     icon: <BiNews />,
     href: "blogs",
   },
+  {
+    title: "Chat Window",
+    icon: <BiChat />,
+    href: "dashboard",
+},
+ 
 ];
 
 const navCompanyPage = [
@@ -573,52 +581,53 @@ const integrationOneRight = [
 
 const integrationFeature = [
   {
-    logo: "/integations/1.png",
-    type: "Popular",
-    class: "bg-primary-soft text-primary",
+    logo: "/athena/inshopper.png",
+    type: "Thurisa Commerce",
+    class: "bg-primary-hard text-primary",
     title: "Inshopper",
-    info: "Using Inshopper, connect your Instagram account to your Inshopper Storefront.",
+    info: "Connect your Social Media accounts to your Inshopper storefront, manage social proof and client engagement on all platforms all in one place..",
   },
   {
-    logo: "/integations/2.png",
-    type: "Free",
+    logo: "/athena/workspace.png",
+    type: "Business Suite",
     class: "bg-warning-soft text-warning",
-    title: "Google Drive",
+    title: "Google Workspace",
     info: "Bring all your files to one place, access them from anywhere",
+   
   },
   {
-    logo: "/integations/3.png",
-    type: "Advanced",
-    class: "bg-success-soft text-success",
-    title: "Open AI",
-    info: "Enjoy the power of AI to help you with your business. Explore possibilities with our Open AI integrations",
+    logo: "/athena/athena.png",
+    type: "Athena",
+    class: "bg-primary-soft text-primary",
+    title: "Athena BizAssist",
+    info: "Enjoy the power of AI. Explore possibilities with our integrations focused on automating everyday tasks and processes for more effiecient service delivery.",
   },
   {
-    logo: "/integations/4.png",
-    type: "Premium",
-    class: "bg-warning-soft text-warning",
-    title: "Google Drive",
-    info: "Globally engage tactical niche markets rather than client-based competently generate unique e-services",
+    logo: "/athena/automatik.png",
+    type: "Athena",
+    class: "bg-primary-soft text-warning",
+    title: "Automatika",
+    info: "Automate repetitive tasks, build your own workflows, and integrate your favorite apps with Automatika.",
   },
   {
-    logo: "/integations/5.png",
+    logo: "/athena/dropbox.png",
     type: "Popular",
     class: "bg-primary-soft text-primary",
-    title: "Google Drive",
+    title: "Dropbox",
     info: "Globally engage tactical niche markets rather than client-based competently generate unique e-services",
   },
   {
     logo: "/integations/6.png",
     type: "Basic",
     class: "bg-danger-soft text-danger",
-    title: "Google Drive",
+    title: "Automa Law",
     info: "Globally engage tactical niche markets rather than client-based competently generate unique e-services",
   },
   {
     logo: "/integations/7.png",
     type: "Free",
     class: "bg-warning-soft text-warning",
-    title: "Google Drive",
+    title: "Biz Bot",
     info: "Globally engage tactical niche markets rather than client-based competently generate unique e-services",
   },
   {
