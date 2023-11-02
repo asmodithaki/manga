@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper/core";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { FaStar } from "react-icons/fa";
 
 SwiperCore.use([Navigation]);

@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { FaBezierCurve } from 'react-icons/fa';
 import { FiTruck } from 'react-icons/fi';
 import { RiNodeTree } from 'react-icons/ri';

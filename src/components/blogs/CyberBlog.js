@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper/core";
 import { cyberBlogData } from "@utils/data";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import {FaArrowRight,FaUser,FaCalendar} from 'react-icons/fa'
 

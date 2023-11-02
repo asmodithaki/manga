@@ -1,6 +1,6 @@
 import React from "react";
 import Link  from "next/link"
-import Image from "next/image";
+import Image from "next/legacy/image";
 import{FaGithub,FaDribbble,FaInstagram,FaFacebookF} from 'react-icons/fa';
 
 const FooterTwo = () => {

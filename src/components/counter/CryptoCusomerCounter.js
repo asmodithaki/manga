@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image';
+import Image from "next/legacy/image";
 const CryptoCusomerCounter = () => {
   return (
     <section className="crypto-customer-counter bg-dark-black ptb-60">

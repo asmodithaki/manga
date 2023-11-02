@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 import SectionTitle from '../common/SectionTitle';
 import {  FaBrain, FaBusinessTime, FaMoneyCheck,   FaTruckLoading } from 'react-icons/fa';

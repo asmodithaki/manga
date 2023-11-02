@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 
 const CustomerLogoSlider = () => {

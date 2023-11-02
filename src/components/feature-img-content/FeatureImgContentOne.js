@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { FiArrowRight } from "react-icons/fi";
 import { BsShieldCheck } from "react-icons/bs";
 import { FaAsterisk, FaBatteryFull,  FaChartBar, FaChartPie,  FaFingerprint, FaPersonBooth, FaTree, } from "react-icons/fa";
