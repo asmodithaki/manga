@@ -4,13 +4,14 @@ import {
   BiRocket,
   BiHelpCircle,
   BiLogIn,
-  BiChat,
+  BiSolidDashboard,
+  
 
 } from "react-icons/bi";
 import { HiOutlineAcademicCap } from "react-icons/hi";
-import { BsHeadset } from "react-icons/bs";
+import { BsFingerprint, BsHeadset } from "react-icons/bs";
 import { FaLaptopCode, FaRegClock } from "react-icons/fa";
-import ChatWindow from "@components/chat/ChatWindow";
+
 
 const IconBoxData = [
   {
@@ -329,9 +330,14 @@ const navCompanyLinks = [
     href: "blogs",
   },
   {
-    title: "Chat Window",
-    icon: <BiChat />,
+    title: "Biz Manager",
+    icon: <BiSolidDashboard />,
     href: "dashboard",
+},
+{
+  title: "VerifyBiz",
+  icon: <BsFingerprint />,
+  href: "dashboard",
 },
  
 ];
