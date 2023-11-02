@@ -56,7 +56,7 @@ const CyberBlog = () => {
                     <SwiperSlide key={i+1}>
                 <div className="cyber-single-article mb-4 mb-lg-0 p-3 border">
                   <Link href="/blog-single" >
-                    <a className="cyber-article-img text-decoration-none">
+                    <p className="cyber-article-img text-decoration-none">
                     <Image
                       src={item.blogThumb}
                       alt="article"
@@ -82,7 +82,7 @@ const CyberBlog = () => {
                       </h2>
                         <div className="link-with-icon text-decoration-none"> {item.linkText} <i><FaArrowRight/></i></div>
                     </div>
-                    </a>
+                    </p>
                   </Link>
                 </div>
               </SwiperSlide>

@@ -3,7 +3,6 @@ import FaqOne from "@components/faq/FaqOne";
 import Navbar from "@layout/Header/Navbar";
 import Footer from "@layout/Footer/Footer";
 import PricingOne from "@components/pricing/PricingOne";
-import FeatureOne from "@components/features/FeatureOne";
 import SupportOne from "@components/support/SupportOne";
 import IntegrationOne from "@components/integration/IntegrationOne";
 import TestimonialOne from "@components/testimonial/TestimonialOne";

@@ -30,7 +30,7 @@ export default function DigiBlog() {
           <div className="col-lg-4 col-md-6">
             <div className="digi-blog-single border p-3 rounded mb-4 mb-lg-4">
               <Link href="/blog-single">
-                <a>
+                <>
                   <div className="digi-blog-thumb">
                     <img
                       src="/blog/d-blog-1.jpg"
@@ -59,7 +59,7 @@ export default function DigiBlog() {
                       </a>
                     </Link>
                   </div>
-                </a>
+                </>
               </Link>
             </div>
           </div>
@@ -109,7 +109,19 @@ export default function DigiBlog() {
                 <ul className="list-unstyled">
                   <li className="mb-3">
                     <Link href="/blog-single">
-                      <a>
+                      
+                        <span className="fs-sm text-muted">
+                          John Carter October 30, 2021
+                        </span>
+                        <h5 className="h6">
+                          5 SEO Factors to Consider for your Website to rank
+                          Better
+                        </h5> 
+                        </Link>
+                  </li>
+                  <li className="mb-3">
+                    <Link href="/blog-single">
+                      <p>
                         <span className="fs-sm text-muted">
                           John Carter October 30, 2021
                         </span>
@@ -117,12 +129,12 @@ export default function DigiBlog() {
                           5 SEO Factors to Consider for your Website to rank
                           Better
                         </h5>
-                      </a>
+                      </p>
                     </Link>
                   </li>
                   <li className="mb-3">
                     <Link href="/blog-single">
-                      <a>
+                      <p>
                         <span className="fs-sm text-muted">
                           John Carter October 30, 2021
                         </span>
@@ -130,12 +142,12 @@ export default function DigiBlog() {
                           5 SEO Factors to Consider for your Website to rank
                           Better
                         </h5>
-                      </a>
+                      </p>
                     </Link>
                   </li>
                   <li className="mb-3">
                     <Link href="/blog-single">
-                      <a>
+                      <p>
                         <span className="fs-sm text-muted">
                           John Carter October 30, 2021
                         </span>
@@ -143,20 +155,7 @@ export default function DigiBlog() {
                           5 SEO Factors to Consider for your Website to rank
                           Better
                         </h5>
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="mb-3">
-                    <Link href="/blog-single">
-                      <a>
-                        <span className="fs-sm text-muted">
-                          John Carter October 30, 2021
-                        </span>
-                        <h5 className="h6">
-                          5 SEO Factors to Consider for your Website to rank
-                          Better
-                        </h5>
-                      </a>
+                      </p>
                     </Link>
                   </li>
                 </ul>

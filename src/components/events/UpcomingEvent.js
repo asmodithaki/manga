@@ -51,7 +51,7 @@ export default function UpcomingEvent() {
                 </div>
                 <h5 className="mb-3">
                   <Link href="/blog-single">
-                    <a>DigiMarCon East 2022</a>
+                    <p>DigiMarCon East 2022</p>
                   </Link>
                 </h5>
                 <p>
@@ -139,7 +139,7 @@ export default function UpcomingEvent() {
                 </div>
                 <h5 className="mb-3">
                   <Link href="/blog-single">
-                    <a>Paris Digital Summit</a>
+                    <p>Paris Digital Summit</p>
                   </Link>
                 </h5>
                 <p className="">

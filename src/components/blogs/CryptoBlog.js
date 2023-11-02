@@ -24,7 +24,7 @@ const CryptoBlog = () => {
                 <div className="col-lg-4 col-md-6" key={i+1}>
                  <div className="crypto-blog-card bg-soft-black mb-30 mb-lg-0">
                  <Link href="/blog-single" passHref>
-                    <a className="text-decoration-none text-white">
+                    <div className="text-decoration-none text-white">
                     <div className="blog-thumb">
                     <Image
                       src={item.blogThumb}
@@ -54,7 +54,7 @@ const CryptoBlog = () => {
                     <span className="text-muted">{item.postDate}</span>
                   </div>
                 </div>
-                    </a>
+                    </div>
                 </Link>
                  </div>
                </div>
@@ -66,9 +66,9 @@ const CryptoBlog = () => {
               <Link
                 href="/blogs"
               >
-                  <a className="btn-outline-primary btn rounded-pill">
+                  <p className="btn-outline-primary btn rounded-pill">
                   All Blog Post
-                  </a>
+                  </p>
               </Link>
             </div>
           </div>

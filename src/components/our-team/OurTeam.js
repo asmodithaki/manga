@@ -30,11 +30,11 @@ const OurTeam = () => {
                   <ul className="list-unstyled team-social-list d-flex flex-column mb-0">
                     <li className="list-inline-item">
                       <Link href="#!">
-                        <a>
+                        <p>
                           <i className="fab">
                             <FaLinkedinIn />
                           </i>
-                        </a>
+                        </p>
                       </Link>
                     </li>
                     <li className="list-inline-item">

@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { blogFeatureData } from '../../utils/data';
+import { div } from '../../../node_modules/prelude-ls/lib/Num';
 
 const BlogFeature = () => {
   return (
@@ -13,13 +14,13 @@ const BlogFeature = () => {
           <div className="col-lg-6 col-md-12">
             <div className="single-article feature-article rounded-custom my-3">
               <Link href="/blog-single">
-                <a className="article-img">
+                <div className="article-img">
                   <img
                     src="/blog/blog-10.jpg"
                     alt="article"
                     className="img-fluid"
                   />
-                </a>
+                </div>
               </Link>
               <div className="article-content p-4">
                 <div className="article-category mb-4 d-block">
@@ -31,12 +32,12 @@ const BlogFeature = () => {
                   </a>
                 </div>
                 <Link href="/blog-single">
-                  <a>
+                  
                     <h2 className="h5 article-title limit-2-line-text">
                       Why product managers must be strategic about chasing new
                       trends
                     </h2>
-                  </a>
+                  
                 </Link>
                 <p className="limit-2-line-text">
                   Society is fragmenting into two parallel realities. In one
@@ -69,13 +70,13 @@ const BlogFeature = () => {
           <div className="col-lg-6 col-md-12">
             <div className="single-article feature-article rounded-custom my-3">
               <Link href="/blog-single">
-                <a className="article-img">
+                <div className="article-img">
                   <img
                     src="/blog/blog-11.jpg"
                     alt="article"
                     className="img-fluid"
                   />
-                </a>
+                </div>
               </Link>
               <div className="article-content p-4">
                 <div className="article-category mb-4 d-block">
@@ -87,17 +88,17 @@ const BlogFeature = () => {
                   </a>
                 </div>
                 <Link href="/blog-single">
-                  <a>
+                  
                     <h2 className="h5 article-title limit-2-line-text">
                       Two tried-and-true frameworks for achieving product/market
                       fit
                     </h2>
-                  </a>
+                  
                 </Link>
                 <p className="limit-2-line-text">
                   Society is fragmenting into two parallel realities. In one
                   reality, you have infinite upside and opportunity. In the
-                  other reality, you’ll continue to see the gap between your
+                  other reality, you&apos;ll continue to see the gap between your
                   standard of living and those at the top grow more and more.
                 </p>
 
@@ -128,14 +129,14 @@ const BlogFeature = () => {
             <div key={i + 1} className="col-lg-4 col-md-6">
               <div className="single-article rounded-custom my-3">
                 <Link href="/blog-single">
-                  <a className="article-img">
+                  <div className="article-img">
                     <Image
                       width={414}
                       height={224}
                       src={blog.image}
                       alt="article"
                     />
-                  </a>
+                  </div>
                 </Link>
                 <div className="article-content p-4">
                   <div className="article-category mb-4 d-block">
@@ -147,11 +148,11 @@ const BlogFeature = () => {
                     </a>
                   </div>
                   <Link href="/blog-single">
-                    <a>
+                    
                       <h2 className="h5 article-title limit-2-line-text">
                         {blog.header}
                       </h2>
-                    </a>
+                    
                   </Link>
                   <p className="limit-2-line-text">{blog.info}</p>
 

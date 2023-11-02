@@ -48,11 +48,11 @@ const LatestBlog = () => {
                     </a>
                   </div>
                   <Link href="/blog-single">
-                    <a>
+                    <p>
                       <h2 className="h5 article-title limit-2-line-text">
                         {blog.header}
                       </h2>
-                    </a>
+                    </p>
                   </Link>
                   <p className="limit-2-line-text">{blog.info}</p>
 
