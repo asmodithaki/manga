@@ -70,8 +70,8 @@ export default function GamePrice() {
                 </li>
               </ul>
               <div className="game-price-btn">
-                <Link href="/contact-us">
-                  <a className="mt-4">Check More Plans</a>
+                <Link href="/contact-us" className="mt-4">
+                  Check More Plans
                 </Link>
               </div>
             </div>
@@ -127,8 +127,8 @@ export default function GamePrice() {
                 </li>
               </ul>
               <div className="game-price-btn">
-                <Link href="/contact-us">
-                  <a className="mt-4">Check More Plans</a>
+                <Link href="/contact-us" className="mt-4">
+                  Check More Plans
                 </Link>
               </div>
             </div>
@@ -184,8 +184,8 @@ export default function GamePrice() {
                 </li>
               </ul>
               <div className="game-price-btn">
-                <Link href="/contact-us">
-                  <a className="mt-4">Check More Plans</a>
+                <Link href="/contact-us" className="mt-4">
+                  Check More Plans
                 </Link>
               </div>
             </div>

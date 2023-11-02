@@ -95,8 +95,8 @@ const PricingOne = ({ header, ptClass }) => {
                     ))}
                   </ul>
                 </div>
-                <Link href="/request-demo">
-                  <a className={`btn ${pricing.btnColor} mt-2`}>Buy Now</a>
+                <Link href="/request-demo" className={`btn ${pricing.btnColor} mt-2`}>
+                  Buy Now
                 </Link>
 
                 {pricing.shape && (

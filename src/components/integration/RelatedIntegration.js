@@ -17,8 +17,8 @@ const RelatedIntegration = () => {
           </div>
           <div className="col-lg-7 col-md-12">
             <div className="text-lg-end mb-4 mb-xl-0 mb-lg-0">
-              <Link href="/integrations">
-                <a className="btn btn-primary">View All Integration</a>
+              <Link href="/integrations" className="btn btn-primary">
+                View All Integration
               </Link>
             </div>
           </div>
@@ -26,26 +26,28 @@ const RelatedIntegration = () => {
         <div className="row">
           {integrationFeature.slice(0, 3).map((integration, i) => (
             <div key={i + 1} className="col-lg-4 col-md-6">
-              <Link href="/integration-single">
-                <a className="position-relative text-decoration-none connected-app-single bg-white border border-2 promo-border-hover bg-white mt-0 mt-xl-0 mt-lg-0 transition-base rounded-custom d-block overflow-hidden p-5">
-                  <div className="position-relative connected-app-content">
-                    <div className="integration-logo bg-white rounded-circle p-2 d-inline-block">
-                      <img
-                        src={integration.logo}
-                        width="40"
-                        alt="integration"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <h5>{integration.title} </h5>
-                    <p className="mb-0 text-muted">{integration.info}</p>
+              <Link
+                href="/integration-single"
+                className="position-relative text-decoration-none connected-app-single bg-white border border-2 promo-border-hover bg-white mt-0 mt-xl-0 mt-lg-0 transition-base rounded-custom d-block overflow-hidden p-5">
+
+                <div className="position-relative connected-app-content">
+                  <div className="integration-logo bg-white rounded-circle p-2 d-inline-block">
+                    <img
+                      src={integration.logo}
+                      width="40"
+                      alt="integration"
+                      className="img-fluid"
+                    />
                   </div>
-                  <span
-                    className={`badge position-absolute integration-badge ${integration.class} px-3 py-2`}
-                  >
-                    {integration.type}
-                  </span>
-                </a>
+                  <h5>{integration.title} </h5>
+                  <p className="mb-0 text-muted">{integration.info}</p>
+                </div>
+                <span
+                  className={`badge position-absolute integration-badge ${integration.class} px-3 py-2`}
+                >
+                  {integration.type}
+                </span>
+
               </Link>
             </div>
           ))}

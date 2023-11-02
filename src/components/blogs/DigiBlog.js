@@ -18,10 +18,10 @@ export default function DigiBlog() {
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="text-md-end mt-3 mt-md-0">
-              <Link href="/blogs">
-                <a className="btn rounded-pill btn-outline-dark">
+              <Link href="/blogs" className="btn rounded-pill btn-outline-dark">
+                
                   Browse Articles
-                </a>
+                
               </Link>
             </div>
           </div>
@@ -29,7 +29,7 @@ export default function DigiBlog() {
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-6">
             <div className="digi-blog-single border p-3 rounded mb-4 mb-lg-4">
-              <Link href="/blog-single">
+              <Link href="/blog-single" legacyBehavior>
                 <>
                   <div className="digi-blog-thumb">
                     <img
@@ -50,13 +50,12 @@ export default function DigiBlog() {
                       Holisticly innovate principle-centered evia eth
                       Eincentivize sticky processes
                     </p>
-                    <Link href="/blog-single">
-                      <a className="read-more-link text-decoration-none">
-                        Explore More{" "}
-                        <i>
-                          <FiArrowRight />
-                        </i>
-                      </a>
+                    <Link href="/blog-single" className="read-more-link text-decoration-none">
+                      Explore More{" "}
+                      <i>
+                        <FiArrowRight />
+                      </i>
+
                     </Link>
                   </div>
                 </>
@@ -66,37 +65,36 @@ export default function DigiBlog() {
           <div className="col-lg-4 col-md-6">
             <div className="digi-blog-single border p-3 rounded mb-4 mb-lg-0">
               <Link href="/blog-single">
-                <a>
-                  <div className="digi-blog-thumb">
-                    <img
-                      src="/blog/d-blog-2.jpg"
-                      className="img-fluid w-100 rounded-top"
-                      alt="Person"
-                    />
-                    <span className="d-tag design">Marketing</span>
-                  </div>
-                  <div className="mt-4 digi-blog-info">
-                    <span className="fs-sm text-muted fw-normal">
-                      <i className="fal fa-calendar-minus me-2"></i>22 Feb, 2022
-                    </span>
-                    <h4>
-                      5 SEO Factors to Consider for your Website to rank Better
-                    </h4>
-                    <p>
-                      Holisticly innovate principle-centered evia eth
-                      Eincentivize sticky processes
-                    </p>
-                    <Link href="/blog-single">
-                      <a className="read-more-link text-decoration-none">
-                        {" "}
-                        Explore More{" "}
-                        <i>
-                          <FiArrowRight />
-                        </i>
-                      </a>
-                    </Link>
-                  </div>
-                </a>
+
+                <div className="digi-blog-thumb">
+                  <img
+                    src="/blog/d-blog-2.jpg"
+                    className="img-fluid w-100 rounded-top"
+                    alt="Person"
+                  />
+                  <span className="d-tag design">Marketing</span>
+                </div>
+                <div className="mt-4 digi-blog-info">
+                  <span className="fs-sm text-muted fw-normal">
+                    <i className="fal fa-calendar-minus me-2"></i>22 Feb, 2022
+                  </span>
+                  <h4>
+                    5 SEO Factors to Consider for your Website to rank Better
+                  </h4>
+                  <p>
+                    Holisticly innovate principle-centered evia eth
+                    Eincentivize sticky processes
+                  </p>
+                  <Link href="/blog-single" className="read-more-link text-decoration-none">
+
+                    {" "}Explore More{" "}
+                    <i>
+                      <FiArrowRight />
+                    </i>
+
+                  </Link>
+                </div>
+
               </Link>
             </div>
           </div>
@@ -108,7 +106,7 @@ export default function DigiBlog() {
               <div className="digi-blog-posts">
                 <ul className="list-unstyled">
                   <li className="mb-3">
-                    <Link href="/blog-single">
+                    <Link href="/blog-single" legacyBehavior>
                       
                         <span className="fs-sm text-muted">
                           John Carter October 30, 2021
@@ -120,7 +118,7 @@ export default function DigiBlog() {
                         </Link>
                   </li>
                   <li className="mb-3">
-                    <Link href="/blog-single">
+                    <Link href="/blog-single" legacyBehavior>
                       <p>
                         <span className="fs-sm text-muted">
                           John Carter October 30, 2021
@@ -133,7 +131,7 @@ export default function DigiBlog() {
                     </Link>
                   </li>
                   <li className="mb-3">
-                    <Link href="/blog-single">
+                    <Link href="/blog-single" legacyBehavior>
                       <p>
                         <span className="fs-sm text-muted">
                           John Carter October 30, 2021
@@ -146,7 +144,7 @@ export default function DigiBlog() {
                     </Link>
                   </li>
                   <li className="mb-3">
-                    <Link href="/blog-single">
+                    <Link href="/blog-single" legacyBehavior>
                       <p>
                         <span className="fs-sm text-muted">
                           John Carter October 30, 2021

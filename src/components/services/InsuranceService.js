@@ -201,37 +201,35 @@ const InsuranceService = () => {
               <div className="ins-service-card text-center py-5 px-4 bg-white rounded-1">
                 <img src="/icons/ins-1.svg" alt="icon" className="img-fluid" />
                 <Link href="/single-service">
-                  <a>
-                    <h5 className="mt-4 mb-3 ins-heading">Life Insurance</h5>
-                  </a>
+
+                  <h5 className="mt-4 mb-3 ins-heading">Life Insurance</h5>
+
                 </Link>
                 <p className="mb-4 ins-text">
                   Competently seize performance based growth multidisciplinary
                   total linkage. change for customized e-services applications.
                 </p>
-                <Link href="/single-service">
-                  <a className="ins-service-explore fs-md fw-bold">
-                    Explore More
-                    <span className="ms-1">
-                      <svg
-                        width="53"
-                        height="9"
-                        viewBox="0 0 53 9"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M0.104523 4.57166L48.8984 4.57166"
-                          stroke="#003478"
-                          strokeWidth="0.995794"
-                        />
-                        <path
-                          d="M52.8787 4.57082L46.904 8.02035L46.904 1.12129L52.8787 4.57082Z"
-                          fill="#003478"
-                        />
-                      </svg>
-                    </span>
-                  </a>
+                <Link href="/single-service" className="ins-service-explore fs-md fw-bold">
+                  Explore More<span className="ms-1">
+                    <svg
+                      width="53"
+                      height="9"
+                      viewBox="0 0 53 9"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.104523 4.57166L48.8984 4.57166"
+                        stroke="#003478"
+                        strokeWidth="0.995794"
+                      />
+                      <path
+                        d="M52.8787 4.57082L46.904 8.02035L46.904 1.12129L52.8787 4.57082Z"
+                        fill="#003478"
+                      />
+                    </svg>
+                  </span>
+
                 </Link>
               </div>
             </div>
@@ -239,39 +237,37 @@ const InsuranceService = () => {
               <div className="ins-service-card text-center py-5 px-4 bg-white rounded-1">
                 <img src="/icons/ins-2.svg" alt="icon" className="img-fluid" />
                 <Link href="/single-service">
-                  <a>
-                    <h5 className="mt-4 mb-3 ins-heading">
-                      Business Insurance
-                    </h5>
-                  </a>
+
+                  <h5 className="mt-4 mb-3 ins-heading">
+                    Business Insurance
+                  </h5>
+
                 </Link>
                 <p className="mb-4 ins-text">
                   Competently seize performance based growth multidisciplinary
                   total linkage. change for customized e-services applications.
                 </p>
-                <Link href="/single-service">
-                  <a className="ins-service-explore fs-md fw-bold">
-                    Explore More
-                    <span className="ms-1">
-                      <svg
-                        width="53"
-                        height="9"
-                        viewBox="0 0 53 9"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M0.104523 4.57166L48.8984 4.57166"
-                          stroke="#003478"
-                          strokeWidth="0.995794"
-                        />
-                        <path
-                          d="M52.8787 4.57082L46.904 8.02035L46.904 1.12129L52.8787 4.57082Z"
-                          fill="#003478"
-                        />
-                      </svg>
-                    </span>
-                  </a>
+                <Link href="/single-service" className="ins-service-explore fs-md fw-bold">
+                  Explore More<span className="ms-1">
+                    <svg
+                      width="53"
+                      height="9"
+                      viewBox="0 0 53 9"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.104523 4.57166L48.8984 4.57166"
+                        stroke="#003478"
+                        strokeWidth="0.995794"
+                      />
+                      <path
+                        d="M52.8787 4.57082L46.904 8.02035L46.904 1.12129L52.8787 4.57082Z"
+                        fill="#003478"
+                      />
+                    </svg>
+                  </span>
+
                 </Link>
               </div>
             </div>
@@ -279,47 +275,47 @@ const InsuranceService = () => {
               <div className="ins-service-card text-center py-5 px-4 bg-white rounded-1">
                 <img src="/icons/ins-3.svg" alt="icon" className="img-fluid" />
                 <Link href="/single-service">
-                  <a>
-                    <h5 className="mt-4 mb-3 ins-heading">Home Insurance</h5>
-                  </a>
+
+                  <h5 className="mt-4 mb-3 ins-heading">Home Insurance</h5>
+
                 </Link>
                 <p className="mb-4 ins-text">
                   Competently seize performance based growth multidisciplinary
                   total linkage. change for customized e-services applications.
                 </p>
-                <Link href="/single-service">
-                  <a className="ins-service-explore fs-md fw-bold">
-                    Explore More
-                    <span className="ms-1">
-                      <svg
-                        width="53"
-                        height="9"
-                        viewBox="0 0 53 9"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M0.104523 4.57166L48.8984 4.57166"
-                          stroke="#003478"
-                          strokeWidth="0.995794"
-                        />
-                        <path
-                          d="M52.8787 4.57082L46.904 8.02035L46.904 1.12129L52.8787 4.57082Z"
-                          fill="#003478"
-                        />
-                      </svg>
-                    </span>
-                  </a>
+                <Link href="/single-service" className="ins-service-explore fs-md fw-bold">
+                  Explore More<span className="ms-1">
+                    <svg
+                      width="53"
+                      height="9"
+                      viewBox="0 0 53 9"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.104523 4.57166L48.8984 4.57166"
+                        stroke="#003478"
+                        strokeWidth="0.995794"
+                      />
+                      <path
+                        d="M52.8787 4.57082L46.904 8.02035L46.904 1.12129L52.8787 4.57082Z"
+                        fill="#003478"
+                      />
+                    </svg>
+                  </span>
+
                 </Link>
               </div>
             </div>
           </div>
           <p className="text-center ins-text mt-40 mb-0 fs-md">
             Do You Want to explore more services{" "}
-            <Link href="/services">
-              <a className="ins-text-secondary text-decoration-underline fw-bold">
+            <Link
+              href="/services"
+              className="ins-text-secondary text-decoration-underline fw-bold">
+              
                 just click here
-              </a>
+              
             </Link>
           </p>
         </div>

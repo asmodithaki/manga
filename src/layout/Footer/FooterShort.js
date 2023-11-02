@@ -13,8 +13,8 @@ const FooterShort = () => {
               <div className="copyright-text">
                 <p className="mb-lg-0 mb-md-0">
                   &copy; 2023 All Rights Reserved.
-                  <Link href="https://thurisalabs.com/">
-                    <a className="text-decoration-none"></a>
+                  <Link href="https://thurisalabs.com/" className="text-decoration-none">
+
                   </Link>
                 </p>
               </div>
@@ -24,30 +24,30 @@ const FooterShort = () => {
               <ul className="list-unstyled list-inline footer-social-list mb-0">
               <li className="list-inline-item">
               <Link href="https://www.twitter.com/thurisalabs">
-                  <a>
-                    <FaTwitter />
-                  </a>
-                </Link>
+
+                <FaTwitter />
+
+              </Link>
               </li>
               <li className="list-inline-item">
               <Link href="https://www.linkedin.com/company/thurisa-labs-llc/?viewAsMember=true">
-                  <a>
-                    <FaLinkedin />
-                  </a>
-                </Link>
+
+                <FaLinkedin />
+
+              </Link>
               </li>
               <li className="list-inline-item">
               <Link href="https://www.github.com/mace-techno">
-                  <a>
-                    <FaGithub />
-                  </a>
-                </Link>
+
+                <FaGithub />
+
+              </Link>
             </li>
              <li className="list-inline-item">
                 <Link href="https://www.instagram.com/thurisalabs">
-                  <a>
-                    <FaInstagram />
-                  </a>
+
+                  <FaInstagram />
+
                 </Link>
               </li>
             </ul>

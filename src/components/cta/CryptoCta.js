@@ -18,9 +18,9 @@ const CryptoCta = () => {
                 </div>
                 <div className="crypto-btn-wrapper">
                   <Link
-                    href="https://play.google.com/store" 
-                  >
-                    <a className="crypto-app-btn me-3 text-decoration-none mb-3 mb-xl-0">
+                    href="https://play.google.com/store"
+                    className="crypto-app-btn me-3 text-decoration-none mb-3 mb-xl-0">
+
                     <span className="crypto-btn-content-wrapper">
                       <span className="crypto-btn-icon">
                         <i><FaGooglePlay/></i>
@@ -30,12 +30,12 @@ const CryptoCta = () => {
                         <span className="crypto-btn-text">Play Store</span>
                       </span>
                     </span>
-                    </a>
+
                   </Link>
                   <Link
                     href="https://www.apple.com/store"
-                  >
-                    <a className="crypto-app-btn me-3 text-decoration-none">
+                    className="crypto-app-btn me-3 text-decoration-none">
+
                     <span className="crypto-btn-content-wrapper">
                       <span className="crypto-btn-icon">
                         <i><FaApple/></i>
@@ -45,7 +45,7 @@ const CryptoCta = () => {
                         <span className="crypto-btn-text">Play Store</span>
                       </span>
                     </span>
-                    </a>
+
                   </Link>
                 </div>
               </div>

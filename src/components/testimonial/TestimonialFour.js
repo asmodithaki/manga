@@ -47,10 +47,10 @@ const TestimonialFour = () => {
           </div>
           <div className="col-lg-6 col-md-12">
             <div className="text-left text-lg-end mb-5 mb-lg-0">
-              <Link href="/about-us">
-                <a className="btn btn-primary rounded-pill">
+              <Link href="/about-us" className="btn btn-primary rounded-pill">
+                
                   All Feedback
-                </a>
+                
               </Link>
             </div>
           </div>

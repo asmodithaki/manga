@@ -14,18 +14,18 @@ const CryptoCtaOne = () => {
               If you use this site regularly and would like to help keep the
               site on the Internet, please consider donating a small.
             </p>
-            <Link href="/about-us" >
-                <a className="btn rounded-pill btn-primary">
-                <span className='pe-1'>Read Reviews</span>
-                <FaArrowRight/>
-                </a>
+            <Link href="/about-us" className="btn rounded-pill btn-primary">
+
+              <span className='pe-1'>Read Reviews</span>
+              <FaArrowRight/>
+
             </Link>
           </div>
         </div>
       </div>
     </div>
   </section>
-  )
+  );
 }
 
 export default CryptoCtaOne

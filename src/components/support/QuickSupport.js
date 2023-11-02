@@ -52,13 +52,11 @@ const QuickSupport = () => {
                     Our support will help you from
                     <strong> 9am to 5pm EST.</strong>
                   </p>
-                  <Link href="/contact-us">
-                    <a className="read-more-link text-decoration-none">
-                      <span className="far me-2">
-                        <BiCommentDetail className="mb-1" />
-                      </span>{" "}
-                      Live Chat Now
-                    </a>
+                  <Link href="/contact-us" className="read-more-link text-decoration-none">
+
+                    <span className="far me-2">
+                      <BiCommentDetail className="mb-1" />
+                    </span>{" "}Live Chat Now
                   </Link>
                 </div>
               </div>

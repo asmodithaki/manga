@@ -18,8 +18,8 @@ const LatestBlog = () => {
           </div>
           <div className="col-lg-7 col-md-12">
             <div className="text-start text-lg-end mb-4 mb-lg-0 mb-xl-0">
-              <Link href="/blogs">
-                <a className="btn btn-primary"> Duly Legal Blog</a>
+              <Link href="/blogs" className="btn btn-primary">
+                 Duly Legal Blog
               </Link>
             </div>
           </div>
@@ -28,15 +28,15 @@ const LatestBlog = () => {
           {blogFeatureData.slice(0, 3).map((blog, i) => (
             <div key={i + 1} className="col-lg-4 col-md-6">
               <div className="single-article rounded-custom mb-4 mb-lg-0">
-                <Link href="/blog-single">
-                  <a className="article-img">
-                    <Image
-                      width={414}
-                      height={224}
-                      src={blog.image}
-                      alt="article"
-                    />
-                  </a>
+                <Link href="/blog-single" className="article-img">
+
+                  <Image
+                    width={414}
+                    height={224}
+                    src={blog.image}
+                    alt="article"
+                  />
+
                 </Link>
                 <div className="article-content p-4">
                   <div className="article-category mb-4 d-block">
@@ -47,7 +47,7 @@ const LatestBlog = () => {
                       {blog.type}
                     </a>
                   </div>
-                  <Link href="/blog-single">
+                  <Link href="/blog-single" legacyBehavior>
                     <p>
                       <h2 className="h5 article-title limit-2-line-text">
                         {blog.header}

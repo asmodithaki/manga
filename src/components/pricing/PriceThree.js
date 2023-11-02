@@ -64,10 +64,8 @@ const PriceThree = () => {
                     </li>
                   </ul>
                 </div>
-                <Link
-                  href="/request-demo"
-                >
-                    <a className="btn btn-outline-primary mt-2"> Get Started Now</a>
+                <Link href="/request-demo" className="btn btn-outline-primary mt-2">
+                     Get Started Now
                 </Link>
               </div>
             </div>
@@ -118,8 +116,8 @@ const PriceThree = () => {
                     </li>
                   </ul>
                 </div>
-                <Link href="/request-demo" >
-                    <a className="btn btn-primary mt-2">Get Started Now</a>
+                <Link href="/request-demo" className="btn btn-primary mt-2">
+                    Get Started Now
                 </Link>
               </div>
             </div>
@@ -170,10 +168,8 @@ const PriceThree = () => {
                     </li>
                   </ul>
                 </div>
-                <Link
-                  href="/request-demo"
-                >
-                    <a className="btn btn-outline-primary mt-2">Get Started Now</a>
+                <Link href="/request-demo" className="btn btn-outline-primary mt-2">
+                    Get Started Now
                   
                 </Link>
               </div>

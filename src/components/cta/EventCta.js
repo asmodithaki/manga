@@ -20,8 +20,8 @@ export default function EventCta() {
                 <h2 className="text-white mb-4">
                   Haven’t Booked Your Seat Yet? Get Ticket Now!
                 </h2>
-                <Link href="/contact-us">
-                  <a className="btn btn-primary bg-pink">Purchase Now</a>
+                <Link href="/contact-us" className="btn btn-primary bg-pink">
+                  Purchase Now
                 </Link>
               </div>
             </div>

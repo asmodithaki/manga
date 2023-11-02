@@ -120,10 +120,10 @@ const PriceTwo = () => {
                         $49 <span>/Month</span>
                       </h4>
                     </div>
-                    <Link href="/request-demo">
-                      <a className="btn btn-primary mt-3">
+                    <Link href="/request-demo" className="btn btn-primary mt-3">
+                      
                         Start 14-Days Trial
-                      </a>
+                      
                     </Link>
                   </div>
                   <div
@@ -142,10 +142,10 @@ const PriceTwo = () => {
                         $89 <span>/Year</span>
                       </h4>
                     </div>
-                    <Link href="/request-demo">
-                      <a className="btn btn-primary mt-3">
+                    <Link href="/request-demo" className="btn btn-primary mt-3">
+                      
                         Start 14-Days Trial
-                      </a>
+                      
                     </Link>
                   </div>
                 </div>

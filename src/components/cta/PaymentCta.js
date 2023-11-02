@@ -19,19 +19,21 @@ export default function PaymentCta() {
                             <div className="payment-store-btn mt-4">
                                 <ul className="list-unstyled m-0">
                                     <li className="d-inline-block me-2 mb-3 mb-md-0">
-                                        <Link href='/'>
-                                            <a className="d-flex align-items-center text-decoration-none rounded shadow-lg"
-                                            ><FaGooglePlay className='fs-2 pe-2'/>
-                                                <span className='fw-bold'>Get it on<span className="d-block fw-semi-bold">Google Play</span></span></a>
+                                        <Link
+                                            href='/'
+                                            className="d-flex align-items-center text-decoration-none rounded shadow-lg">
+                                            <FaGooglePlay className='fs-2 pe-2'/>
+                                            <span className='fw-bold'>Get it on<span className="d-block fw-semi-bold">Google Play</span></span>
                                         </Link>
                                     </li>
                                     <li className="d-inline-block">
-                                        <Link href='/'>
-                                            <a className="d-flex align-items-center text-decoration-none rounded shadow-lg"
-                                            ><FaApple  className='fs-2 pe-2'/>
-                                                <span className='fw-bold'>
-                                                    Downlad on the<span className="d-block fw-medium">App Store
-                                                    </span></span></a>
+                                        <Link
+                                            href='/'
+                                            className="d-flex align-items-center text-decoration-none rounded shadow-lg">
+                                            <FaApple  className='fs-2 pe-2'/>
+                                            <span className='fw-bold'>
+                                                Downlad on the<span className="d-block fw-medium">App Store
+                                                </span></span>
                                         </Link>
                                     </li>
                                 </ul>
@@ -93,5 +95,5 @@ export default function PaymentCta() {
                 </div>
             </div>
         </section>
-    )
+    );
 }

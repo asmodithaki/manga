@@ -189,16 +189,14 @@ export default function DigiIntegration() {
                 Intergrated with 20+ Widely Used Software
               </h2>
               <div>
-                <Link href="/contact-us">
-                  <a className="btn rounded-pill btn-primary me-3 mb-3">
-                    {" "}
-                    Get in touch
-                  </a>
+                <Link href="/contact-us" className="btn rounded-pill btn-primary me-3 mb-3">
+
+                  {" "}Get in touch
                 </Link>
-                <Link href="/integrations">
-                  <a className="btn rounded-pill btn-outline-light mb-3">
+                <Link href="/integrations" className="btn rounded-pill btn-outline-light mb-3">
+                  
                     Browse all integration
-                  </a>
+                  
                 </Link>
               </div>
             </div>

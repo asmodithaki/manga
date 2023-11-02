@@ -76,20 +76,18 @@ const WhyChoosUs = () => {
                   Showcasing success
                 </li>
               </ul>
-              <Link href="/about-us">
-              <a
-                className="link-with-icon text-decoration-none mt-3 btn btn-primary"
-              >
-                Learn More
-                <i><FaArrowRight/></i>
-              </a>
+              <Link
+                href="/about-us"
+                className="link-with-icon text-decoration-none mt-3 btn btn-primary">
+                Learn More<i><FaArrowRight/></i>
+
               </Link>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default WhyChoosUs

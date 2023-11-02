@@ -15,16 +15,16 @@ const PasswordReset = () => {
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5 col-md-8 col-12">
-              <Link href="/">
-                <a className="mb-4 d-block text-center">
-                  <Image
-                    width={113}
-                    height={36}
-                    src="/logo-white.png"
-                    alt="logo"
-                    className="img-fluid"
-                  />
-                </a>
+              <Link href="/" className="mb-4 d-block text-center">
+
+                <Image
+                  width={113}
+                  height={36}
+                  src="/logo-white.png"
+                  alt="logo"
+                  className="img-fluid"
+                />
+
               </Link>
               <div className="register-wrap p-5 bg-light shadow rounded-custom">
                 <h1 className="fw-bold h3">Forgot your Password?</h1>
@@ -59,8 +59,8 @@ const PasswordReset = () => {
                     </div>
                   </div>
                   <p className="font-monospace fw-medium text-center mt-3 pt-4 mb-0">
-                    <Link href="/login">
-                      <a className="text-decoration-none">Back to login page</a>
+                    <Link href="/login" className="text-decoration-none">
+                      Back to login page
                     </Link>
                   </p>
                 </form>

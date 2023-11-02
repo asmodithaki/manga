@@ -21,8 +21,8 @@ const NotFoundPage = () => {
       Oops! The page you're looking for doesn't exist or has been moved.
       Double-check the URL or head back to our homepage.
     </p>
-                <Link href="/">
-                  <a className="btn btn-primary mt-4">Go Back Home</a>
+                <Link href="/" className="btn btn-primary mt-4">
+                  Go Back Home
                 </Link>
               </div>
             </div>

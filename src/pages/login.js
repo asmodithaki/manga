@@ -15,7 +15,7 @@ const Login = () => {
       </div>
       </form>
       <Link href="/">
-        <a>Go back to home</a>
+        Go back to home
       </Link>
     </div>
   );

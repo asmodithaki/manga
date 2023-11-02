@@ -28,8 +28,8 @@ const CyberCta = () => {
           </div>
           <div className="col-lg-3">
             <div className="cyber-cta-btn">
-              <Link href="/contact-us" >
-                  <a className="mt-3 btn btn-primary me-auto">Making Appoinment </a>
+              <Link href="/contact-us" className="mt-3 btn btn-primary me-auto">
+                  Making Appoinment 
               </Link>
             </div>
           </div>
@@ -37,7 +37,7 @@ const CyberCta = () => {
       </div>
     </div>
   </section>
-  )
+  );
 }
 
 export default CyberCta

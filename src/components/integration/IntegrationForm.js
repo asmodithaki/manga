@@ -48,8 +48,8 @@ const IntegrationForm = () => {
             </div>
           </div>
         </div>
-        <Link href="#!">
-          <a className="btn btn-primary mt-4">Apply Now</a>
+        <Link href="#!" className="btn btn-primary mt-4">
+          Apply Now
         </Link>
       </form>
     </div>

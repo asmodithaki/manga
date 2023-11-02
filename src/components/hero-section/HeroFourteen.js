@@ -31,10 +31,10 @@ export default function HeroFourteen() {
                 solution. Meet the right platform to help realize.
               </p>
               <div className="action-btns mt-4 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
-                <Link href="/contact-us">
-                  <a className="btn rounded-pill bg-orange me-3">
+                <Link href="/contact-us" className="btn rounded-pill bg-orange me-3">
+                  
                     Download Now
-                  </a>
+                  
                 </Link>
                 <a
                   href="#!"

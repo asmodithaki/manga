@@ -25,8 +25,8 @@ const HeroSectionNine = () => {
                 chains. Quickly engage client-centric web services.
               </p>
               <div className="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
-                <Link href="/request-demo" >
-                  <a  className="btn btn-primary me-3">Request For Demo</a>
+                <Link href="/request-demo" className="btn btn-primary me-3">
+                  Request For Demo
                 </Link>
                <DarkModal className="true"/>
               </div>

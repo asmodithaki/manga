@@ -44,27 +44,28 @@ const Navbar = ({ navDark, insurance, classOption }) => {
         } sticky-header ${scroll > headerTop ? 'affix' : ''}`}
       >
         <div className="container d-flex align-items-center justify-content-lg-between position-relative">
-          <Link href="/">
-            
-            <a className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
-              {scroll > headerTop || !navDark ? (
-                <Image
-                  width={200}
-                  height={50}
-                  src="/logo-color.png"
-                  alt="logo"
-                  className="img-fluid logo-color"
-                />
-              ) : (
-                <Image
-                  width={200}
-                  height={50}
-                  src="/logo-white.png"
-                  alt="logo"
-                  className="img-fluid logo-white"
-                />
-              )}
-            </a>
+          <Link
+            href="/"
+            className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
+
+            {scroll > headerTop || !navDark ? (
+              <Image
+                width={200}
+                height={50}
+                src="/logo-color.png"
+                alt="logo"
+                className="img-fluid logo-color"
+              />
+            ) : (
+              <Image
+                width={200}
+                height={50}
+                src="/logo-white.png"
+                alt="logo"
+                className="img-fluid logo-white"
+              />
+            )}
+
           </Link>
           <button
             className="navbar-toggler position-fixed right-5 border-1"
@@ -88,14 +89,13 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                     <div className="dropdown-grid-item">
                       {navHomeOne.map((navH, i) => (
                         <span key={i + 1}>
-                          <Link href={navH.href}>
-                            <a className="dropdown-link">
-                            
-                              <span className="dropdown-info mb-0">
-                                <span className="drop-title">{navH.title}</span>
-                                <span>{navH.info}</span>
-                              </span>
-                            </a>
+                          <Link href={navH.href} className="dropdown-link">
+
+                            <span className="dropdown-info mb-0">
+                              <span className="drop-title">{navH.title}</span>
+                              <span>{navH.info}</span>
+                            </span>
+
                           </Link>
                         </span>
                       ))}
@@ -103,13 +103,13 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                     <div className="dropdown-grid-item radius-right-side bg-light">
                       {navHomeTwo.map((navH, i) => (
                         <span key={i + 10}>
-                          <Link href={navH.href}>
-                            <a className="dropdown-link">
-                              <span className="dropdown-info mb-0">
-                                <span className="drop-title">{navH.title}</span>
-                                <span>{navH.info}</span>
-                              </span>
-                            </a>
+                          <Link href={navH.href} className="dropdown-link">
+
+                            <span className="dropdown-info mb-0">
+                              <span className="drop-title">{navH.title}</span>
+                              <span>{navH.info}</span>
+                            </span>
+
                           </Link>
                         </span>
                       ))}
@@ -119,18 +119,18 @@ const Navbar = ({ navDark, insurance, classOption }) => {
               </li>
               <li>
               
-                <Link href="services">
-                  <a className="nav-link">Services</a>
+                <Link href="services" className="nav-link">
+                  Services
                 </Link>
               </li>
               <li>
-                <Link href="contact">
-                  <a className="nav-link">Contact</a>
+                <Link href="contact" className="nav-link">
+                  Contact
                 </Link>
               </li>
               <li>
-                <Link href="about-us">
-                  <a className="nav-link">About</a>
+                <Link href="about-us" className="nav-link">
+                  About
                 </Link>
               </li>
              
@@ -150,13 +150,13 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                       <h6 className="drop-heading">Thurisa+</h6>
                       {navCompanyLinks.map((navLink, i) => (
                         <div key={i + 1}>
-                          <Link href={navLink.href}>
-                            <a className="dropdown-link px-0">
-                              <span className="me-2">{navLink.icon}</span>
-                              <span className="drop-title mb-0">
-                                {navLink.title}{' '}
-                              </span>
-                            </a>
+                          <Link href={navLink.href} className="dropdown-link px-0">
+
+                            <span className="me-2">{navLink.icon}</span>
+                            <span className="drop-title mb-0">
+                              {navLink.title}{' '}
+                            </span>
+
                           </Link>
                         </div>
                       ))}
@@ -165,13 +165,13 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                       <h6 className="drop-heading">Utility</h6>
                       {navCompanyPage.map((navPage, i) => (
                         <div key={i + 1}>
-                          <Link href={navPage.href}>
-                            <a className="dropdown-link">
-                              <span className="me-2">{navPage.icon}</span>
-                              <span className="drop-title mb-0">
-                                {navPage.title}{' '}
-                              </span>
-                            </a>
+                          <Link href={navPage.href} className="dropdown-link">
+
+                            <span className="me-2">{navPage.icon}</span>
+                            <span className="drop-title mb-0">
+                              {navPage.title}{' '}
+                            </span>
+
                           </Link>
                         </div>
                       ))}
@@ -194,17 +194,17 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 <div className="dropdown-grid-item">
                 {offcanvasMenuData.map((navH, i) => (
                   <span key={i + 1}>
-                    <Link href={navH.href}>
-                      <a
-                        className="dropdown-link"
-                        data-bs-dismiss="offcanvas"
-                        aria-label="Close"
-                      >
-                        <span className="dropdown-info mb-0">
-                          <span className="drop-title">{navH.title}</span>
-                          <span>{navH.info}</span>
-                        </span>
-                      </a>
+                    <Link
+                      href={navH.href}
+                      className="dropdown-link"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close">
+
+                      <span className="dropdown-info mb-0">
+                        <span className="drop-title">{navH.title}</span>
+                        <span>{navH.info}</span>
+                      </span>
+
                     </Link>
                   </span>
                 ))}
@@ -218,14 +218,14 @@ const Navbar = ({ navDark, insurance, classOption }) => {
 
           <div className="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
             
-            <Link href="request-discuss">
-              <a
-                className={
-                  insurance ? 'ins-btn ins-primary-btn' : 'btn btn-primary'
-                }
-              >
+            <Link
+              href="request-discuss"
+              className={
+                insurance ? 'ins-btn ins-primary-btn' : 'btn btn-primary'
+              }>
+              
                Learn More
-              </a>
+              
             </Link>
           </div>
 
@@ -235,16 +235,18 @@ const Navbar = ({ navDark, insurance, classOption }) => {
             id="offcanvasWithBackdrop"
           >
             <div className="offcanvas-header d-flex align-items-center mt-4">
-              <Link href="/">
-                <a className="d-flex align-items-center mb-md-0 text-decoration-none">
-                  <Image
-                    width={121}
-                    height={36}
-                    src="/logo-color.png"
-                    alt="logo"
-                    className="img-fluid ps-2"
-                  />
-                </a>
+              <Link
+                href="/"
+                className="d-flex align-items-center mb-md-0 text-decoration-none">
+
+                <Image
+                  width={121}
+                  height={36}
+                  src="/logo-color.png"
+                  alt="logo"
+                  className="img-fluid ps-2"
+                />
+
               </Link>
               <button
                 type="button"

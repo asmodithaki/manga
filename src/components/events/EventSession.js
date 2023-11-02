@@ -125,13 +125,11 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
+                          <Link href="/about-us" className="link-with-icon">
+                            More Information<i>
+                              <FiArrowRight />
+                            </i>
+
                           </Link>
                         </div>
                       </div>
@@ -176,13 +174,11 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
+                          <Link href="/about-us" className="link-with-icon">
+                            More Information<i>
+                              <FiArrowRight />
+                            </i>
+
                           </Link>
                         </div>
                       </div>
@@ -227,13 +223,11 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
+                          <Link href="/about-us" className="link-with-icon">
+                            More Information<i>
+                              <FiArrowRight />
+                            </i>
+
                           </Link>
                         </div>
                       </div>
@@ -283,13 +277,11 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
+                          <Link href="/about-us" className="link-with-icon">
+                            More Information<i>
+                              <FiArrowRight />
+                            </i>
+
                           </Link>
                         </div>
                       </div>
@@ -334,13 +326,11 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
+                          <Link href="/about-us" className="link-with-icon">
+                            More Information<i>
+                              <FiArrowRight />
+                            </i>
+
                           </Link>
                         </div>
                       </div>
@@ -385,13 +375,11 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
+                          <Link href="/about-us" className="link-with-icon">
+                            More Information<i>
+                              <FiArrowRight />
+                            </i>
+
                           </Link>
                         </div>
                       </div>
@@ -441,13 +429,11 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
+                          <Link href="/about-us" className="link-with-icon">
+                            More Information<i>
+                              <FiArrowRight />
+                            </i>
+
                           </Link>
                         </div>
                       </div>
@@ -492,13 +478,11 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
+                          <Link href="/about-us" className="link-with-icon">
+                            More Information<i>
+                              <FiArrowRight />
+                            </i>
+
                           </Link>
                         </div>
                       </div>
@@ -543,13 +527,11 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
+                          <Link href="/about-us" className="link-with-icon">
+                            More Information<i>
+                              <FiArrowRight />
+                            </i>
+
                           </Link>
                         </div>
                       </div>
@@ -599,13 +581,11 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
+                          <Link href="/about-us" className="link-with-icon">
+                            More Information<i>
+                              <FiArrowRight />
+                            </i>
+
                           </Link>
                         </div>
                       </div>
@@ -650,13 +630,11 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
+                          <Link href="/about-us" className="link-with-icon">
+                            More Information<i>
+                              <FiArrowRight />
+                            </i>
+
                           </Link>
                         </div>
                       </div>
@@ -701,13 +679,11 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
+                          <Link href="/about-us" className="link-with-icon">
+                            More Information<i>
+                              <FiArrowRight />
+                            </i>
+
                           </Link>
                         </div>
                       </div>
@@ -718,8 +694,8 @@ export default function EventSession() {
             </div>
           </div>
           <div className="text-center mt-3">
-            <Link href="/request-demo">
-              <a className="btn btn-primary bg-dark-blue"> Download Brochure</a>
+            <Link href="/request-demo" className="btn btn-primary bg-dark-blue">
+               Download Brochure
             </Link>
           </div>
           <ul className="circel-shape list-unstyled d-none d-lg-block mb-0">

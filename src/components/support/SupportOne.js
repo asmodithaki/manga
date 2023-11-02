@@ -38,8 +38,8 @@ const SupportOne = ({ className }) => {
                   <h2>Start Your 14-Day Free Trial</h2>
                 </div>
                 <div className="form-block-banner mw-60 m-auto mt-5">
-                  <Link href="/contact-us">
-                    <a className="btn btn-primary">Contact with Us</a>
+                  <Link href="/contact-us" className="btn btn-primary">
+                    Contact with Us
                   </Link>
                   <a
                     href="#!"

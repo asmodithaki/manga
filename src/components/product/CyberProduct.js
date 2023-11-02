@@ -49,8 +49,8 @@ const CyberProduct = () => {
               </div>
               <div className="bg-white text-center shadow-sm py-4 product-info">
                 <h6>
-                  <Link href='/about-us' >
-                      <a className="text-decoration-none">   Combination Padlock</a>
+                  <Link href='/about-us' className="text-decoration-none">
+                         Combination Padlock
                   </Link>
                 </h6>
                 <span className="fw-bold">120.00$ </span>
@@ -82,10 +82,10 @@ const CyberProduct = () => {
               </div>
               <div className="bg-white text-center shadow-sm py-4 product-info">
                 <h6>
-                  <Link href='/about-us'>
-                    <a className="text-decoration-none">
+                  <Link href='/about-us' className="text-decoration-none">
+                    
                     Biometrics-Fingerprint
-                    </a>
+                    
                   </Link>
                 </h6>
                 <span className="fw-bold">56.00$ </span>
@@ -115,8 +115,8 @@ const CyberProduct = () => {
               </div>
               <div className="bg-white text-center shadow-sm py-4 product-info">
                 <h6>
-                  <Link href='/about-us' >
-                    <a className="text-decoration-none"> WeJupit Fingerprint Key</a>
+                  <Link href='/about-us' className="text-decoration-none">
+                     WeJupit Fingerprint Key
                   </Link>
                 </h6>
                 <span className="fw-bold">175.00$ </span>
@@ -146,8 +146,8 @@ const CyberProduct = () => {
               </div>
               <div className="bg-white text-center shadow-sm py-4 product-info">
                 <h6>
-                  <Link href='/about-us' >
-                   <a className="text-decoration-none"> Smart Fingerprint Lock</a>
+                  <Link href='/about-us' className="text-decoration-none">
+                    Smart Fingerprint Lock
                   </Link>
                 </h6>
                 <span className="fw-bold">175.00$ </span>
@@ -158,7 +158,7 @@ const CyberProduct = () => {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default CyberProduct

@@ -11,14 +11,14 @@ const CryptoFooter = () => {
           <div className="col-lg-6">
             <div className="crypto-footer-widget text-center">
               <div className="">
-                <Link href="/" >
-                  <a className="crypto-logo"><Image
+                <Link href="/" className="crypto-logo">
+                  <Image
                     src="/logo-white.png"
                     className="mb-30"
                     alt="logo"
                     width={113}
                     height={36}
-                  /></a>
+                  />
                 </Link>
                 <p>
                   Bitcoin, first released as open-source software in is the
@@ -29,41 +29,28 @@ const CryptoFooter = () => {
               <nav className="crypto-footer-nav py-5">
                 <ul className="list-unstyled list-inline">
                   <li className="list-inline-item px-lg-4 px-3">
-                    <Link
-                      href="/"
-                      
-                    >
-                       <a className="text-decoration-none fw-semibold text-white">Home</a>
+                    <Link href="/" className="text-decoration-none fw-semibold text-white">
+                       Home
                     </Link>
                   </li>
                   <li className="list-inline-item px-lg-4 px-3">
-                    <Link
-                      href="/about-us"
-                      
-                    >
-                       <a className="text-decoration-none fw-semibold text-white">About</a>
+                    <Link href="/about-us" className="text-decoration-none fw-semibold text-white">
+                       About
                     </Link>
                   </li>
                   <li className="list-inline-item px-lg-4 px-3">
-                    <Link
-                      href="/about-us"
-                      
-                    >
-                       <a className="text-decoration-none fw-semibold text-white">Market</a>
+                    <Link href="/about-us" className="text-decoration-none fw-semibold text-white">
+                       Market
                     </Link>
                   </li>
                   <li className="list-inline-item px-lg-4 px-3">
-                    <Link
-                      href="/about-us"
-                    >
-                        <a className="text-decoration-none fw-semibold text-white">Trading</a>
+                    <Link href="/about-us" className="text-decoration-none fw-semibold text-white">
+                        Trading
                     </Link>
                   </li>
                   <li className="list-inline-item px-lg-4 px-3">
-                    <Link
-                      href="/about-us"
-                    >
-                      <a className="text-decoration-none fw-semibold text-white">Team</a>
+                    <Link href="/about-us" className="text-decoration-none fw-semibold text-white">
+                      Team
                     </Link>
                   </li>
                 </ul>
@@ -111,13 +98,13 @@ const CryptoFooter = () => {
               <div className="crypto-footer-right text-center text-md-end">
                 <ul className="list-unstyled mt-3 mt-md-0">
                   <li className="list-inline-item pe-2">
-                    <Link href="/help-center">
-                      <a  className="text-decoration-none">Support</a>
+                    <Link href="/help-center" className="text-decoration-none">
+                      Support
                     </Link>
                   </li>
                   <li className="list-inline-item">
-                    <Link href="/help-center" >
-                      <a className="text-decoration-none">Privacy Policy</a>
+                    <Link href="/help-center" className="text-decoration-none">
+                      Privacy Policy
                     </Link>
                   </li>
                 </ul>

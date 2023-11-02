@@ -30,7 +30,7 @@ const CryptoPromo = () => {
               and is typically not issued by a central authority.
             </p>
             <Link href="/about-us">
-              <a> Explore More <FaArrowRight/></a>
+              Explore More<FaArrowRight/>
             </Link>
           </div>
         </div>
@@ -45,7 +45,7 @@ const CryptoPromo = () => {
               and is typically not issued by a central authority.
             </p>
             <Link href="/about-us">
-              <a> Explore More <FaArrowRight/></a>
+              Explore More<FaArrowRight/>
             </Link>
           </div>
         </div>
@@ -60,14 +60,14 @@ const CryptoPromo = () => {
               and is typically not issued by a central authority.
             </p>
             <Link href="/about-us">
-              <a> Explore More <FaArrowRight/></a>
+              Explore More<FaArrowRight/>
             </Link>
           </div>
         </div>
       </div>
     </div>
   </section>
-  )
+  );
 }
 
 export default CryptoPromo

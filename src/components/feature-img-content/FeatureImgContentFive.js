@@ -59,13 +59,12 @@ const FeatureImgContentFive = () => {
                   Sales compliance
                 </li>
               </ul>
-              <Link href="/about-us">
-                <a className="read-more-link text-decoration-none">
-                  Know More About Us{' '}
-                  <span className="far mb-1">
-                    <BsArrowRight />
-                  </span>
-                </a>
+              <Link href="/about-us" className="read-more-link text-decoration-none">
+                Know More About Us{' '}
+                <span className="far mb-1">
+                  <BsArrowRight />
+                </span>
+
               </Link>
             </div>
           </div>

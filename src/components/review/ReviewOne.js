@@ -25,13 +25,14 @@ const ReviewOne = () => {
                   effective standards communities.
                 </p>
               </div>
-              <Link href="/about-us">
-                <a className="link-with-icon p-0 mt-auto text-decoration-none text-warning">
-                  Read Reviews{" "}
-                  <i>
-                    <BsArrowRight className="far ms-2 mb-1" />
-                  </i>
-                </a>
+              <Link
+                href="/about-us"
+                className="link-with-icon p-0 mt-auto text-decoration-none text-warning">
+                Read Reviews{" "}
+                <i>
+                  <BsArrowRight className="far ms-2 mb-1" />
+                </i>
+
               </Link>
             </div>
           </div>
@@ -49,13 +50,14 @@ const ReviewOne = () => {
                   professional methods of empowerment.
                 </p>
               </div>
-              <Link href="/about-us">
-                <a className="link-with-icon p-0 mt-auto text-decoration-none text-warning">
-                  Read Reviews{" "}
-                  <i>
-                    <BsArrowRight className="far ms-2 mb-1" />
-                  </i>
-                </a>
+              <Link
+                href="/about-us"
+                className="link-with-icon p-0 mt-auto text-decoration-none text-warning">
+                Read Reviews{" "}
+                <i>
+                  <BsArrowRight className="far ms-2 mb-1" />
+                </i>
+
               </Link>
             </div>
           </div>
@@ -73,13 +75,14 @@ const ReviewOne = () => {
                   effective standards communities.
                 </p>
               </div>
-              <Link href="/about-us">
-                <a className="link-with-icon p-0 mt-auto text-decoration-none text-warning">
-                  Read Reviews{" "}
-                  <i>
-                    <BsArrowRight className="far ms-2 mb-1" />
-                  </i>
-                </a>
+              <Link
+                href="/about-us"
+                className="link-with-icon p-0 mt-auto text-decoration-none text-warning">
+                Read Reviews{" "}
+                <i>
+                  <BsArrowRight className="far ms-2 mb-1" />
+                </i>
+
               </Link>
             </div>
           </div>

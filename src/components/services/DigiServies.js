@@ -29,14 +29,13 @@ export default function DigiSerives() {
                 Proactively recaptiualize multidisciplinary manufactured
                 products vis-a-vis go forward resource maximizing internal.
               </p>
-              <Link href="/services">
-                <a className="read-more-link text-decoration-none">
-                  {" "}
-                  Explore More{" "}
-                  <i>
-                    <FiArrowRight />
-                  </i>
-                </a>
+              <Link href="/services" className="read-more-link text-decoration-none">
+
+                {" "}Explore More{" "}
+                <i>
+                  <FiArrowRight />
+                </i>
+
               </Link>
             </div>
           </div>
@@ -48,14 +47,13 @@ export default function DigiSerives() {
                 Assertively negotiate adaptive human capital and collaboration
                 and idea-sharing rather than extensive communities.
               </p>
-              <Link href="/services">
-                <a className="read-more-link text-decoration-none">
-                  {" "}
-                  Explore More{" "}
-                  <i>
-                    <FiArrowRight />
-                  </i>
-                </a>
+              <Link href="/services" className="read-more-link text-decoration-none">
+
+                {" "}Explore More{" "}
+                <i>
+                  <FiArrowRight />
+                </i>
+
               </Link>
             </div>
           </div>
@@ -67,14 +65,13 @@ export default function DigiSerives() {
                 Globally promote long-term high-impact resources and
                 goal-oriented growth strategies. Globally incubate extensible.
               </p>
-              <Link href="/services">
-                <a className="read-more-link text-decoration-none">
-                  {" "}
-                  Explore More{" "}
-                  <i>
-                    <FiArrowRight />
-                  </i>
-                </a>
+              <Link href="/services" className="read-more-link text-decoration-none">
+
+                {" "}Explore More{" "}
+                <i>
+                  <FiArrowRight />
+                </i>
+
               </Link>
             </div>
           </div>
@@ -86,14 +83,13 @@ export default function DigiSerives() {
                 Globally utilize emerging networks through team driven models
                 develop team driven systems through.
               </p>
-              <Link href="/services">
-                <a className="read-more-link text-decoration-none">
-                  {" "}
-                  Explore More{" "}
-                  <i>
-                    <FiArrowRight />
-                  </i>
-                </a>
+              <Link href="/services" className="read-more-link text-decoration-none">
+
+                {" "}Explore More{" "}
+                <i>
+                  <FiArrowRight />
+                </i>
+
               </Link>
             </div>
           </div>

@@ -16,16 +16,16 @@ const ComingSoon = () => {
         <div className="row">
           <div className="col-lg-5 col-12">
             <div className="coming-soon-content-wrap position-relative z-2">
-              <Link href="/">
-                <a className="mb-5 d-block">
-                  <Image
-                    width={113}
-                    height={36}
-                    src="/logo-white.png"
-                    alt="logo"
-                    className="img-fluid logo-color"
-                  />
-                </a>
+              <Link href="/" className="mb-5 d-block">
+
+                <Image
+                  width={113}
+                  height={36}
+                  src="/logo-white.png"
+                  alt="logo"
+                  className="img-fluid logo-color"
+                />
+
               </Link>
 
               <h5 className="text-white">We are Coming Soon...</h5>
@@ -33,10 +33,10 @@ const ComingSoon = () => {
                 We are Working Our New Website, Please Stay With us!
               </h1>
               <div className="action-btns">
-                <Link href="/contact-us">
-                  <a className="btn btn-primary mt-5 popup-with-form">
+                <Link href="/contact-us" className="btn btn-primary mt-5 popup-with-form">
+                  
                     Notify Me!
-                  </a>
+                  
                 </Link>
               </div>
 
@@ -44,30 +44,30 @@ const ComingSoon = () => {
                 <ul className="list-unstyled author-social-list social-bg-ts list-inline mb-0">
                   <li className="list-inline-item">
                     <Link href="#">
-                      <a>
-                        <FaFacebook />
-                      </a>
+
+                      <FaFacebook />
+
                     </Link>
                   </li>
                   <li className="list-inline-item">
                     <Link href="#">
-                      <a>
-                        <FaTwitter />
-                      </a>
+
+                      <FaTwitter />
+
                     </Link>
                   </li>
                   <li className="list-inline-item">
                     <Link href="#">
-                      <a>
-                        <FaDribbble />
-                      </a>
+
+                      <FaDribbble />
+
                     </Link>
                   </li>
                   <li className="list-inline-item">
                     <Link href="#">
-                      <a>
-                        <FaGithub />
-                      </a>
+
+                      <FaGithub />
+
                     </Link>
                   </li>
                 </ul>

@@ -50,7 +50,7 @@ export default function UpcomingEvent() {
                   </div>
                 </div>
                 <h5 className="mb-3">
-                  <Link href="/blog-single">
+                  <Link href="/blog-single" legacyBehavior>
                     <p>DigiMarCon East 2022</p>
                   </Link>
                 </h5>
@@ -58,13 +58,12 @@ export default function UpcomingEvent() {
                   Effective alignments credibly empower backend total linkage
                   via cost seize leveraged niche markets.
                 </p>
-                <Link href="/blog-single">
-                  <a className="read-more-link text-decoration-none">
-                    Explore More{" "}
-                    <i>
-                      <FiArrowRight />
-                    </i>
-                  </a>
+                <Link href="/blog-single" className="read-more-link text-decoration-none">
+                  Explore More{" "}
+                  <i>
+                    <FiArrowRight />
+                  </i>
+
                 </Link>
               </div>
             </div>
@@ -95,20 +94,19 @@ export default function UpcomingEvent() {
                 </div>
                 <h5 className="mb-3">
                   <Link href="/blog-single">
-                    <a>Tokyo Digital Shake-Up</a>
+                    Tokyo Digital Shake-Up
                   </Link>
                 </h5>
                 <p>
                   Dramatically seize leveraged niche markets total linkage via
                   cost effective alignments empower backend.
                 </p>
-                <Link href="/blog-single">
-                  <a className="read-more-link text-decoration-none">
-                    Explore More{" "}
-                    <i>
-                      <FiArrowRight />
-                    </i>
-                  </a>
+                <Link href="/blog-single" className="read-more-link text-decoration-none">
+                  Explore More{" "}
+                  <i>
+                    <FiArrowRight />
+                  </i>
+
                 </Link>
               </div>
             </div>
@@ -138,7 +136,7 @@ export default function UpcomingEvent() {
                   </div>
                 </div>
                 <h5 className="mb-3">
-                  <Link href="/blog-single">
+                  <Link href="/blog-single" legacyBehavior>
                     <p>Paris Digital Summit</p>
                   </Link>
                 </h5>
@@ -146,21 +144,20 @@ export default function UpcomingEvent() {
                   Credibly empower backend total linkage via cost effective
                   alignments. Dramatically seize niche markets.
                 </p>
-                <Link href="/blog-single">
-                  <a className="read-more-link text-decoration-none">
-                    Explore More{" "}
-                    <i>
-                      <FiArrowRight />
-                    </i>
-                  </a>
+                <Link href="/blog-single" className="read-more-link text-decoration-none">
+                  Explore More{" "}
+                  <i>
+                    <FiArrowRight />
+                  </i>
+
                 </Link>
               </div>
             </div>
           </div>
         </div>
         <div className="text-center mt-5">
-          <Link href="/blogs">
-            <a className="btn btn-primary bg-dark-blue">View More Events</a>
+          <Link href="/blogs" className="btn btn-primary bg-dark-blue">
+            View More Events
           </Link>
         </div>
       </div>

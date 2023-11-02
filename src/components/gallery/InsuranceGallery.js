@@ -58,29 +58,27 @@ const InsuranceGallery = () => {
                 and trouble that are bound through shrinking.
               </p>
               <div className="d-flex align-items-center ins-gallery-info-btns flex-wrap">
-                <Link href="/contact-us">
-                  <a className="ins-btn ins-secondary-btn">
-                    Get a Quote
-                    <span className="ms-1">
-                      <svg
-                        width="22"
-                        height="9"
-                        viewBox="0 0 22 9"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M0.776428 4.55017L15.7133 4.55017"
-                          stroke="white"
-                          strokeWidth="1.49369"
-                        />
-                        <path
-                          d="M21.6888 4.54934L15.7141 7.99887L15.7141 1.09981L21.6888 4.54934Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </span>
-                  </a>
+                <Link href="/contact-us" className="ins-btn ins-secondary-btn">
+                  Get a Quote<span className="ms-1">
+                    <svg
+                      width="22"
+                      height="9"
+                      viewBox="0 0 22 9"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.776428 4.55017L15.7133 4.55017"
+                        stroke="white"
+                        strokeWidth="1.49369"
+                      />
+                      <path
+                        d="M21.6888 4.54934L15.7141 7.99887L15.7141 1.09981L21.6888 4.54934Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </span>
+
                 </Link>
                 <ModalVideo
                   channel="youtube"

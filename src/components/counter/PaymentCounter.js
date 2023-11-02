@@ -55,13 +55,13 @@ export default function PaymentCounter() {
                                     bleeding-edge e-business Appropriately matrix quality.
                                 </p>
                             </div>
-                            <Link href="/contact-us">
-                                <a className="btn-gradient-sqr mt-40"> Get Started </a>
+                            <Link href="/contact-us" className="btn-gradient-sqr mt-40">
+                                 Get Started 
                             </Link>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    )
+    );
 }

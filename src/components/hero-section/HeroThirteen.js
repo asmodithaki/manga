@@ -30,18 +30,17 @@ export default function HeroThirteen() {
                 funds, view transactions wherever happy clients all around.
               </p>
               <div className="action-btns mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
-                <Link href="/request-demo">
-                  <a className="btn-gradient-sqr ">Download Now</a>
+                <Link href="/request-demo" className="btn-gradient-sqr ">
+                  Download Now
                 </Link>
                 <div className="ms-2">
-                  <Link href="/#">
-                    <a
-                      onClick={() => setOpen(true)}
-                      type="button"
-                      className="text-decoration-none d-inline-flex align-items-center watch-now-btn"
-                    >
-                      <IoPlayCircleOutline className="me-2" /> Watch Video
-                    </a>
+                  <Link
+                    href="/#"
+                    onClick={() => setOpen(true)}
+                    type="button"
+                    className="text-decoration-none d-inline-flex align-items-center watch-now-btn">
+
+                    <IoPlayCircleOutline className="me-2" />Watch Video
                   </Link>
                 </div>
               </div>

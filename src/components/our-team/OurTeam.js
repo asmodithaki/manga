@@ -29,7 +29,7 @@ const OurTeam = () => {
                   <Image width={306} height={306} src={team.image} alt="team" />
                   <ul className="list-unstyled team-social-list d-flex flex-column mb-0">
                     <li className="list-inline-item">
-                      <Link href="#!">
+                      <Link href="#!" legacyBehavior>
                         <p>
                           <i className="fab">
                             <FaLinkedinIn />
@@ -39,29 +39,29 @@ const OurTeam = () => {
                     </li>
                     <li className="list-inline-item">
                       <Link href="#!">
-                        <a>
-                          <i className="fab">
-                            <FaTwitter />
-                          </i>
-                        </a>
+
+                        <i className="fab">
+                          <FaTwitter />
+                        </i>
+
                       </Link>
                     </li>
                     <li className="list-inline-item">
                       <Link href="#!">
-                        <a>
-                          <i className="fab">
-                            <FaGithub />
-                          </i>
-                        </a>
+
+                        <i className="fab">
+                          <FaGithub />
+                        </i>
+
                       </Link>
                     </li>
                     <li className="list-inline-item">
                       <Link href="#!">
-                        <a>
-                          <i className="fab">
-                            <FaFacebookF />
-                          </i>
-                        </a>
+
+                        <i className="fab">
+                          <FaFacebookF />
+                        </i>
+
                       </Link>
                     </li>
                   </ul>

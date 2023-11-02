@@ -51,13 +51,15 @@ export default function EventAbout() {
                 Suspendisse varius enim in eros elementum tristique.
               </p>
               <div>
-                <Link href="/signup">
-                  <a className="btn btn-primary bg-pink me-3 mb-2 mb-lg-0 mb-md-0">
+                <Link
+                  href="/signup"
+                  className="btn btn-primary bg-pink me-3 mb-2 mb-lg-0 mb-md-0">
+                  
                     Register Now
-                  </a>
+                  
                 </Link>
-                <Link href="/request-for-demo">
-                  <a className="btn border-pink">Download PDF</a>
+                <Link href="/request-for-demo" className="btn border-pink">
+                  Download PDF
                 </Link>
               </div>
             </div>

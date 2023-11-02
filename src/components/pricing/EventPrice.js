@@ -58,8 +58,8 @@ export default function EventPrice() {
                   Afternoon snacks
                 </li>
               </ul>
-              <Link href="/request-demo">
-                <a className="ev-price-btn mt-4">Purchase Now</a>
+              <Link href="/request-demo" className="ev-price-btn mt-4">
+                Purchase Now
               </Link>
               <ul className="list-unstyled ev-price-dot mb-0">
                 <li></li>
@@ -114,8 +114,8 @@ export default function EventPrice() {
                   Afternoon snacks
                 </li>
               </ul>
-              <Link href="/request-demo">
-                <a className="ev-price-btn mt-4">Purchase Now</a>
+              <Link href="/request-demo" className="ev-price-btn mt-4">
+                Purchase Now
               </Link>
               <ul className="list-unstyled ev-price-dot mb-0">
                 <li></li>
@@ -170,8 +170,8 @@ export default function EventPrice() {
                   Afternoon snacks
                 </li>
               </ul>
-              <Link href="/request-demo">
-                <a className="ev-price-btn mt-4">Purchase Now</a>
+              <Link href="/request-demo" className="ev-price-btn mt-4">
+                Purchase Now
               </Link>
               <ul className="list-unstyled ev-price-dot mb-0">
                 <li></li>
@@ -191,10 +191,10 @@ export default function EventPrice() {
         </div>
         <p className="text-center mt-4 text-muted fs-sm">
           All prices exclude 25% VAT. For more details, view our
-          <Link href="/about-us">
-            <a className="text-dark">
-              <b> Terms & Conditions</b>
-            </a>
+          <Link href="/about-us" className="text-dark">
+
+            <b> Terms & Conditions</b>
+
           </Link>
         </p>
       </div>

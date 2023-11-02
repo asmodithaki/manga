@@ -23,7 +23,7 @@ const CryptoBlog = () => {
             {cryptoBlogData.map((item,i)=>(
                 <div className="col-lg-4 col-md-6" key={i+1}>
                  <div className="crypto-blog-card bg-soft-black mb-30 mb-lg-0">
-                 <Link href="/blog-single" passHref>
+                 <Link href="/blog-single" passHref legacyBehavior>
                     <div className="text-decoration-none text-white">
                     <div className="blog-thumb">
                     <Image
@@ -63,9 +63,7 @@ const CryptoBlog = () => {
         <div className="row justify-content-center">
           <div className="col-lg-3">
             <div className="text-center mt-5">
-              <Link
-                href="/blogs"
-              >
+              <Link href="/blogs" legacyBehavior>
                   <p className="btn-outline-primary btn rounded-pill">
                   All Blog Post
                   </p>

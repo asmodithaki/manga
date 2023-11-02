@@ -87,13 +87,14 @@ const ServiceOne = ({ bgDark }) => {
                     </li>
                   </ul>
                 </div>
-                <Link href="/service-single">
-                  <a className="link-with-icon text-decoration-none mt-3">
-                    View Details{" "}
-                    <i className="far mb-1">
-                      <BsArrowRight />
-                    </i>
-                  </a>
+                <Link
+                  href="/service-single"
+                  className="link-with-icon text-decoration-none mt-3">
+                  View Details{" "}
+                  <i className="far mb-1">
+                    <BsArrowRight />
+                  </i>
+
                 </Link>
               </div>
                             {/* Automated Reports */}
@@ -142,13 +143,14 @@ const ServiceOne = ({ bgDark }) => {
                                 </li>
                               </ul>
                             </div>
-                            <Link href="/service-single">
-                              <a className="link-with-icon text-decoration-none mt-3">
-                                View Details{" "}
-                                <i className="far mb-1">
-                                  <BsArrowRight />
-                                </i>
-                              </a>
+                            <Link
+                              href="/service-single"
+                              className="link-with-icon text-decoration-none mt-3">
+                              View Details{" "}
+                              <i className="far mb-1">
+                                <BsArrowRight />
+                              </i>
+
                             </Link>
                           </div>
                                         {/* User Journey Flow */}
@@ -171,13 +173,14 @@ const ServiceOne = ({ bgDark }) => {
                 </p>
                 {/* You can add more content here */}
               </div>
-              <Link href="/service-single">
-                <a className="link-with-icon text-decoration-none mt-3">
-                  View Details{" "}
-                  <i className="far mb-1">
-                    <BsArrowRight />
-                  </i>
-                </a>
+              <Link
+                href="/service-single"
+                className="link-with-icon text-decoration-none mt-3">
+                View Details{" "}
+                <i className="far mb-1">
+                  <BsArrowRight />
+                </i>
+
               </Link>
             </div>
 
@@ -201,13 +204,14 @@ const ServiceOne = ({ bgDark }) => {
                 </p>
                 {/* You can add more content here */}
               </div>
-              <Link href="/service-single">
-                <a className="link-with-icon text-decoration-none mt-3">
-                  View Details{" "}
-                  <i className="far mb-1">
-                    <BsArrowRight />
-                  </i>
-                </a>
+              <Link
+                href="/service-single"
+                className="link-with-icon text-decoration-none mt-3">
+                View Details{" "}
+                <i className="far mb-1">
+                  <BsArrowRight />
+                </i>
+
               </Link>
             </div>
 
@@ -231,13 +235,14 @@ const ServiceOne = ({ bgDark }) => {
                 </p>
                 {/* You can add more content here */}
               </div>
-              <Link href="/service-single">
-                <a className="link-with-icon text-decoration-none mt-3">
-                  View Details{" "}
-                  <i className="far mb-1">
-                    <BsArrowRight />
-                  </i>
-                </a>
+              <Link
+                href="/service-single"
+                className="link-with-icon text-decoration-none mt-3">
+                View Details{" "}
+                <i className="far mb-1">
+                  <BsArrowRight />
+                </i>
+
               </Link>
             </div>
 

@@ -53,12 +53,10 @@ const PriceFour = () => {
                 </li>
               </ul>
             </div>
-            <Link href="/request-demo">
-            <a
-              className="btn btn-outline-primary mt-2"
-            >
+            <Link href="/request-demo" className="btn btn-outline-primary mt-2">
+            
               Get Started Now
-            </a>
+            
             </Link>
           </div>
         </div>
@@ -94,10 +92,10 @@ const PriceFour = () => {
                 </li>
               </ul>
             </div>
-           <Link href="/request-demo">
-           <a  className="btn btn-primary mt-2">
+           <Link href="/request-demo" className="btn btn-primary mt-2">
+           
               Get Started Now
-            </a>
+            
            </Link>
           </div>
         </div>
@@ -133,19 +131,17 @@ const PriceFour = () => {
                 </li>
               </ul>
             </div>
-            <Link href="/request-demo">
-            <a
-              className="btn btn-outline-primary mt-2"
-            >
+            <Link href="/request-demo" className="btn btn-outline-primary mt-2">
+            
               Get Started Now
-            </a>
+            
             </Link>
           </div>
         </div>
       </div>
     </div>
   </section>
-  )
+  );
 }
 
 export default PriceFour

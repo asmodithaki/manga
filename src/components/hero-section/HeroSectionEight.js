@@ -25,8 +25,8 @@ const HeroSectionEight = () => {
                 theme areas without cooperative.
               </p>
               <div className="action-btns mt-5">
-                <Link href="/about-us">
-                  <a className="btn btn-outline-light">Explore More</a>
+                <Link href="/about-us" className="btn btn-outline-light">
+                  Explore More
                 </Link>
               </div>
             </div>

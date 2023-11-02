@@ -34,15 +34,15 @@ export default function HeroFifteen() {
                     videoId="hAP2QF--2Dg"
                     onClose={() => setOpen(false)}
                   />
-                  <Link href="/signup">
-                    <a className="btn btn-primary bg-pink me-3 mb-3">
+                  <Link href="/signup" className="btn btn-primary bg-pink me-3 mb-3">
+                    
                       Register Now
-                    </a>
+                    
                   </Link>
-                  <Link href="/request-for-demo">
-                    <a className="btn border-pink text-pink mb-3">
+                  <Link href="/request-for-demo" className="btn border-pink text-pink mb-3">
+                    
                       Download PDF
-                    </a>
+                    
                   </Link>
                 </div>
               </div>

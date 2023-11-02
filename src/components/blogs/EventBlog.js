@@ -40,23 +40,22 @@ export default function EventBlog() {
                   </div>
                 </div>
                 <h5 className="mb-3">
-                  <Link href="/blog-single">
-                    <a className="text-dark">
+                  <Link href="/blog-single" className="text-dark">
+                    
                       Breakfast after a long time sad & unhappy
-                    </a>
+                    
                   </Link>
                 </h5>
                 <p>
                   Credibly empower backend total linkage via cost effective
                   alignments. Dramatically seize leveraged niche markets.
                 </p>
-                <Link href="/blog-single">
-                  <a className="link-with-icon">
-                    More Information{" "}
-                    <i>
-                      <FiArrowRight />
-                    </i>
-                  </a>
+                <Link href="/blog-single" className="link-with-icon">
+                  More Information{" "}
+                  <i>
+                    <FiArrowRight />
+                  </i>
+
                 </Link>
               </div>
             </div>
@@ -84,23 +83,22 @@ export default function EventBlog() {
                   </div>
                 </div>
                 <h5 className="mb-3">
-                  <Link href="/blog-single">
-                    <a className="text-dark">
+                  <Link href="/blog-single" className="text-dark">
+                    
                       Marketing Tools In CX Strategies trust
-                    </a>
+                    
                   </Link>
                 </h5>
                 <p>
                   Credibly empower backend total linkage via cost effective
                   alignments. Dramatically seize leveraged niche markets.
                 </p>
-                <Link href="/blog-single">
-                  <a className="link-with-icon">
-                    More Information{" "}
-                    <i>
-                      <FiArrowRight />
-                    </i>
-                  </a>
+                <Link href="/blog-single" className="link-with-icon">
+                  More Information{" "}
+                  <i>
+                    <FiArrowRight />
+                  </i>
+
                 </Link>
               </div>
             </div>
@@ -128,23 +126,22 @@ export default function EventBlog() {
                   </div>
                 </div>
                 <h5 className="mb-3">
-                  <Link href="/blog-single">
-                    <a className="text-dark">
+                  <Link href="/blog-single" className="text-dark">
+                    
                       The morning with a sad face given their trust
-                    </a>
+                    
                   </Link>
                 </h5>
                 <p>
                   Credibly empower backend total linkage via cost effective
                   alignments. Dramatically seize leveraged niche markets.
                 </p>
-                <Link href="/blog-single">
-                  <a className="link-with-icon">
-                    More Information{" "}
-                    <i>
-                      <FiArrowRight />
-                    </i>
-                  </a>
+                <Link href="/blog-single" className="link-with-icon">
+                  More Information{" "}
+                  <i>
+                    <FiArrowRight />
+                  </i>
+
                 </Link>
               </div>
             </div>
@@ -153,8 +150,8 @@ export default function EventBlog() {
         <div className="text-center mt-4 text-muted fs-sm">
           <p className="m-0">
             Do you want to read more posts!
-            <Link href="/blog-single">
-              <a className="text-dark-blue fw-bold"> Click Here</a>
+            <Link href="/blog-single" className="text-dark-blue fw-bold">
+               Click Here
             </Link>
           </p>
         </div>

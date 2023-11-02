@@ -21,16 +21,16 @@ const Register = () => {
             <div className="col-lg-10 col-12">
               <div className="pricing-content-wrap bg-custom-light rounded-custom shadow-lg">
                 <div className="price-feature-col pricing-feature-info text-white left-radius p-5 order-1 order-lg-0">
-                  <Link href="/">
-                    <a className="mb-5 d-none d-xl-block d-lg-block">
-                      <Image
-                        width={113}
-                        height={36}
-                        src="/logo-white.png"
-                        alt="logo"
-                        className="img-fluid"
-                      />
-                    </a>
+                  <Link href="/" className="mb-5 d-none d-xl-block d-lg-block">
+
+                    <Image
+                      width={113}
+                      height={36}
+                      src="/logo-white.png"
+                      alt="logo"
+                      className="img-fluid"
+                    />
+
                   </Link>
                   <div className="customer-testimonial-wrap mt-60">
                     <div className="tab-content" id="nav-tabContent">
@@ -273,8 +273,8 @@ const Register = () => {
                     </div>
                     <p className="text-center text-muted mt-4 mb-0 fw-medium font-monospace">
                       Already have an account?{' '}
-                      <Link href="/login">
-                        <a className="text-decoration-none">Sign in</a>
+                      <Link href="/login" className="text-decoration-none">
+                        Sign in
                       </Link>
                     </p>
                   </form>

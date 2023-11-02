@@ -142,8 +142,8 @@ const FaqThree = () => {
             </div>
             <div className="col-lg-3">
               <div className="action-btns text-lg-end">
-                <Link href="/contact-us">
-                  <a className="btn btn-light">Get in Touch</a>
+                <Link href="/contact-us" className="btn btn-light">
+                  Get in Touch
                 </Link>
               </div>
             </div>

@@ -23,11 +23,11 @@ const HeroSectionFive = () => {
               />
 
               <div className="action-btns mt-5">
-                <Link href="/request-for-demo">
-                  <a className="btn btn-primary me-3">Request Demo</a>
+                <Link href="/request-for-demo" className="btn btn-primary me-3">
+                  Request Demo
                 </Link>
-                <Link href="/contact-us">
-                  <a className="btn btn-outline-light">Contact Us</a>
+                <Link href="/contact-us" className="btn btn-outline-light">
+                  Contact Us
                 </Link>
               </div>
               <ul className="nav subscribe-feature-list d-flex justify-content-center justify-content-lg-start w-100 mt-3">

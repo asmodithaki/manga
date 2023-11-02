@@ -24,32 +24,32 @@ const ProfileCard = () => {
       </p>
       <ul className="list-unstyled author-social-list list-inline mt-3 mb-0">
         <li className="list-inline-item">
-          <Link href="#!" passHref>
-            <a className="fab">
-              <FaLinkedinIn />
-            </a>
+          <Link href="#!" passHref className="fab">
+
+            <FaLinkedinIn />
+
           </Link>
         </li>
         <li className="list-inline-item">
-          <Link href="#!" passHref>
-            <a className="fab">
-              <FaTwitter />
-            </a>
+          <Link href="#!" passHref className="fab">
+
+            <FaTwitter />
+
           </Link>
         </li>
         <li className="list-inline-item">
-          <Link href="#!" passHref>
-            <a className="fab">
-              {' '}
-              <FaGithub />
-            </a>
+          <Link href="#!" passHref className="fab">
+
+            {' '}
+            <FaGithub />
+
           </Link>
         </li>
         <li className="list-inline-item">
-          <Link href="#!" passHref>
-            <a className="fab">
-              <FaFacebookF />
-            </a>
+          <Link href="#!" passHref className="fab">
+
+            <FaFacebookF />
+
           </Link>
         </li>
       </ul>

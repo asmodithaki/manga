@@ -56,37 +56,33 @@ const FooterTwo = () => {
                     <h3 className="h5 mb-4 text-white">Company Services</h3>
                     <ul className="list-unstyled footer-nav-list mb-lg-0">
                       <li>
-                        <Link href="/" >
-                          <a className="text-decoration-none">Threat Hunter</a>
+                        <Link href="/" className="text-decoration-none">
+                          Threat Hunter
                         </Link>
                       </li>
                       <li>
-                        <Link href="/about-us" >
-                          <a className="text-decoration-none">Incident Responder</a>
+                        <Link href="/about-us" className="text-decoration-none">
+                          Incident Responder
                         </Link>
                       </li>
                       <li>
-                        <Link href="/services" >
-                            <a className="text-decoration-none">Secure Managed IT</a>
+                        <Link href="/services" className="text-decoration-none">
+                            Secure Managed IT
                         </Link>
                       </li>
                       <li>
-                        <Link href="/career">
-                          <a  className="text-decoration-none">Compliance</a>
+                        <Link href="/career" className="text-decoration-none">
+                          Compliance
                         </Link>
                       </li>
                       <li>
-                        <Link
-                          href="/integrations"
-                        >
-                          <a className="text-decoration-none">Cyber Security</a>
+                        <Link href="/integrations" className="text-decoration-none">
+                          Cyber Security
                         </Link>
                       </li>
                       <li>
-                        <Link
-                          href="/integration-single"
-                        >
-                            <a className="text-decoration-none">  Disaster Planning</a>
+                        <Link href="/integration-single" className="text-decoration-none">
+                              Disaster Planning
                         </Link>
                       </li>
                     </ul>
@@ -97,34 +93,31 @@ const FooterTwo = () => {
                     <h3 className="h5 mb-4 text-white">Quick Links</h3>
                     <ul className="list-unstyled footer-nav-list mb-lg-0">
                       <li>
-                        <Link href="/contact-us" >
-                            <a className="text-decoration-none"> Contact Us</a>                      
+                        <Link href="/contact-us" className="text-decoration-none">
+                             Contact Us                      
                         </Link>
                       </li>
                       <li>
-                        <Link href="/about-us" >
-                        <a className="text-decoration-none">FAQ</a>
+                        <Link href="/about-us" className="text-decoration-none">
+                        FAQ
                           
                         </Link>
                       </li>
                       <li>
-                        <Link href="/services" >
-                        <a className="text-decoration-none">   Privacy Policy</a>
+                        <Link href="/services" className="text-decoration-none">
+                           Privacy Policy
                        
                         </Link>
                       </li>
                       <li>
-                        <Link href="/career" >
-                        <a className="text-decoration-none">Terms & Conditions</a>
+                        <Link href="/career" className="text-decoration-none">
+                        Terms & Conditions
                           
                         </Link>
                       </li>
                       <li>
-                        <Link
-                          href="/integrations"
-                         
-                        >
-                             <a className="text-decoration-none">Team</a>
+                        <Link href="/integrations" className="text-decoration-none">
+                             Team
                           
                         </Link>
                       </li>

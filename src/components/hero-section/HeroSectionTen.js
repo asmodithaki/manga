@@ -32,17 +32,16 @@ const HeroSectionTen = () => {
                 veniam consequat sunt nostrud amet.
               </p>
               <div className="action-btns mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
-                <Link href="/request-demo">
-                  <a className="btn btn-primary">Discover More</a>
+                <Link href="/request-demo" className="btn btn-primary">
+                  Discover More
                 </Link>
-                <Link href="/">
-                  <a
-                    onClick={() => setOpen(true)}
-                    type="button"
-                    className="text-decoration-none d-inline-flex align-items-center watch-now-btn"
-                  >
-                    <IoPlayCircleOutline className="ms-2" /> Watch Demo
-                  </a>
+                <Link
+                  href="/"
+                  onClick={() => setOpen(true)}
+                  type="button"
+                  className="text-decoration-none d-inline-flex align-items-center watch-now-btn">
+
+                  <IoPlayCircleOutline className="ms-2" />Watch Demo
                 </Link>
               </div>
             </div>
@@ -60,10 +59,10 @@ const HeroSectionTen = () => {
           </div>
         </div>
         <div className="cyber-down-btn text-center position-relative d-none d-lg-block">
-          <Link href="#cyber-about">
-            <a className="text-primary">
-              <RiArrowDownLine />
-            </a>
+          <Link href="#cyber-about" className="text-primary">
+
+            <RiArrowDownLine />
+
           </Link>
         </div>
       </div>

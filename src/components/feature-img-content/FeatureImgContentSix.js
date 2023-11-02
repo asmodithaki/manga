@@ -70,8 +70,8 @@ const FeatureImgContentSix = () => {
                   </li>
                 </ul>
                 <div className="action-btns mt-5">
-                  <Link href="/about-us">
-                    <a className="btn app-two-btn">Learn About More</a>
+                  <Link href="/about-us" className="btn app-two-btn">
+                    Learn About More
                   </Link>
                 </div>
               </div>

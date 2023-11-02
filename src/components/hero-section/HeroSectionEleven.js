@@ -28,18 +28,17 @@ const HeroSectionEleven = () => {
                 paragraphs in English or their native language architect interactive.
               </p>
               <div className="action-btns mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
-                <Link href="/request-demo" >
-                 <a className="btn rounded-pill btn-primary me-3"> Get Started</a>
+                <Link href="/request-demo" className="btn rounded-pill btn-primary me-3">
+                  Get Started
                 </Link>
                 <div>
-                    <Link href="/#">
-                      <a
-                        onClick={() => setOpen(true)}
-                        type="button"
-                        className="text-decoration-none d-inline-flex align-items-center watch-now-btn"
-                      >
-                        <IoPlayCircleOutline className="me-2" /> Watch Demo
-                      </a>
+                    <Link
+                      href="/#"
+                      onClick={() => setOpen(true)}
+                      type="button"
+                      className="text-decoration-none d-inline-flex align-items-center watch-now-btn">
+
+                      <IoPlayCircleOutline className="me-2" />Watch Demo
                     </Link>
                   </div>
               </div>
@@ -73,7 +72,7 @@ const HeroSectionEleven = () => {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default HeroSectionEleven

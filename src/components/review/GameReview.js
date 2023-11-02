@@ -13,10 +13,10 @@ export default function GameReview() {
                     </div>
                     <div className="col-lg-8 col-md-4">
                         <div className="text-md-end">
-                            <Link href="/about-us">
-                                <a className="game-btn-mdm text-white">
+                            <Link href="/about-us" className="game-btn-mdm text-white">
+                                
                                     More Feedback
-                                </a>
+                                
                             </Link>
                         </div>
                     </div>
@@ -177,8 +177,8 @@ export default function GameReview() {
                                         Globally foster interoperable infomediaries before turnkey
                                         content. Holisticly scale client-centric.
                                     </p>
-                                    <Link href="/contact-us">
-                                        <a className="game-btn-mdm mt-4 text-white">Purchase Now</a>
+                                    <Link href="/contact-us" className="game-btn-mdm mt-4 text-white">
+                                        Purchase Now
                                     </Link>
                                 </div>
                             </div>
@@ -197,7 +197,7 @@ export default function GameReview() {
                 <img src="/review.png" className='sh-feedback-shape z-5' alt="shape" />
             </div>
         </section>
-    )
+    );
 }
 
 

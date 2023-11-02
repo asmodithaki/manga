@@ -29,45 +29,45 @@ const TabOne = () => {
               role="tablist"
             >
               <li className="nav-item">
-                <Link href="#!">
-                  <a
-                    className="nav-link active"
-                    to="#tab-1"
-                    data-bs-toggle="tab"
-                    data-bs-target="#tab-1"
-                    role="tab"
-                    aria-selected="false"
-                  >
+                <Link
+                  href="#!"
+                  className="nav-link active"
+                  to="#tab-1"
+                  data-bs-toggle="tab"
+                  data-bs-target="#tab-1"
+                  role="tab"
+                  aria-selected="false">
+                  
                     AI & Data Science
-                  </a>
+                  
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="#!">
-                  <a
-                    className="nav-link"
-                    to="#tab-2"
-                    data-bs-toggle="tab"
-                    data-bs-target="#tab-2"
-                    role="tab"
-                    aria-selected="false"
-                  >
+                <Link
+                  href="#!"
+                  className="nav-link"
+                  to="#tab-2"
+                  data-bs-toggle="tab"
+                  data-bs-target="#tab-2"
+                  role="tab"
+                  aria-selected="false">
+                  
                     Automation Power
-                  </a>
+                  
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="#!">
-                  <a
-                    className="nav-link"
-                    to="#tab-3"
-                    data-bs-toggle="tab"
-                    data-bs-target="#tab-3"
-                    role="tab"
-                    aria-selected="false"
-                  >
+                <Link
+                  href="#!"
+                  className="nav-link"
+                  to="#tab-3"
+                  data-bs-toggle="tab"
+                  data-bs-target="#tab-3"
+                  role="tab"
+                  aria-selected="false">
+                  
                     Advanced Technology
-                  </a>
+                  
                 </Link>
               </li>
             </ul>
@@ -93,13 +93,13 @@ const TabOne = () => {
                         leading-edge after virtual potentialities drive
                         multidisciplinary infrastructures.
                       </p>
-                      <Link href="/about-us">
-                        <a className="read-more-link text-decoration-none mt-4 d-block">
-                          Know More About Us
-                          <span className="far ms-2 mb-1">
-                            <FiArrowRight />
-                          </span>
-                        </a>
+                      <Link
+                        href="/about-us"
+                        className="read-more-link text-decoration-none mt-4 d-block">
+                        Know More About Us<span className="far ms-2 mb-1">
+                          <FiArrowRight />
+                        </span>
+
                       </Link>
                     </div>
                   </div>
@@ -136,13 +136,13 @@ const TabOne = () => {
                         meta-services. Rapidiously parallel task
                         bricks-and-clicks leadership skills with revolutionary.{' '}
                       </p>
-                      <Link href="/about-us">
-                        <a className="read-more-link text-decoration-none mt-4 d-block">
-                          Know More About Us
-                          <span className="far ms-2 mb-1">
-                            <FiArrowRight />
-                          </span>
-                        </a>
+                      <Link
+                        href="/about-us"
+                        className="read-more-link text-decoration-none mt-4 d-block">
+                        Know More About Us<span className="far ms-2 mb-1">
+                          <FiArrowRight />
+                        </span>
+
                       </Link>
                     </div>
                   </div>
@@ -165,13 +165,13 @@ const TabOne = () => {
                         e-tailers for progressive maintain open-source
                         solutions.{' '}
                       </p>
-                      <Link href="/about-us">
-                        <a className="read-more-link text-decoration-none mt-4 d-block">
-                          Know More About Us
-                          <span className="far ms-2 mb-1">
-                            <FiArrowRight />
-                          </span>
-                        </a>
+                      <Link
+                        href="/about-us"
+                        className="read-more-link text-decoration-none mt-4 d-block">
+                        Know More About Us<span className="far ms-2 mb-1">
+                          <FiArrowRight />
+                        </span>
+
                       </Link>
                     </div>
                   </div>

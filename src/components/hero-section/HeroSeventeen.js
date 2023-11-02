@@ -37,8 +37,8 @@ const HeroSeventeen = () => {
                 departments work properly together.
               </p>
               <div className="d-flex align-items-center mk-btn-group flex-wrap">
-                <Link href="#">
-                  <a className="ins-btn mk-white-btn">Get Started</a>
+                <Link href="#" className="ins-btn mk-white-btn">
+                  Get Started
                 </Link>
                 <ModalVideo
                   channel="youtube"

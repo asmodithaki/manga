@@ -69,7 +69,7 @@ const CareerFeature = () => {
                     </span>
                   ))}
                 </ul>
-                <Link href="/career-single" passHref>
+                <Link href="/career-single" passHref legacyBehavior>
                   <div className="btn btn-outline-light btn-sm d-inline-block mt-4">
                     Apply Now
                   </div>

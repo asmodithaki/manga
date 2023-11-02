@@ -32,10 +32,8 @@ export const CyberService = () => {
                   You need to be Lorem Ipsum randomised even .
                 </p>
               </div>
-              <Link
-                href="/single-service"
-              >
-                <a  className="link-with-icon text-decoration-none"> Explore More <i><FaAngleRight/></i></a>
+              <Link href="/single-service" className="link-with-icon text-decoration-none">
+                Explore More<i><FaAngleRight/></i>
               </Link>
             </div>
           </div>
@@ -51,10 +49,8 @@ export const CyberService = () => {
                   You need to be Lorem Ipsum randomised even .
                 </p>
               </div>
-              <Link
-                href="/single-service"
-              >
-               <a  className="link-with-icon text-decoration-none"> Explore More <i><FaAngleRight/></i></a>
+              <Link href="/single-service" className="link-with-icon text-decoration-none">
+                Explore More<i><FaAngleRight/></i>
               </Link>
             </div>
           </div>
@@ -70,10 +66,8 @@ export const CyberService = () => {
                   You need to be Lorem Ipsum randomised even .
                 </p>
               </div>
-              <Link
-                href="/single-service"
-              >
-                <a  className="link-with-icon text-decoration-none"> Explore More <i><FaAngleRight/></i></a>
+              <Link href="/single-service" className="link-with-icon text-decoration-none">
+                Explore More<i><FaAngleRight/></i>
               </Link>
             </div>
           </div>
@@ -89,10 +83,8 @@ export const CyberService = () => {
                   You need to be Lorem Ipsum randomised even .
                 </p>
               </div>
-              <Link
-                href="/single-service"
-              >
-                <a  className="link-with-icon text-decoration-none"> Explore More <i><FaAngleRight/></i></a>
+              <Link href="/single-service" className="link-with-icon text-decoration-none">
+                Explore More<i><FaAngleRight/></i>
               </Link>
             </div>
           </div>
@@ -108,10 +100,8 @@ export const CyberService = () => {
                   You need to be Lorem Ipsum randomised even .
                 </p>
               </div>
-              <Link
-                href="/single-service"
-              >
-                <a  className="link-with-icon text-decoration-none"> Explore More <i><FaAngleRight/></i></a>
+              <Link href="/single-service" className="link-with-icon text-decoration-none">
+                Explore More<i><FaAngleRight/></i>
               </Link>
             </div>
           </div>
@@ -127,15 +117,13 @@ export const CyberService = () => {
                   You need to be Lorem Ipsum randomised even .
                 </p>
               </div>
-              <Link
-                href="/single-service"
-              >
-               <a  className="link-with-icon text-decoration-none"> Explore More <i><FaAngleRight/></i></a>
+              <Link href="/single-service" className="link-with-icon text-decoration-none">
+                Explore More<i><FaAngleRight/></i>
               </Link>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

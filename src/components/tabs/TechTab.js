@@ -123,12 +123,10 @@ const TechTab = () => {
                         </li>
                       </ul>
                       <Link
-                        href="/about-us" 
-                      >
-                        <a className="text-white link-with-icon text-decoration-none mt-4">
-                        Know More About Us
-                        <i><FaArrowRight/></i>
-                        </a>
+                        href="/about-us"
+                        className="text-white link-with-icon text-decoration-none mt-4">
+                        Know More About Us<i><FaArrowRight/></i>
+
                       </Link>
                     </div>
                   </div>
@@ -178,12 +176,10 @@ const TechTab = () => {
                         </li>
                       </ul>
                       <Link
-                        href="/about-us" 
-                      >
-                        <a className="text-white link-with-icon text-decoration-none mt-4">
-                        Know More About Us
-                        <i><FaArrowRight/></i>
-                        </a>
+                        href="/about-us"
+                        className="text-white link-with-icon text-decoration-none mt-4">
+                        Know More About Us<i><FaArrowRight/></i>
+
                       </Link>
                     </div>
                   </div>
@@ -233,12 +229,10 @@ const TechTab = () => {
                         </li>
                       </ul>
                       <Link
-                        href="/about-us" 
-                      >
-                        <a className="text-white link-with-icon text-decoration-none mt-4">
-                        Know More About Us
-                        <i><FaArrowRight/></i>
-                        </a>
+                        href="/about-us"
+                        className="text-white link-with-icon text-decoration-none mt-4">
+                        Know More About Us<i><FaArrowRight/></i>
+
                       </Link>
                     </div>
                   </div>

@@ -13,7 +13,7 @@ const BlogFeature = () => {
         <div className="row">
           <div className="col-lg-6 col-md-12">
             <div className="single-article feature-article rounded-custom my-3">
-              <Link href="/blog-single">
+              <Link href="/blog-single" legacyBehavior>
                 <div className="article-img">
                   <img
                     src="/blog/blog-10.jpg"
@@ -31,7 +31,7 @@ const BlogFeature = () => {
                     Marketing
                   </a>
                 </div>
-                <Link href="/blog-single">
+                <Link href="/blog-single" legacyBehavior>
                   
                     <h2 className="h5 article-title limit-2-line-text">
                       Why product managers must be strategic about chasing new
@@ -69,7 +69,7 @@ const BlogFeature = () => {
           </div>
           <div className="col-lg-6 col-md-12">
             <div className="single-article feature-article rounded-custom my-3">
-              <Link href="/blog-single">
+              <Link href="/blog-single" legacyBehavior>
                 <div className="article-img">
                   <img
                     src="/blog/blog-11.jpg"
@@ -87,7 +87,7 @@ const BlogFeature = () => {
                     Development
                   </a>
                 </div>
-                <Link href="/blog-single">
+                <Link href="/blog-single" legacyBehavior>
                   
                     <h2 className="h5 article-title limit-2-line-text">
                       Two tried-and-true frameworks for achieving product/market
@@ -128,7 +128,7 @@ const BlogFeature = () => {
           {blogFeatureData.map((blog, i) => (
             <div key={i + 1} className="col-lg-4 col-md-6">
               <div className="single-article rounded-custom my-3">
-                <Link href="/blog-single">
+                <Link href="/blog-single" legacyBehavior>
                   <div className="article-img">
                     <Image
                       width={414}
@@ -147,7 +147,7 @@ const BlogFeature = () => {
                       {blog.type}
                     </a>
                   </div>
-                  <Link href="/blog-single">
+                  <Link href="/blog-single" legacyBehavior>
                     
                       <h2 className="h5 article-title limit-2-line-text">
                         {blog.header}

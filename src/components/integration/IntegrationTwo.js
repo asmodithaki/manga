@@ -24,8 +24,8 @@ const IntegrationTwo = ({ dark, bgWhite }) => {
           </div>
           <div className="col-lg-4 col-md-12">
             <div className="text-lg-end mb-5 mb-lg-0">
-              <Link href="/integrations">
-                <a className="btn btn-primary">View All Integrations</a>
+              <Link href="/integrations" className="btn btn-primary">
+                View All Integrations
               </Link>
             </div>
           </div>

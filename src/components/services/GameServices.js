@@ -16,8 +16,8 @@ export default function GameServices() {
                   Give your Website the speed, security, and uptime it eserves &
                   become part of the fastest Web Hosting.
                 </p>
-                <Link href="/">
-                  <a className="game-btn-mdm mt-4 text-white">Explore More</a>
+                <Link href="/" className="game-btn-mdm mt-4 text-white">
+                  Explore More
                 </Link>
               </div>
             </div>

@@ -19,8 +19,8 @@ export default function PaymentFeatureTwo() {
                                 competencies functionalities.ompetently pursue client-centric
                                 relationships .
                             </p>
-                            <Link href='/contact-us'>
-                                <a className="btn-gradient-sqr">Get Started</a>
+                            <Link href='/contact-us' className="btn-gradient-sqr">
+                                Get Started
                             </Link>
                         </div>
                     </div>
@@ -67,5 +67,5 @@ export default function PaymentFeatureTwo() {
                 </div>
             </div>
         </section>
-    )
+    );
 }

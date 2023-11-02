@@ -55,7 +55,7 @@ const CyberBlog = () => {
                 {cyberBlogData.map((item,i)=>(
                     <SwiperSlide key={i+1}>
                 <div className="cyber-single-article mb-4 mb-lg-0 p-3 border">
-                  <Link href="/blog-single" >
+                  <Link href="/blog-single" legacyBehavior>
                     <p className="cyber-article-img text-decoration-none">
                     <Image
                       src={item.blogThumb}

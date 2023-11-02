@@ -22,11 +22,11 @@ const HeroSectionSix = () => {
                 desc="Proactively coordinate quality quality vectors vis-a-vis supply chains engage client-centric web services."
               />
               <div className="action-btns mt-5">
-                <Link href="/request-demo">
-                  <a className="btn btn-primary me-3">Request Demo</a>
+                <Link href="/request-demo" className="btn btn-primary me-3">
+                  Request Demo
                 </Link>
-                <Link href="/about-us">
-                  <a className="btn btn-outline-light">Learn More</a>
+                <Link href="/about-us" className="btn btn-outline-light">
+                  Learn More
                 </Link>
               </div>
             </div>

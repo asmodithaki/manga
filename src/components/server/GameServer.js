@@ -17,43 +17,43 @@ export default function GameServer() {
                     <div className="col-lg-4 col-md-6">
                         <div className="server-left position-relative z-5">
                             <div className="server-list mb-3">
-                                <Link href='/'>
-                                    <a className='text-decoration-none'>
-                                        <div className='d-flex align-items-center'>
-                                            <img src="/server/s1.png" className='img-fluid me-3' alt="server" />
-                                            <h5 className='m-0 text-white fw-medium'>7 Days to Die</h5>
-                                        </div>
-                                    </a>
+                                <Link href='/' className='text-decoration-none'>
+
+                                    <div className='d-flex align-items-center'>
+                                        <img src="/server/s1.png" className='img-fluid me-3' alt="server" />
+                                        <h5 className='m-0 text-white fw-medium'>7 Days to Die</h5>
+                                    </div>
+
                                 </Link>
                             </div>
                             <div className="server-list mb-3">
-                                <Link href='/'>
-                                    <a className='text-decoration-none'>
-                                        <div className='d-flex align-items-center'>
-                                            <img src="/server/s2.png" className='img-fluid me-3' alt="server" />
-                                            <h5 className='m-0 text-white fw-medium'>Ark Survival Evolved</h5>
-                                        </div>
-                                    </a>
+                                <Link href='/' className='text-decoration-none'>
+
+                                    <div className='d-flex align-items-center'>
+                                        <img src="/server/s2.png" className='img-fluid me-3' alt="server" />
+                                        <h5 className='m-0 text-white fw-medium'>Ark Survival Evolved</h5>
+                                    </div>
+
                                 </Link>
                             </div>
                             <div className="server-list mb-3">
-                                <Link href='/'>
-                                    <a className='text-decoration-none'>
-                                        <div className='d-flex align-items-center'>
-                                            <img src="/server/s3.png" className='img-fluid me-3' alt="server" />
-                                            <h5 className='m-0 text-white fw-medium'>Counter Strike GO</h5>
-                                        </div>
-                                    </a>
+                                <Link href='/' className='text-decoration-none'>
+
+                                    <div className='d-flex align-items-center'>
+                                        <img src="/server/s3.png" className='img-fluid me-3' alt="server" />
+                                        <h5 className='m-0 text-white fw-medium'>Counter Strike GO</h5>
+                                    </div>
+
                                 </Link>
                             </div>
                             <div className="server-list mb-3">
-                                <Link href='/'>
-                                    <a className='text-decoration-none'>
-                                        <div className='d-flex align-items-center'>
-                                            <img src="/server/s4.png" className='img-fluid me-3' alt="server" />
-                                            <h5 className='m-0 text-white fw-medium'>Call of Duty</h5>
-                                        </div>
-                                    </a>
+                                <Link href='/' className='text-decoration-none'>
+
+                                    <div className='d-flex align-items-center'>
+                                        <img src="/server/s4.png" className='img-fluid me-3' alt="server" />
+                                        <h5 className='m-0 text-white fw-medium'>Call of Duty</h5>
+                                    </div>
+
                                 </Link>
                             </div>
                             <img
@@ -73,52 +73,51 @@ export default function GameServer() {
                                 <p className='m-0 text-off-white'>Our custom control panel allows you to configure and customize & Administrators.</p>
                             </div>
                             <div className="card-bottom">
-                                <Link href="/" >
-                                    <a className='d-flex justify-content-between'>From $6.00/GB Per Month
-                                        <img src="/server/arrows.svg" alt="" /></a>
+                                <Link href="/" className='d-flex justify-content-between'>
+                                    From $6.00/GB Per Month<img src="/server/arrows.svg" alt="" />
                                 </Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
                         <div className="server-list mb-3">
-                            <Link href='/'>
-                                <a className='text-decoration-none'>
-                                    <div className='d-flex align-items-center'>
-                                        <img src="/server/s5.png" className='img-fluid me-3' alt="server" />
-                                        <h5 className='m-0 text-white fw-medium'>7 Days to Die</h5>
-                                    </div>
-                                </a>
+                            <Link href='/' className='text-decoration-none'>
+
+                                <div className='d-flex align-items-center'>
+                                    <img src="/server/s5.png" className='img-fluid me-3' alt="server" />
+                                    <h5 className='m-0 text-white fw-medium'>7 Days to Die</h5>
+                                </div>
+
                             </Link>
                         </div>
                         <div className="server-list mb-3">
-                            <Link href='/'>
-                                <a className='text-decoration-none'>
-                                    <div className='d-flex align-items-center'>
-                                        <img src="/server/s6.png" className='img-fluid me-3' alt="server" />
-                                        <h5 className='m-0 text-white fw-medium'>Ark Survival Evolved</h5>
-                                    </div>
-                                </a>
+                            <Link href='/' className='text-decoration-none'>
+
+                                <div className='d-flex align-items-center'>
+                                    <img src="/server/s6.png" className='img-fluid me-3' alt="server" />
+                                    <h5 className='m-0 text-white fw-medium'>Ark Survival Evolved</h5>
+                                </div>
+
                             </Link>
                         </div>
                         <div className="server-list mb-3">
-                            <Link href='/'>
-                                <a className='text-decoration-none'>
-                                    <div className='d-flex align-items-center'>
-                                        <img src="/server/s1.png" className='img-fluid me-3' alt="server" />
-                                        <h5 className='m-0 text-white fw-medium'>Unreal Tournament 3 </h5>
-                                    </div>
-                                </a>
+                            <Link href='/' className='text-decoration-none'>
+
+                                <div className='d-flex align-items-center'>
+                                    <img src="/server/s1.png" className='img-fluid me-3' alt="server" />
+                                    <h5 className='m-0 text-white fw-medium'>Unreal Tournament 3 </h5>
+                                </div>
+
                             </Link>
                         </div>
                         <div className="server-list mb-3">
-                            <Link href='/'>
-                                <a className='text-decoration-none'>
-                                    <div className='d-flex align-items-center'>
-                                        <img src="/server/s8.png" className='img-fluid me-3' alt="server" />
-                                        <h5 className='m-0 text-white fw-medium'>Garry's Mod</h5>
-                                    </div>
-                                </a>
+                            <Link href='/' className='text-decoration-none'>
+
+                                <div className='d-flex align-items-center'>
+                                    <img src="/server/s8.png" className='img-fluid me-3' alt="server" />
+                                    <h5 className='m-0 text-white fw-medium'>Garry's Mod</h5>
+                                </div>
+
                             </Link>
                         </div>
                     </div>
@@ -132,40 +131,40 @@ export default function GameServer() {
                             <ul className='list-unstyled d-flex game-img'>
                                 <li>
                                     <Link href='/'>
-                                        <a>
-                                            <img src="/server/e1.png" alt="game" />
-                                        </a>
+
+                                        <img src="/server/e1.png" alt="game" />
+
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href='/'>
-                                        <a>
-                                            <img src="/server/e2.png" alt="game" />
-                                        </a>
+
+                                        <img src="/server/e2.png" alt="game" />
+
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href='/'>
-                                        <a>
-                                            <img src="/server/e3.png" alt="game" />
-                                        </a>
+
+                                        <img src="/server/e3.png" alt="game" />
+
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href='/'>
-                                        <a>
-                                            <img src="/server/e4.png" alt="game" />
-                                        </a>
+
+                                        <img src="/server/e4.png" alt="game" />
+
                                     </Link>
                                 </li>
                             </ul>
-                            <Link href='/'>
-                                <a className="fw-medium text-white">More Games</a>
+                            <Link href='/' className="fw-medium text-white">
+                                More Games
                             </Link>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    )
+    );
 }

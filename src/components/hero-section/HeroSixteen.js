@@ -51,10 +51,12 @@ const HeroSixteen = () => {
                   White Board sustainable products with premier total linkage
                   Energistically Monetize.
                 </p>
-                <Link href="/request-demo">
-                  <a className="ins-btn ins-primary-btn ins-primary-btn-shadow">
+                <Link
+                  href="/request-demo"
+                  className="ins-btn ins-primary-btn ins-primary-btn-shadow">
+                  
                     Let&apos;s Get Started
-                  </a>
+                  
                 </Link>
               </div>
               <img

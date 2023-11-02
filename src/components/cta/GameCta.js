@@ -23,8 +23,8 @@ export default function GameCta() {
                   Globally foster interoperable infomediaries before turnkey
                   content. Holisticly scale client-centric.
                 </p>
-                <Link href="/contact-us">
-                  <a className="game-btn-mdm mt-4 text-white">Purchase Now</a>
+                <Link href="/contact-us" className="game-btn-mdm mt-4 text-white">
+                  Purchase Now
                 </Link>
               </div>
             </div>
