@@ -11,7 +11,7 @@ import SupportOne from '@components/support/SupportOne';
 import IntegrationFeature from '@components/integration/IntegrationFeature';
 
 export const metadata = {
-  title: 'Integrations',
+  title: 'Integrations'
 }
  
 export default function Integrations() {
