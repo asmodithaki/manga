@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link";
 import { FaRegCheckCircle } from "react-icons/fa";
 import React, { useState } from "react";

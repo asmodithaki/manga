@@ -587,9 +587,10 @@ const integrationOneRight = [
 
 const integrationFeature = [
   {
+    
     logo: "/athena/inshopper.png",
     type: "Thurisa Commerce",
-    class: "bg-primary-hard text-primary",
+    class: "bg-primary-hard font-14 text-primary",
     title: "Inshopper",
     info: "Connect your Social Media accounts to your Inshopper storefront, manage social proof and client engagement on all platforms all in one place..",
   },
@@ -623,7 +624,7 @@ const integrationFeature = [
     info: "Globally engage tactical niche markets rather than client-based competently generate unique e-services",
   },
   {
-    logo: "/integations/6.png",
+    logo: "/athena/automalaww.png",
     type: "Basic",
     class: "bg-danger-soft text-danger",
     title: "Automa Law",

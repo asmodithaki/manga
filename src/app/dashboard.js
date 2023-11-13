@@ -5,7 +5,6 @@ import Footer from "@layout/Footer/Footer";
 import PricingOne from "@components/pricing/PricingOne";
 import SupportOne from "@components/support/SupportOne";
 import IntegrationOne from "@components/integration/IntegrationOne";
-import TestimonialOne from "@components/testimonial/TestimonialOne";
 import WorkProcessOne from "@components/workprocess/WorkProcessOne";
 import HeroDashBoard from "@components/hero-section/HeroDashBoard";
 import FeatureImgContentOne from "@components/feature-img-content/FeatureImgContentOne";
@@ -16,7 +15,6 @@ const  Dashboard = () =>  {
       <Navbar navDark />
       <HeroDashBoard />
       <FeatureImgContentOne />
-      <TestimonialOne darkBg />
       <WorkProcessOne />
       <PricingOne header="true" />
       <FaqOne />

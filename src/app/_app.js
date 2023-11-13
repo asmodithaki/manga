@@ -11,10 +11,10 @@ import Script from "next/script";
 
 //Modal Video
 import "react-modal-video/scss/modal-video.scss";
-import Head from "next/head";
+import Head from "next/script";
 import { Fragment } from "react";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, PageProps }) {
   return (
     <Fragment>
       <Script
@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
           content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover"
         />
       </Head>
-      <Component {...pageProps} />
+      <Component {...PageProps} />
     </Fragment>
   );
 }

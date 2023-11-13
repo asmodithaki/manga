@@ -1,6 +1,8 @@
+"use client"
+
 import React, { useEffect } from 'react';
 import Head from 'next/head';
-
+import Script from 'next/script'
 const Layout = ({
     children,
     title = 'Your window into the future',

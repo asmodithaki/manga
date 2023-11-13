@@ -14,9 +14,8 @@ const Integrations = () => {
     <Layout title="Integrations" desc="We integrate other providers.">
       <Navbar classOption="navbar-light" />
       <PageHeader
-        title="We know you need these apps all in one place"
-        desc="Integrate anything, connect all and create your personalized business ecosystem, It is like owning a fleet of cars and knowing where they all are. 
-         MAKE IT SIMPLE."
+        title="Athena is the ecosystem designed for all your business needs"
+        desc="Integrate anything, connect all and create your personalized business ecosystem, automate routine tasks, It is like owning a fleet of cars and knowing where they all are"
       />
       <IntegrationFeature />
       <Promo bgWhite />
