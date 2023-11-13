@@ -20,8 +20,10 @@ const SupportOne = ({ className }) => {
         channel="youtube"
         isOpen={isOpen}
         videoId="hAP2QF--2Dg"
+        noCookie="false"
         onClose={() => setOpen(false)}
       />
+
       <div className="container">
         <div
           className={`${

@@ -2,31 +2,27 @@
 
 import React, { useEffect } from 'react';
 import Head from 'next/head';
-import Script from 'next/script'
-const Layout = ({
-    children,
-    title = 'Your window into the future',
-    desc = 'Thurisa Labs is a software development company specializing in web and mobile application development.',
-    hasClass = false,
-    classOpt = ''
-}) => {
+// import '@assets/css/bootstrap.min.css';
+import "@assets/scss/main.scss";
+import "@assets/fonts/fontawesome-all.min.css";
 
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.async = true;
-    script.src = 'https://termify.io/script/64f86a7d99238.js';
+// Import Swiper style
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
-    document.head.appendChild(script);
+export const metadata = {
+  title: 'Sage Ink',
+  description: 'Building unqiue solutions',
+}
 
-    return () => {
-      document.head.removeChild(script);
-    }
-  }, []);
-
+export default function RootLayout({ children }) {
   return (
-    <div className={`main-wrapper ${hasClass ? 'overflow-hidden' : ''} ${classOpt}`}>
-        <Head>
+    <html lang="en">
+
+      <body>
+      <Head>
             <script
                 dangerouslySetInnerHTML={{
                     __html: `(function(c,l,a,r,i,t,y){
@@ -36,13 +32,17 @@ const Layout = ({
           })(window, document, "clarity", "script", "hnujz6tfvp");`,
                 }}
             />
-            <title>Thurisa Labs |{title}</title>
-            {desc && <meta name="description" content={desc} />}
+           
+
             <link rel="icon" href="/favicon.png" />
         </Head>
         {children}
-    </div>
-  );
+      {children}
+      
+      </body>
+    </html>
+        
+    
+  )
 }
 
-export default Layout;

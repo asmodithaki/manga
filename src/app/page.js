@@ -7,6 +7,11 @@ import IntegrationOne from "@components/integration/IntegrationOne";
 import TestimonialOne from "@components/testimonial/TestimonialOne";
 import HeroSectionOne from "@components/hero-section/HeroSectionOne";
 
+export const metadata = {
+  title: 'Sage Ink',
+  description: 'Building unqiue solutions',
+}
+
 export default function Home() {
   return (
     <Layout>
@@ -18,5 +23,5 @@ export default function Home() {
       <TestimonialOne darkBg />
       <Footer footerGradient />
     </Layout>
-  );
+  )
 }

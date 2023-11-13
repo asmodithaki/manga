@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/parser": "^7.23.0",
+    
     "@babel/runtime": "^7.23.2",
     "@jridgewell/sourcemap-codec": "^1.4.15",
     "@reduxjs/toolkit": "^1.9.7",

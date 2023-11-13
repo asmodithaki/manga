@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation } from 'swiper/core';
+import 'swiper/css';
+import SwiperCore from 'swiper/core';
+import Navigation from 'swiper';
 
 import Rating from '../common/Rating';
 
@@ -55,8 +56,8 @@ const TestimonialThree = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="appTwoReviewSwiper">
-                <Swiper {...swiperOption}>
-                  <SwiperSlide>
+                <navigator {...swiperOption}>
+                  <navigator>
                     <div className="single-review-slider p-lg-5 p-4 bg-white rounded-custom border my-lg-4">
                       <Rating />
                       <p>
@@ -71,8 +72,7 @@ const TestimonialThree = () => {
                         </div>
                       </div>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  
                     <div className=" single-review-slider p-lg-5 p-4 bg-white rounded-custom border my-lg-4">
                       <Rating />
                     
@@ -85,8 +85,8 @@ const TestimonialThree = () => {
                         </div>
                       </div>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                
+                 
                     <div className="single-review-slider p-lg-5 p-4 bg-white rounded-custom border my-lg-4">
                       <Rating />
                       <p>
@@ -100,8 +100,8 @@ const TestimonialThree = () => {
                         </div>
                       </div>
                     </div>
-                  </SwiperSlide>
-                </Swiper>
+                  </navigator>
+                </navigator>
               </div>
             </div>
           </div>
