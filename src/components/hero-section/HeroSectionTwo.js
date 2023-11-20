@@ -2,9 +2,9 @@
 
 import React from 'react';
 import Link from 'next/link';
-import HeroSectionOne from './HeroSectionOne';
+import HeroSectionTwo from './HeroSectionTwo';
 
-export default function HeroSectionOne() {
+export default function HeroSectionTwo() {
   return (
     <section
       className="about-header-section ptb-120 position-relative overflow-hidden bg-dark"
