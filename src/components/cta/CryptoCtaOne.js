@@ -15,7 +15,6 @@ const CryptoCtaOne = () => {
               site on the Internet, please consider donating a small.
             </p>
             <Link href="/about-us" className="btn rounded-pill btn-primary" legacyBehavior>
-
               <span className='pe-1'>Read Reviews</span>
               <FaArrowRight/>
 

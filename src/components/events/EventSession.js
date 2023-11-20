@@ -126,10 +126,10 @@ export default function EventSession() {
                             implement.
                           </p>
                           <Link href="/about-us" className="link-with-icon" legacyBehavior>
-                            More Information<i>
+                            More Information
+                            <i>
                               <FiArrowRight />
                             </i>
-
                           </Link>
                         </div>
                       </div>
