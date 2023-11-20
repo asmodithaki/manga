@@ -45,7 +45,8 @@ const Navbar = ({ navDark, insurance, classOption }) => {
         <div className="container d-flex align-items-center justify-content-lg-between position-relative">
           <Link
             href="/"
-            className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
+            className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none"
+            legacyBehavior>
 
             {scroll > headerTop || !navDark ? (
               <Image
@@ -98,7 +99,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                       <h6 className="drop-heading">Different Home</h6>
                       {navHomeOne.map((navH, i) => (
                         <span key={i + 1}>
-                          <Link href={navH.href} className="dropdown-link">
+                          <Link href={navH.href} className="dropdown-link" legacyBehavior>
 
                             <span className="demo-list bg-primary rounded text-white fw-bold">
                               {i + 1}
@@ -116,7 +117,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                       <h6 className="drop-heading">Different Home</h6>
                       {navHomeTwo.map((navH, i) => (
                         <span key={i + 10}>
-                          <Link href={navH.href} className="dropdown-link">
+                          <Link href={navH.href} className="dropdown-link" legacyBehavior>
 
                             <span className="demo-list bg-primary rounded text-white fw-bold">
                               {i + 10}
@@ -165,7 +166,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                       <h6 className="drop-heading">Useful Links</h6>
                       {navCompanyLinks.map((navLink, i) => (
                         <div key={i + 1}>
-                          <Link href={navLink.href} className="dropdown-link px-0">
+                          <Link href={navLink.href} className="dropdown-link px-0" legacyBehavior>
 
                             <span className="me-2">{navLink.icon}</span>
                             <span className="drop-title mb-0">
@@ -180,7 +181,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                       <h6 className="drop-heading">Utility Pages</h6>
                       {navCompanyPage.map((navPage, i) => (
                         <div key={i + 1}>
-                          <Link href={navPage.href} className="dropdown-link">
+                          <Link href={navPage.href} className="dropdown-link" legacyBehavior>
 
                             <span className="me-2">{navPage.icon}</span>
                             <span className="drop-title mb-0">
@@ -220,7 +221,8 @@ const Navbar = ({ navDark, insurance, classOption }) => {
             <div className="offcanvas-header d-flex align-items-center mt-4">
               <Link
                 href="/"
-                className="d-flex align-items-center mb-md-0 text-decoration-none">
+                className="d-flex align-items-center mb-md-0 text-decoration-none"
+                legacyBehavior>
 
                 <Image
                   width={121}

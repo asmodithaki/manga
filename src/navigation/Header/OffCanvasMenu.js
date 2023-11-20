@@ -30,7 +30,8 @@ const OffCanvasMenu = () => {
                       href={navH.href}
                       className="dropdown-link"
                       data-bs-dismiss="offcanvas"
-                      aria-label="Close">
+                      aria-label="Close"
+                      legacyBehavior>
 
                       <span className="demo-list bg-primary rounded text-white fw-bold">
                         {i + 1}
@@ -50,7 +51,7 @@ const OffCanvasMenu = () => {
         <li data-bs-dismiss="offcanvas" aria-label="Close">
           <Link href="/about-us" 
           className="nav-link">
-            <a>About</a>
+            About
           </Link>
         </li>
         <li data-bs-dismiss="offcanvas" aria-label="Close">
@@ -84,7 +85,8 @@ const OffCanvasMenu = () => {
                       href={navLink.href}
                       className="dropdown-link px-0"
                       data-bs-dismiss="offcanvas"
-                      aria-label="Close">
+                      aria-label="Close"
+                      legacyBehavior>
 
                       <span className="me-2">{navLink.icon}</span>
                       <span className="drop-title mb-0">
@@ -103,7 +105,8 @@ const OffCanvasMenu = () => {
                       href={navPage.href}
                       className="dropdown-link"
                       data-bs-dismiss="offcanvas"
-                      aria-label="Close">
+                      aria-label="Close"
+                      legacyBehavior>
 
                       <span className="me-2">{navPage.icon}</span>
                       <span className="drop-title mb-0">
