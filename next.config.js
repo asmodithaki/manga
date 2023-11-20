@@ -2,7 +2,7 @@ module.exports = {
   eslint: {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: false,
   },
 
   reactStrictMode: false,
@@ -16,4 +16,9 @@ module.exports = {
   env: {
     GOOGLE_MAPS_API_KEY: process.env.GOOGLE_MAPS_API_KEY,
   },
-};
+
+  generateBuildId: async ()  => {
+    return process.env.GIT_HASH
+  },
+
+}

@@ -11,11 +11,11 @@ import "@assets/fonts/fontawesome-all.min.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-/** 
+
 export const metadata = {
-  title: 'Sage Ink',
+  title: 'Inshopper',
   description: 'Building unqiue solutions',
-} **/
+} 
 
 export default function RootLayout({ children }) {
   return (
