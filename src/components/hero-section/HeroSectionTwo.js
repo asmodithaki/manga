@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import HeroSectionOne from './HeroDashBoard';
+import HeroSectionOne from './HeroSectionOne';
 
 export default function HeroSectionOne() {
   return (
