@@ -69,7 +69,10 @@ const CyberAbout = () => {
                       If you use this is regularly keephosting bandwidth bill
                       Enthusiastically unleash extensible.
                     </p>
-                    <Link href="/about-us" className="text-decoration-none text-dark">
+                    <Link
+                      href="/about-us"
+                      className="text-decoration-none text-dark"
+                      legacyBehavior>
                       Explore more<i><FaAngleRight/></i>
                     </Link>
                   </div>
@@ -83,7 +86,10 @@ const CyberAbout = () => {
                     <p>
                     Dramatically deliver distributed e-business and one-to-one and idea-sharing objectively.
                     </p>
-                    <Link href="/about-us" className="text-decoration-none text-dark">
+                    <Link
+                      href="/about-us"
+                      className="text-decoration-none text-dark"
+                      legacyBehavior>
                       Explore more<i><FaAngleRight/></i>
                     </Link>
                   </div>

@@ -200,7 +200,7 @@ const InsuranceService = () => {
             <div className="col-xl-4 col-lg-6">
               <div className="ins-service-card text-center py-5 px-4 bg-white rounded-1">
                 <img src="/icons/ins-1.svg" alt="icon" className="img-fluid" />
-                <Link href="/single-service">
+                <Link href="/single-service" legacyBehavior>
 
                   <h5 className="mt-4 mb-3 ins-heading">Life Insurance</h5>
 
@@ -209,7 +209,10 @@ const InsuranceService = () => {
                   Competently seize performance based growth multidisciplinary
                   total linkage. change for customized e-services applications.
                 </p>
-                <Link href="/single-service" className="ins-service-explore fs-md fw-bold">
+                <Link
+                  href="/single-service"
+                  className="ins-service-explore fs-md fw-bold"
+                  legacyBehavior>
                   Explore More<span className="ms-1">
                     <svg
                       width="53"
@@ -236,7 +239,7 @@ const InsuranceService = () => {
             <div className="col-xl-4 col-lg-6">
               <div className="ins-service-card text-center py-5 px-4 bg-white rounded-1">
                 <img src="/icons/ins-2.svg" alt="icon" className="img-fluid" />
-                <Link href="/single-service">
+                <Link href="/single-service" legacyBehavior>
 
                   <h5 className="mt-4 mb-3 ins-heading">
                     Business Insurance
@@ -247,7 +250,10 @@ const InsuranceService = () => {
                   Competently seize performance based growth multidisciplinary
                   total linkage. change for customized e-services applications.
                 </p>
-                <Link href="/single-service" className="ins-service-explore fs-md fw-bold">
+                <Link
+                  href="/single-service"
+                  className="ins-service-explore fs-md fw-bold"
+                  legacyBehavior>
                   Explore More<span className="ms-1">
                     <svg
                       width="53"
@@ -274,7 +280,7 @@ const InsuranceService = () => {
             <div className="col-xl-4 col-lg-6">
               <div className="ins-service-card text-center py-5 px-4 bg-white rounded-1">
                 <img src="/icons/ins-3.svg" alt="icon" className="img-fluid" />
-                <Link href="/single-service">
+                <Link href="/single-service" legacyBehavior>
 
                   <h5 className="mt-4 mb-3 ins-heading">Home Insurance</h5>
 
@@ -283,7 +289,10 @@ const InsuranceService = () => {
                   Competently seize performance based growth multidisciplinary
                   total linkage. change for customized e-services applications.
                 </p>
-                <Link href="/single-service" className="ins-service-explore fs-md fw-bold">
+                <Link
+                  href="/single-service"
+                  className="ins-service-explore fs-md fw-bold"
+                  legacyBehavior>
                   Explore More<span className="ms-1">
                     <svg
                       width="53"

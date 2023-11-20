@@ -11,7 +11,7 @@ const CryptoFooter = () => {
           <div className="col-lg-6">
             <div className="crypto-footer-widget text-center">
               <div className="">
-                <Link href="/" className="crypto-logo">
+                <Link href="/" className="crypto-logo" legacyBehavior>
                   <Image
                     src="/logo-white.png"
                     className="mb-30"

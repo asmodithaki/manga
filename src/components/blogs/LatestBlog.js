@@ -28,7 +28,7 @@ const LatestBlog = () => {
           {blogFeatureData.slice(0, 3).map((blog, i) => (
             <div key={i + 1} className="col-lg-4 col-md-6">
               <div className="single-article rounded-custom mb-4 mb-lg-0">
-                <Link href="/blog-single" className="article-img">
+                <Link href="/blog-single" className="article-img" legacyBehavior>
 
                   <Image
                     width={414}

@@ -15,7 +15,7 @@ const PasswordReset = () => {
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5 col-md-8 col-12">
-              <Link href="/" className="mb-4 d-block text-center">
+              <Link href="/" className="mb-4 d-block text-center" legacyBehavior>
 
                 <Image
                   width={113}

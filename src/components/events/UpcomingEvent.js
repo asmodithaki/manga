@@ -58,7 +58,10 @@ export default function UpcomingEvent() {
                   Effective alignments credibly empower backend total linkage
                   via cost seize leveraged niche markets.
                 </p>
-                <Link href="/blog-single" className="read-more-link text-decoration-none">
+                <Link
+                  href="/blog-single"
+                  className="read-more-link text-decoration-none"
+                  legacyBehavior>
                   Explore More{" "}
                   <i>
                     <FiArrowRight />
@@ -101,7 +104,10 @@ export default function UpcomingEvent() {
                   Dramatically seize leveraged niche markets total linkage via
                   cost effective alignments empower backend.
                 </p>
-                <Link href="/blog-single" className="read-more-link text-decoration-none">
+                <Link
+                  href="/blog-single"
+                  className="read-more-link text-decoration-none"
+                  legacyBehavior>
                   Explore More{" "}
                   <i>
                     <FiArrowRight />
@@ -144,7 +150,10 @@ export default function UpcomingEvent() {
                   Credibly empower backend total linkage via cost effective
                   alignments. Dramatically seize niche markets.
                 </p>
-                <Link href="/blog-single" className="read-more-link text-decoration-none">
+                <Link
+                  href="/blog-single"
+                  className="read-more-link text-decoration-none"
+                  legacyBehavior>
                   Explore More{" "}
                   <i>
                     <FiArrowRight />

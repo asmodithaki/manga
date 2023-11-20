@@ -125,7 +125,7 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us" className="link-with-icon">
+                          <Link href="/about-us" className="link-with-icon" legacyBehavior>
                             More Information<i>
                               <FiArrowRight />
                             </i>
@@ -174,7 +174,7 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us" className="link-with-icon">
+                          <Link href="/about-us" className="link-with-icon" legacyBehavior>
                             More Information<i>
                               <FiArrowRight />
                             </i>
@@ -223,7 +223,7 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us" className="link-with-icon">
+                          <Link href="/about-us" className="link-with-icon" legacyBehavior>
                             More Information<i>
                               <FiArrowRight />
                             </i>
@@ -277,7 +277,7 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us" className="link-with-icon">
+                          <Link href="/about-us" className="link-with-icon" legacyBehavior>
                             More Information<i>
                               <FiArrowRight />
                             </i>
@@ -326,7 +326,7 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us" className="link-with-icon">
+                          <Link href="/about-us" className="link-with-icon" legacyBehavior>
                             More Information<i>
                               <FiArrowRight />
                             </i>
@@ -375,7 +375,7 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us" className="link-with-icon">
+                          <Link href="/about-us" className="link-with-icon" legacyBehavior>
                             More Information<i>
                               <FiArrowRight />
                             </i>
@@ -429,7 +429,7 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us" className="link-with-icon">
+                          <Link href="/about-us" className="link-with-icon" legacyBehavior>
                             More Information<i>
                               <FiArrowRight />
                             </i>
@@ -478,7 +478,7 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us" className="link-with-icon">
+                          <Link href="/about-us" className="link-with-icon" legacyBehavior>
                             More Information<i>
                               <FiArrowRight />
                             </i>
@@ -527,7 +527,7 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us" className="link-with-icon">
+                          <Link href="/about-us" className="link-with-icon" legacyBehavior>
                             More Information<i>
                               <FiArrowRight />
                             </i>
@@ -581,7 +581,7 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us" className="link-with-icon">
+                          <Link href="/about-us" className="link-with-icon" legacyBehavior>
                             More Information<i>
                               <FiArrowRight />
                             </i>
@@ -630,7 +630,7 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us" className="link-with-icon">
+                          <Link href="/about-us" className="link-with-icon" legacyBehavior>
                             More Information<i>
                               <FiArrowRight />
                             </i>
@@ -679,7 +679,7 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us" className="link-with-icon">
+                          <Link href="/about-us" className="link-with-icon" legacyBehavior>
                             More Information<i>
                               <FiArrowRight />
                             </i>

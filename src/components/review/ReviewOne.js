@@ -27,7 +27,8 @@ const ReviewOne = () => {
               </div>
               <Link
                 href="/about-us"
-                className="link-with-icon p-0 mt-auto text-decoration-none text-warning">
+                className="link-with-icon p-0 mt-auto text-decoration-none text-warning"
+                legacyBehavior>
                 Read Reviews{" "}
                 <i>
                   <BsArrowRight className="far ms-2 mb-1" />
@@ -52,7 +53,8 @@ const ReviewOne = () => {
               </div>
               <Link
                 href="/about-us"
-                className="link-with-icon p-0 mt-auto text-decoration-none text-warning">
+                className="link-with-icon p-0 mt-auto text-decoration-none text-warning"
+                legacyBehavior>
                 Read Reviews{" "}
                 <i>
                   <BsArrowRight className="far ms-2 mb-1" />
@@ -77,7 +79,8 @@ const ReviewOne = () => {
               </div>
               <Link
                 href="/about-us"
-                className="link-with-icon p-0 mt-auto text-decoration-none text-warning">
+                className="link-with-icon p-0 mt-auto text-decoration-none text-warning"
+                legacyBehavior>
                 Read Reviews{" "}
                 <i>
                   <BsArrowRight className="far ms-2 mb-1" />

@@ -103,7 +103,8 @@ const HelpCenterDetails = () => {
               <div className="bg-light p-5 mt-4 rounded-custom quick-support">
                 <Link
                   href="/contact-us"
-                  className="text-decoration-none text-muted d-flex align-items-center py-2">
+                  className="text-decoration-none text-muted d-flex align-items-center py-2"
+                  legacyBehavior>
 
                   <div className="quick-support-icon rounded-circle bg-success-soft me-3">
                     <i className="far text-success">
@@ -117,7 +118,8 @@ const HelpCenterDetails = () => {
                 </Link>
                 <Link
                   href="mailto:info@themetags.com"
-                  className="text-decoration-none text-muted d-flex align-items-center py-2">
+                  className="text-decoration-none text-muted d-flex align-items-center py-2"
+                  legacyBehavior>
 
                   <div className="quick-support-icon rounded-circle bg-primary-soft me-3">
                     <i className="far text-primary">
@@ -131,7 +133,8 @@ const HelpCenterDetails = () => {
                 </Link>
                 <Link
                   href="#!"
-                  className="text-decoration-none text-muted d-flex align-items-center py-2">
+                  className="text-decoration-none text-muted d-flex align-items-center py-2"
+                  legacyBehavior>
 
                   <div className="quick-support-icon rounded-circle bg-danger-soft me-3">
                     <i className="far text-danger">
@@ -163,7 +166,10 @@ const HelpCenterDetails = () => {
                           key={i + 1}
                           className="py-4 border-top border-light"
                         >
-                          <Link href={list.href} className="text-decoration-none d-block text-muted">
+                          <Link
+                            href={list.href}
+                            className="text-decoration-none d-block text-muted"
+                            legacyBehavior>
 
                             <h3 className="h5 support-article-title">
                               {list.header}

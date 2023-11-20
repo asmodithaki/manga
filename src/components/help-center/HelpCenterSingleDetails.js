@@ -10,7 +10,10 @@ const HelpCenterSingleDetails = () => {
         <div className="row justify-content-between">
           <div className="col-lg-4 col-md-4 d-none d-md-block d-lg-block">
             <div className="support-article-sidebar sticky-sidebar">
-              <Link href="/help-center" className="btn btn-primary mb-4 btn-sm">
+              <Link
+                href="/help-center"
+                className="btn btn-primary mb-4 btn-sm"
+                legacyBehavior>
 
                 <i className="far fa-angle-left me-2"></i>Go Back
               </Link>
@@ -64,7 +67,8 @@ const HelpCenterSingleDetails = () => {
               <div className="bg-light p-5 mt-4 rounded-custom quick-support">
                 <Link
                   href="/contact-us"
-                  className="text-decoration-none text-muted d-flex align-items-center py-2">
+                  className="text-decoration-none text-muted d-flex align-items-center py-2"
+                  legacyBehavior>
 
                   <div className="quick-support-icon rounded-circle bg-success-soft me-3">
                     <i className="far text-success">
@@ -78,7 +82,8 @@ const HelpCenterSingleDetails = () => {
                 </Link>
                 <Link
                   href="mailto:info@themetags.com"
-                  className="text-decoration-none text-muted d-flex align-items-center py-2">
+                  className="text-decoration-none text-muted d-flex align-items-center py-2"
+                  legacyBehavior>
 
                   <div className="quick-support-icon rounded-circle bg-primary-soft me-3">
                     <i className="far text-primary">
@@ -92,7 +97,8 @@ const HelpCenterSingleDetails = () => {
                 </Link>
                 <Link
                   href="#!"
-                  className="text-decoration-none text-muted d-flex align-items-center py-2">
+                  className="text-decoration-none text-muted d-flex align-items-center py-2"
+                  legacyBehavior>
 
                   <div className="quick-support-icon rounded-circle bg-danger-soft me-3">
                     <i className="far text-danger">

@@ -50,7 +50,7 @@ export default function EventBlog() {
                   Credibly empower backend total linkage via cost effective
                   alignments. Dramatically seize leveraged niche markets.
                 </p>
-                <Link href="/blog-single" className="link-with-icon">
+                <Link href="/blog-single" className="link-with-icon" legacyBehavior>
                   More Information{" "}
                   <i>
                     <FiArrowRight />
@@ -93,7 +93,7 @@ export default function EventBlog() {
                   Credibly empower backend total linkage via cost effective
                   alignments. Dramatically seize leveraged niche markets.
                 </p>
-                <Link href="/blog-single" className="link-with-icon">
+                <Link href="/blog-single" className="link-with-icon" legacyBehavior>
                   More Information{" "}
                   <i>
                     <FiArrowRight />
@@ -136,7 +136,7 @@ export default function EventBlog() {
                   Credibly empower backend total linkage via cost effective
                   alignments. Dramatically seize leveraged niche markets.
                 </p>
-                <Link href="/blog-single" className="link-with-icon">
+                <Link href="/blog-single" className="link-with-icon" legacyBehavior>
                   More Information{" "}
                   <i>
                     <FiArrowRight />

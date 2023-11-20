@@ -26,20 +26,20 @@ const OffCanvasMenu = () => {
                 <h6 className="drop-heading">Different Home</h6>
                 {offcanvasMenuData.map((navH, i) => (
                   <span key={i + 1}>
-                    <Link href={navH.href}>
-                      <a
-                        className="dropdown-link"
-                        data-bs-dismiss="offcanvas"
-                        aria-label="Close"
-                      >
-                        <span className="demo-list bg-primary rounded text-white fw-bold">
-                          {i + 1}
-                        </span>
-                        <span className="dropdown-info mb-0">
-                          <span className="drop-title">{navH.title}</span>
-                          <span>{navH.info}</span>
-                        </span>
-                      </a>
+                    <Link
+                      href={navH.href}
+                      className="dropdown-link"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close">
+
+                      <span className="demo-list bg-primary rounded text-white fw-bold">
+                        {i + 1}
+                      </span>
+                      <span className="dropdown-info mb-0">
+                        <span className="drop-title">{navH.title}</span>
+                        <span>{navH.info}</span>
+                      </span>
+
                     </Link>
                   </span>
                 ))}
@@ -48,19 +48,19 @@ const OffCanvasMenu = () => {
           </div>
         </li>
         <li data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link href="/about-us">
-            <a className="nav-link">About</a>
+          <Link href="/about-us" className="nav-link">
+            About
           </Link>
         </li>
         <li data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link href="/services">
-            <a className="nav-link">Services</a>
+          <Link href="/services" className="nav-link">
+            Services
           </Link>
         </li>
 
         <li data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link href="/pricing">
-            <a className="nav-link">Pricing</a>
+          <Link href="/pricing" className="nav-link">
+            Pricing
           </Link>
         </li>
         <li className="nav-item dropdown">
@@ -79,17 +79,17 @@ const OffCanvasMenu = () => {
                 <h6 className="drop-heading">Useful Links</h6>
                 {navCompanyLinks.map((navLink, i) => (
                   <span key={i + 1}>
-                    <Link href={navLink.href}>
-                      <a
-                        className="dropdown-link px-0"
-                        data-bs-dismiss="offcanvas"
-                        aria-label="Close"
-                      >
-                        <span className="me-2">{navLink.icon}</span>
-                        <span className="drop-title mb-0">
-                          {navLink.title}{" "}
-                        </span>
-                      </a>
+                    <Link
+                      href={navLink.href}
+                      className="dropdown-link px-0"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close">
+
+                      <span className="me-2">{navLink.icon}</span>
+                      <span className="drop-title mb-0">
+                        {navLink.title}{" "}
+                      </span>
+
                     </Link>
                   </span>
                 ))}
@@ -98,17 +98,17 @@ const OffCanvasMenu = () => {
                 <h6 className="drop-heading">Utility Pages</h6>
                 {navCompanyPage.map((navPage, i) => (
                   <span key={i + 1}>
-                    <Link href={navPage.href}>
-                      <a
-                        className="dropdown-link"
-                        data-bs-dismiss="offcanvas"
-                        aria-label="Close"
-                      >
-                        <span className="me-2">{navPage.icon}</span>
-                        <span className="drop-title mb-0">
-                          {navPage.title}{" "}
-                        </span>
-                      </a>
+                    <Link
+                      href={navPage.href}
+                      className="dropdown-link"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close">
+
+                      <span className="me-2">{navPage.icon}</span>
+                      <span className="drop-title mb-0">
+                        {navPage.title}{" "}
+                      </span>
+
                     </Link>
                   </span>
                 ))}
@@ -119,15 +119,17 @@ const OffCanvasMenu = () => {
       </ul>
       <div className="action-btns mt-4 ps-3">
         <span data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link href="/login">
-            <a className="btn btn-outline-primary text-decoration-none me-2">
+          <Link
+            href="/login"
+            className="btn btn-outline-primary text-decoration-none me-2">
+            
               Sign In
-            </a>
+            
           </Link>
         </span>
         <span data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link href="/request-demo">
-            <a className="btn btn-primary">Get Started</a>
+          <Link href="/request-demo" className="btn btn-primary">
+            Get Started
           </Link>
         </span>
       </div>

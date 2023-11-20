@@ -56,7 +56,10 @@ export default function PaymentFeature() {
                       Globally expedite stick Energisticall synergize emerging
                       generation go incubate bleeding-edge.
                     </p>
-                    <Link href="/about-us" className="link-with-icon text-decoration-none">
+                    <Link
+                      href="/about-us"
+                      className="link-with-icon text-decoration-none"
+                      legacyBehavior>
                       Explore More{" "}
                       <i>
                         <FiArrowRight />
@@ -75,7 +78,10 @@ export default function PaymentFeature() {
                       Globally expedite stick Energisticall synergize emerging
                       generation go incubate bleeding-edge.
                     </p>
-                    <Link href="/about-us" className="link-with-icon text-decoration-none">
+                    <Link
+                      href="/about-us"
+                      className="link-with-icon text-decoration-none"
+                      legacyBehavior>
                       Explore More{" "}
                       <i>
                         <FiArrowRight />

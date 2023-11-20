@@ -36,7 +36,10 @@ const FeatureFive = () => {
                       Authoritatively productize orthogonal networks rather
                       than state of the art interfaces.
                     </p>
-                    <Link href="/single-service" className="link-with-icon text-decoration-none">
+                    <Link
+                      href="/single-service"
+                      className="link-with-icon text-decoration-none"
+                      legacyBehavior>
 
                       {' '}View Details{' '}
                       <i className="far mb-1">
@@ -60,7 +63,10 @@ const FeatureFive = () => {
                       Enthusiastically envisioneer integrated catalysts for
                       change before fully researched vortals.
                     </p>
-                    <Link href="/single-service" className="link-with-icon text-decoration-none">
+                    <Link
+                      href="/single-service"
+                      className="link-with-icon text-decoration-none"
+                      legacyBehavior>
 
                       {' '}View Details{' '}
                       <i className="far mb-1">
@@ -84,7 +90,10 @@ const FeatureFive = () => {
                       Authoritatively syndicate focused ideas whereas
                       revolutionary outsourcing.
                     </p>
-                    <Link href="/single-service" className="link-with-icon text-decoration-none">
+                    <Link
+                      href="/single-service"
+                      className="link-with-icon text-decoration-none"
+                      legacyBehavior>
                       View Details{' '}
                       <i className="far mb-1">
                         <BsArrowRight />
@@ -107,7 +116,10 @@ const FeatureFive = () => {
                       Rapidiously reintermediate plug-and-play potentialities
                       via cross-unit e-markets.
                     </p>
-                    <Link href="/single-service" className="link-with-icon text-decoration-none">
+                    <Link
+                      href="/single-service"
+                      className="link-with-icon text-decoration-none"
+                      legacyBehavior>
                       View Details{' '}
                       <i className="far mb-1">
                         <BsArrowRight />

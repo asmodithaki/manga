@@ -28,7 +28,8 @@ const CtaThree = () => {
                 <li className="d-inline-block me-2 mb-lg-0">
                   <Link
                     href="#!"
-                    className="d-flex align-items-center text-decoration-none rounded">
+                    className="d-flex align-items-center text-decoration-none rounded"
+                    legacyBehavior>
 
                     <i className="fab pe-2">
                       <FaApple className="mb-1" />
@@ -42,7 +43,8 @@ const CtaThree = () => {
                 <li className="d-inline-block me-2 mb-lg-0">
                   <Link
                     href="#!"
-                    className="d-flex align-items-center text-decoration-none rounded">
+                    className="d-flex align-items-center text-decoration-none rounded"
+                    legacyBehavior>
 
                     <i className="fab pe-2">
                       <FaGooglePlay className="mb-1" />
@@ -56,7 +58,8 @@ const CtaThree = () => {
                 <li className="d-inline-block mb-lg-0">
                   <Link
                     href="#!"
-                    className="d-flex align-items-center text-decoration-none rounded">
+                    className="d-flex align-items-center text-decoration-none rounded"
+                    legacyBehavior>
 
                     <i className="fab pe-2">
                       <FaWindows className="mb-1" />

@@ -58,7 +58,7 @@ const InsuranceGallery = () => {
                 and trouble that are bound through shrinking.
               </p>
               <div className="d-flex align-items-center ins-gallery-info-btns flex-wrap">
-                <Link href="/contact-us" className="ins-btn ins-secondary-btn">
+                <Link href="/contact-us" className="ins-btn ins-secondary-btn" legacyBehavior>
                   Get a Quote<span className="ms-1">
                     <svg
                       width="22"

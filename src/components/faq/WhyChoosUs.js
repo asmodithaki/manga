@@ -78,7 +78,8 @@ const WhyChoosUs = () => {
               </ul>
               <Link
                 href="/about-us"
-                className="link-with-icon text-decoration-none mt-3 btn btn-primary">
+                className="link-with-icon text-decoration-none mt-3 btn btn-primary"
+                legacyBehavior>
                 Learn More<i><FaArrowRight/></i>
 
               </Link>

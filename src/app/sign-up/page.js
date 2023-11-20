@@ -21,7 +21,7 @@ const Register = () => {
             <div className="col-lg-10 col-12">
               <div className="pricing-content-wrap bg-custom-light rounded-custom shadow-lg">
                 <div className="price-feature-col pricing-feature-info text-white left-radius p-5 order-1 order-lg-0">
-                  <Link href="/" className="mb-5 d-none d-xl-block d-lg-block">
+                  <Link href="/" className="mb-5 d-none d-xl-block d-lg-block" legacyBehavior>
 
                     <Image
                       width={113}

@@ -13,12 +13,13 @@ const IntegrationOne = () => {
             <div className="integration-list-wrap">
               {integrationOneLeft.map((integration, i) => (
                   (<Link
-                    href="/integration-single"
-                    key={i + 1}
-                    className={integration.className}
-                    data-bs-toggle="tooltip"
-                    data-bs-placement="top"
-                    title="Your Brand Name">
+                href="/integration-single"
+                key={i + 1}
+                className={integration.className}
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Your Brand Name"
+                legacyBehavior>
 
                     <Image
                       width={40}
@@ -46,12 +47,13 @@ const IntegrationOne = () => {
               <div className="integration-list-wrap">
                 {integrationOneRight.map((integration, i) => (
                     (<Link
-                      href="/integration-single"
-                      key={i + 1}
-                      className={integration.className}
-                      data-bs-toggle="tooltip"
-                      data-bs-placement="top"
-                      title="Thurisa Labs">
+                  href="/integration-single"
+                  key={i + 1}
+                  className={integration.className}
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Thurisa Labs"
+                  legacyBehavior>
 
                       <img
                         src={integration.image}

@@ -39,7 +39,8 @@ const HeroSectionTen = () => {
                   href="/"
                   onClick={() => setOpen(true)}
                   type="button"
-                  className="text-decoration-none d-inline-flex align-items-center watch-now-btn">
+                  className="text-decoration-none d-inline-flex align-items-center watch-now-btn"
+                  legacyBehavior>
 
                   <IoPlayCircleOutline className="ms-2" />Watch Demo
                 </Link>
@@ -59,7 +60,7 @@ const HeroSectionTen = () => {
           </div>
         </div>
         <div className="cyber-down-btn text-center position-relative d-none d-lg-block">
-          <Link href="#cyber-about" className="text-primary">
+          <Link href="#cyber-about" className="text-primary" legacyBehavior>
 
             <RiArrowDownLine />
 

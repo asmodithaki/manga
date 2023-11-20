@@ -38,7 +38,8 @@ export default function HeroThirteen() {
                     href="/#"
                     onClick={() => setOpen(true)}
                     type="button"
-                    className="text-decoration-none d-inline-flex align-items-center watch-now-btn">
+                    className="text-decoration-none d-inline-flex align-items-center watch-now-btn"
+                    legacyBehavior>
 
                     <IoPlayCircleOutline className="me-2" />Watch Video
                   </Link>

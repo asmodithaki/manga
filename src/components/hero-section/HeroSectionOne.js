@@ -6,7 +6,7 @@ import Link from "next/link";
 import ModalVideo from "react-modal-video";
 
 const ButtonLink = ({ href, children, className }) => (
-  <Link href={href} className={className}>
+  <Link href={href} className={className} legacyBehavior>
     {children}
   </Link>
 );

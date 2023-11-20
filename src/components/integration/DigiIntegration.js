@@ -189,7 +189,10 @@ export default function DigiIntegration() {
                 Intergrated with 20+ Widely Used Software
               </h2>
               <div>
-                <Link href="/contact-us" className="btn rounded-pill btn-primary me-3 mb-3">
+                <Link
+                  href="/contact-us"
+                  className="btn rounded-pill btn-primary me-3 mb-3"
+                  legacyBehavior>
 
                   {" "}Get in touch
                 </Link>

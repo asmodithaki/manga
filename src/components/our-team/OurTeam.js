@@ -38,7 +38,7 @@ const OurTeam = () => {
                       </Link>
                     </li>
                     <li className="list-inline-item">
-                      <Link href="#!">
+                      <Link href="#!" legacyBehavior>
 
                         <i className="fab">
                           <FaTwitter />
@@ -47,7 +47,7 @@ const OurTeam = () => {
                       </Link>
                     </li>
                     <li className="list-inline-item">
-                      <Link href="#!">
+                      <Link href="#!" legacyBehavior>
 
                         <i className="fab">
                           <FaGithub />
@@ -56,7 +56,7 @@ const OurTeam = () => {
                       </Link>
                     </li>
                     <li className="list-inline-item">
-                      <Link href="#!">
+                      <Link href="#!" legacyBehavior>
 
                         <i className="fab">
                           <FaFacebookF />

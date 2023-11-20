@@ -29,7 +29,7 @@ const CryptoPromo = () => {
               Cryptocurrency does not exist in physical form like paper money
               and is typically not issued by a central authority.
             </p>
-            <Link href="/about-us">
+            <Link href="/about-us" legacyBehavior>
               Explore More<FaArrowRight/>
             </Link>
           </div>
@@ -44,7 +44,7 @@ const CryptoPromo = () => {
               Cryptocurrency does not exist in physical form like paper money
               and is typically not issued by a central authority.
             </p>
-            <Link href="/about-us">
+            <Link href="/about-us" legacyBehavior>
               Explore More<FaArrowRight/>
             </Link>
           </div>
@@ -59,7 +59,7 @@ const CryptoPromo = () => {
               Cryptocurrency does not exist in physical form like paper money
               and is typically not issued by a central authority.
             </p>
-            <Link href="/about-us">
+            <Link href="/about-us" legacyBehavior>
               Explore More<FaArrowRight/>
             </Link>
           </div>

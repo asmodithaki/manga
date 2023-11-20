@@ -17,7 +17,7 @@ export default function GameServer() {
                     <div className="col-lg-4 col-md-6">
                         <div className="server-left position-relative z-5">
                             <div className="server-list mb-3">
-                                <Link href='/' className='text-decoration-none'>
+                                <Link href='/' className='text-decoration-none' legacyBehavior>
 
                                     <div className='d-flex align-items-center'>
                                         <img src="/server/s1.png" className='img-fluid me-3' alt="server" />
@@ -27,7 +27,7 @@ export default function GameServer() {
                                 </Link>
                             </div>
                             <div className="server-list mb-3">
-                                <Link href='/' className='text-decoration-none'>
+                                <Link href='/' className='text-decoration-none' legacyBehavior>
 
                                     <div className='d-flex align-items-center'>
                                         <img src="/server/s2.png" className='img-fluid me-3' alt="server" />
@@ -37,7 +37,7 @@ export default function GameServer() {
                                 </Link>
                             </div>
                             <div className="server-list mb-3">
-                                <Link href='/' className='text-decoration-none'>
+                                <Link href='/' className='text-decoration-none' legacyBehavior>
 
                                     <div className='d-flex align-items-center'>
                                         <img src="/server/s3.png" className='img-fluid me-3' alt="server" />
@@ -47,7 +47,7 @@ export default function GameServer() {
                                 </Link>
                             </div>
                             <div className="server-list mb-3">
-                                <Link href='/' className='text-decoration-none'>
+                                <Link href='/' className='text-decoration-none' legacyBehavior>
 
                                     <div className='d-flex align-items-center'>
                                         <img src="/server/s4.png" className='img-fluid me-3' alt="server" />
@@ -73,7 +73,7 @@ export default function GameServer() {
                                 <p className='m-0 text-off-white'>Our custom control panel allows you to configure and customize & Administrators.</p>
                             </div>
                             <div className="card-bottom">
-                                <Link href="/" className='d-flex justify-content-between'>
+                                <Link href="/" className='d-flex justify-content-between' legacyBehavior>
                                     From $6.00/GB Per Month<img src="/server/arrows.svg" alt="" />
                                 </Link>
                             </div>
@@ -81,7 +81,7 @@ export default function GameServer() {
                     </div>
                     <div className="col-lg-4 col-md-6">
                         <div className="server-list mb-3">
-                            <Link href='/' className='text-decoration-none'>
+                            <Link href='/' className='text-decoration-none' legacyBehavior>
 
                                 <div className='d-flex align-items-center'>
                                     <img src="/server/s5.png" className='img-fluid me-3' alt="server" />
@@ -91,7 +91,7 @@ export default function GameServer() {
                             </Link>
                         </div>
                         <div className="server-list mb-3">
-                            <Link href='/' className='text-decoration-none'>
+                            <Link href='/' className='text-decoration-none' legacyBehavior>
 
                                 <div className='d-flex align-items-center'>
                                     <img src="/server/s6.png" className='img-fluid me-3' alt="server" />
@@ -101,7 +101,7 @@ export default function GameServer() {
                             </Link>
                         </div>
                         <div className="server-list mb-3">
-                            <Link href='/' className='text-decoration-none'>
+                            <Link href='/' className='text-decoration-none' legacyBehavior>
 
                                 <div className='d-flex align-items-center'>
                                     <img src="/server/s1.png" className='img-fluid me-3' alt="server" />
@@ -111,7 +111,7 @@ export default function GameServer() {
                             </Link>
                         </div>
                         <div className="server-list mb-3">
-                            <Link href='/' className='text-decoration-none'>
+                            <Link href='/' className='text-decoration-none' legacyBehavior>
 
                                 <div className='d-flex align-items-center'>
                                     <img src="/server/s8.png" className='img-fluid me-3' alt="server" />
@@ -130,28 +130,28 @@ export default function GameServer() {
                             </div>
                             <ul className='list-unstyled d-flex game-img'>
                                 <li>
-                                    <Link href='/'>
+                                    <Link href='/' legacyBehavior>
 
                                         <img src="/server/e1.png" alt="game" />
 
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/'>
+                                    <Link href='/' legacyBehavior>
 
                                         <img src="/server/e2.png" alt="game" />
 
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/'>
+                                    <Link href='/' legacyBehavior>
 
                                         <img src="/server/e3.png" alt="game" />
 
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/'>
+                                    <Link href='/' legacyBehavior>
 
                                         <img src="/server/e4.png" alt="game" />
 

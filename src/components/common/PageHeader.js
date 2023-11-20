@@ -68,31 +68,52 @@ const PageHeader = ({ title, desc, integration, blogtags }) => {
                     Marketing
                   
                 </Link>
-                <Link href="#" className="btn btn-soft-primary btn-pill btn-sm m-2">
+                <Link
+                  href="#"
+                  className="btn btn-soft-primary btn-pill btn-sm m-2"
+                  legacyBehavior>
 
                   {' '}Sales
                 </Link>
-                <Link href="#" className="btn btn-soft-primary btn-pill btn-sm m-2">
+                <Link
+                  href="#"
+                  className="btn btn-soft-primary btn-pill btn-sm m-2"
+                  legacyBehavior>
 
                   {' '}Design
                 </Link>
-                <Link href="#" className="btn btn-soft-primary btn-pill btn-sm m-2">
+                <Link
+                  href="#"
+                  className="btn btn-soft-primary btn-pill btn-sm m-2"
+                  legacyBehavior>
 
                   {' '}Development
                 </Link>
-                <Link href="#" className="btn btn-soft-primary btn-pill btn-sm m-2">
+                <Link
+                  href="#"
+                  className="btn btn-soft-primary btn-pill btn-sm m-2"
+                  legacyBehavior>
 
                   {' '}Product Design
                 </Link>
-                <Link href="#" className="btn btn-soft-primary btn-pill btn-sm m-2">
+                <Link
+                  href="#"
+                  className="btn btn-soft-primary btn-pill btn-sm m-2"
+                  legacyBehavior>
 
                   {' '}Customers
                 </Link>
-                <Link href="#" className="btn btn-soft-primary btn-pill btn-sm m-2">
+                <Link
+                  href="#"
+                  className="btn btn-soft-primary btn-pill btn-sm m-2"
+                  legacyBehavior>
 
                   {' '}Agency
                 </Link>
-                <Link href="#" className="btn btn-soft-primary btn-pill btn-sm m-2">
+                <Link
+                  href="#"
+                  className="btn btn-soft-primary btn-pill btn-sm m-2"
+                  legacyBehavior>
 
                   {' '}Investors
                 </Link>

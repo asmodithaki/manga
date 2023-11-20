@@ -26,7 +26,8 @@ const FeatureImg = () => {
 
               <Link
                 href="/about-us"
-                className="read-more-link text-decoration-none d-block mt-4">
+                className="read-more-link text-decoration-none d-block mt-4"
+                legacyBehavior>
                 Know More About Us{' '}
                 <i className="far fa-arrow-right ms-2"></i>
 

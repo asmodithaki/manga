@@ -23,28 +23,30 @@ const FooterShort = () => {
               <div className="footer-single-col text-start text-lg-end text-md-end">
               <ul className="list-unstyled list-inline footer-social-list mb-0">
               <li className="list-inline-item">
-              <Link href="https://www.twitter.com/thurisalabs">
+              <Link href="https://www.twitter.com/thurisalabs" legacyBehavior>
 
                 <FaTwitter />
 
               </Link>
               </li>
               <li className="list-inline-item">
-              <Link href="https://www.linkedin.com/company/thurisa-labs-llc/?viewAsMember=true">
+              <Link
+                href="https://www.linkedin.com/company/thurisa-labs-llc/?viewAsMember=true"
+                legacyBehavior>
 
                 <FaLinkedin />
 
               </Link>
               </li>
               <li className="list-inline-item">
-              <Link href="https://www.github.com/mace-techno">
+              <Link href="https://www.github.com/mace-techno" legacyBehavior>
 
                 <FaGithub />
 
               </Link>
             </li>
              <li className="list-inline-item">
-                <Link href="https://www.instagram.com/thurisalabs">
+                <Link href="https://www.instagram.com/thurisalabs" legacyBehavior>
 
                   <FaInstagram />
 

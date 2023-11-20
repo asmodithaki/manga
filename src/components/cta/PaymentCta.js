@@ -21,7 +21,8 @@ export default function PaymentCta() {
                                     <li className="d-inline-block me-2 mb-3 mb-md-0">
                                         <Link
                                             href='/'
-                                            className="d-flex align-items-center text-decoration-none rounded shadow-lg">
+                                            className="d-flex align-items-center text-decoration-none rounded shadow-lg"
+                                            legacyBehavior>
                                             <FaGooglePlay className='fs-2 pe-2'/>
                                             <span className='fw-bold'>Get it on<span className="d-block fw-semi-bold">Google Play</span></span>
                                         </Link>
@@ -29,7 +30,8 @@ export default function PaymentCta() {
                                     <li className="d-inline-block">
                                         <Link
                                             href='/'
-                                            className="d-flex align-items-center text-decoration-none rounded shadow-lg">
+                                            className="d-flex align-items-center text-decoration-none rounded shadow-lg"
+                                            legacyBehavior>
                                             <FaApple  className='fs-2 pe-2'/>
                                             <span className='fw-bold'>
                                                 Downlad on the<span className="d-block fw-medium">App Store

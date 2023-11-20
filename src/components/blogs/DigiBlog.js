@@ -50,7 +50,10 @@ export default function DigiBlog() {
                       Holisticly innovate principle-centered evia eth
                       Eincentivize sticky processes
                     </p>
-                    <Link href="/blog-single" className="read-more-link text-decoration-none">
+                    <Link
+                      href="/blog-single"
+                      className="read-more-link text-decoration-none"
+                      legacyBehavior>
                       Explore More{" "}
                       <i>
                         <FiArrowRight />
@@ -64,7 +67,7 @@ export default function DigiBlog() {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="digi-blog-single border p-3 rounded mb-4 mb-lg-0">
-              <Link href="/blog-single">
+              <Link href="/blog-single" legacyBehavior>
 
                 <div className="digi-blog-thumb">
                   <img
@@ -85,7 +88,10 @@ export default function DigiBlog() {
                     Holisticly innovate principle-centered evia eth
                     Eincentivize sticky processes
                   </p>
-                  <Link href="/blog-single" className="read-more-link text-decoration-none">
+                  <Link
+                    href="/blog-single"
+                    className="read-more-link text-decoration-none"
+                    legacyBehavior>
 
                     {" "}Explore More{" "}
                     <i>

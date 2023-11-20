@@ -95,7 +95,8 @@ const TabOne = () => {
                       </p>
                       <Link
                         href="/about-us"
-                        className="read-more-link text-decoration-none mt-4 d-block">
+                        className="read-more-link text-decoration-none mt-4 d-block"
+                        legacyBehavior>
                         Know More About Us<span className="far ms-2 mb-1">
                           <FiArrowRight />
                         </span>
@@ -138,7 +139,8 @@ const TabOne = () => {
                       </p>
                       <Link
                         href="/about-us"
-                        className="read-more-link text-decoration-none mt-4 d-block">
+                        className="read-more-link text-decoration-none mt-4 d-block"
+                        legacyBehavior>
                         Know More About Us<span className="far ms-2 mb-1">
                           <FiArrowRight />
                         </span>
@@ -167,7 +169,8 @@ const TabOne = () => {
                       </p>
                       <Link
                         href="/about-us"
-                        className="read-more-link text-decoration-none mt-4 d-block">
+                        className="read-more-link text-decoration-none mt-4 d-block"
+                        legacyBehavior>
                         Know More About Us<span className="far ms-2 mb-1">
                           <FiArrowRight />
                         </span>

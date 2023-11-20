@@ -110,7 +110,8 @@ const FeatureTwo = ({ cardDark }) => {
                 </div>
                 <Link
                   href="/single-service"
-                  className="link-with-icon text-decoration-none mt-3">
+                  className="link-with-icon text-decoration-none mt-3"
+                  legacyBehavior>
 
                   {" "}View Details<i className="far fa-arrow-right"></i>
 
@@ -135,7 +136,8 @@ const FeatureTwo = ({ cardDark }) => {
                 </div>
                 <Link
                   href="/single-service"
-                  className="link-with-icon text-decoration-none mt-3">
+                  className="link-with-icon text-decoration-none mt-3"
+                  legacyBehavior>
 
                   {" "}View Details<i className="far fa-arrow-right"></i>
 
@@ -160,7 +162,8 @@ const FeatureTwo = ({ cardDark }) => {
                 </div>
                 <Link
                   href="/single-service"
-                  className="link-with-icon text-decoration-none mt-3">
+                  className="link-with-icon text-decoration-none mt-3"
+                  legacyBehavior>
 
                   {" "}View Details<i className="far fa-arrow-right"></i>
 
@@ -185,7 +188,8 @@ const FeatureTwo = ({ cardDark }) => {
                 </div>
                 <Link
                   href="/single-service"
-                  className="link-with-icon text-decoration-none mt-3">
+                  className="link-with-icon text-decoration-none mt-3"
+                  legacyBehavior>
                   View Details<i className="far fa-arrow-right"></i>
 
                 </Link>
@@ -209,7 +213,8 @@ const FeatureTwo = ({ cardDark }) => {
                 </div>
                 <Link
                   href="/single-service"
-                  className="link-with-icon text-decoration-none mt-3">
+                  className="link-with-icon text-decoration-none mt-3"
+                  legacyBehavior>
 
                   {" "}View Details<i className="far fa-arrow-right"></i>
 

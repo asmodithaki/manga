@@ -75,7 +75,10 @@ const FeatureOne = () => {
                 </p>
               </div>
               <div className="action-btns mt-auto">
-                <Link href="/request-demo" className="btn btn-outline-primary btn-sm">
+                <Link
+                  href="/request-demo"
+                  className="btn btn-outline-primary btn-sm"
+                  legacyBehavior>
 
                   {" "}Start For Free
                 </Link>

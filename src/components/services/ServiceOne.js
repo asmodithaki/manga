@@ -89,7 +89,8 @@ const ServiceOne = ({ bgDark }) => {
                 </div>
                 <Link
                   href="/service-single"
-                  className="link-with-icon text-decoration-none mt-3">
+                  className="link-with-icon text-decoration-none mt-3"
+                  legacyBehavior>
                   View Details{" "}
                   <i className="far mb-1">
                     <BsArrowRight />
@@ -145,7 +146,8 @@ const ServiceOne = ({ bgDark }) => {
                             </div>
                             <Link
                               href="/service-single"
-                              className="link-with-icon text-decoration-none mt-3">
+                              className="link-with-icon text-decoration-none mt-3"
+                              legacyBehavior>
                               View Details{" "}
                               <i className="far mb-1">
                                 <BsArrowRight />
@@ -175,7 +177,8 @@ const ServiceOne = ({ bgDark }) => {
               </div>
               <Link
                 href="/service-single"
-                className="link-with-icon text-decoration-none mt-3">
+                className="link-with-icon text-decoration-none mt-3"
+                legacyBehavior>
                 View Details{" "}
                 <i className="far mb-1">
                   <BsArrowRight />
@@ -206,7 +209,8 @@ const ServiceOne = ({ bgDark }) => {
               </div>
               <Link
                 href="/service-single"
-                className="link-with-icon text-decoration-none mt-3">
+                className="link-with-icon text-decoration-none mt-3"
+                legacyBehavior>
                 View Details{" "}
                 <i className="far mb-1">
                   <BsArrowRight />
@@ -237,7 +241,8 @@ const ServiceOne = ({ bgDark }) => {
               </div>
               <Link
                 href="/service-single"
-                className="link-with-icon text-decoration-none mt-3">
+                className="link-with-icon text-decoration-none mt-3"
+                legacyBehavior>
                 View Details{" "}
                 <i className="far mb-1">
                   <BsArrowRight />

@@ -52,7 +52,10 @@ const QuickSupport = () => {
                     Our support will help you from
                     <strong> 9am to 5pm EST.</strong>
                   </p>
-                  <Link href="/contact-us" className="read-more-link text-decoration-none">
+                  <Link
+                    href="/contact-us"
+                    className="read-more-link text-decoration-none"
+                    legacyBehavior>
 
                     <span className="far me-2">
                       <BiCommentDetail className="mb-1" />

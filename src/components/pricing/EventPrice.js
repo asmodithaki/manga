@@ -191,7 +191,7 @@ export default function EventPrice() {
         </div>
         <p className="text-center mt-4 text-muted fs-sm">
           All prices exclude 25% VAT. For more details, view our
-          <Link href="/about-us" className="text-dark">
+          <Link href="/about-us" className="text-dark" legacyBehavior>
 
             <b> Terms & Conditions</b>
 

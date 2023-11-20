@@ -28,7 +28,8 @@ const RelatedIntegration = () => {
             <div key={i + 1} className="col-lg-4 col-md-6">
               <Link
                 href="/integration-single"
-                className="position-relative text-decoration-none connected-app-single bg-white border border-2 promo-border-hover bg-white mt-0 mt-xl-0 mt-lg-0 transition-base rounded-custom d-block overflow-hidden p-5">
+                className="position-relative text-decoration-none connected-app-single bg-white border border-2 promo-border-hover bg-white mt-0 mt-xl-0 mt-lg-0 transition-base rounded-custom d-block overflow-hidden p-5"
+                legacyBehavior>
 
                 <div className="position-relative connected-app-content">
                   <div className="integration-logo bg-white rounded-circle p-2 d-inline-block">

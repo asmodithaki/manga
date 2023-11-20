@@ -24,7 +24,10 @@ export default function DigiWorkProcess() {
                 Interactively transition tactical fabricate corporate
                 meta-services.
               </p>
-              <Link href="/request-for-demo" className="btn rounded-pill bg-orange mt-3">
+              <Link
+                href="/request-for-demo"
+                className="btn rounded-pill bg-orange mt-3"
+                legacyBehavior>
 
                 {' '}Request a Quoate
               </Link>

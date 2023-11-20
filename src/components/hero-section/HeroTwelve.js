@@ -35,7 +35,10 @@ export default function HeroTwelve() {
                       Give your Website the speed, security, and uptime it
                       deserves and become part of the fastest Web Hosting.
                     </p>
-                    <Link href="/request-for-demo" className="btn-gradient mt-4 link-with-icon">
+                    <Link
+                      href="/request-for-demo"
+                      className="btn-gradient mt-4 link-with-icon"
+                      legacyBehavior>
                       Order Now<BsArrowRight />
 
                     </Link>
@@ -65,7 +68,10 @@ export default function HeroTwelve() {
                       Give your Website the speed, security, and uptime it
                       deserves and become part of the fastest Web Hosting.
                     </p>
-                    <Link href="/request-for-demo" className="btn-gradient mt-4 link-with-icon">
+                    <Link
+                      href="/request-for-demo"
+                      className="btn-gradient mt-4 link-with-icon"
+                      legacyBehavior>
 
                       {" "}Order Now<BsArrowRight />
 

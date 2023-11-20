@@ -19,7 +19,8 @@ const CryptoCta = () => {
                 <div className="crypto-btn-wrapper">
                   <Link
                     href="https://play.google.com/store"
-                    className="crypto-app-btn me-3 text-decoration-none mb-3 mb-xl-0">
+                    className="crypto-app-btn me-3 text-decoration-none mb-3 mb-xl-0"
+                    legacyBehavior>
 
                     <span className="crypto-btn-content-wrapper">
                       <span className="crypto-btn-icon">
@@ -34,7 +35,8 @@ const CryptoCta = () => {
                   </Link>
                   <Link
                     href="https://www.apple.com/store"
-                    className="crypto-app-btn me-3 text-decoration-none">
+                    className="crypto-app-btn me-3 text-decoration-none"
+                    legacyBehavior>
 
                     <span className="crypto-btn-content-wrapper">
                       <span className="crypto-btn-icon">

@@ -124,7 +124,8 @@ const TechTab = () => {
                       </ul>
                       <Link
                         href="/about-us"
-                        className="text-white link-with-icon text-decoration-none mt-4">
+                        className="text-white link-with-icon text-decoration-none mt-4"
+                        legacyBehavior>
                         Know More About Us<i><FaArrowRight/></i>
 
                       </Link>
@@ -177,7 +178,8 @@ const TechTab = () => {
                       </ul>
                       <Link
                         href="/about-us"
-                        className="text-white link-with-icon text-decoration-none mt-4">
+                        className="text-white link-with-icon text-decoration-none mt-4"
+                        legacyBehavior>
                         Know More About Us<i><FaArrowRight/></i>
 
                       </Link>
@@ -230,7 +232,8 @@ const TechTab = () => {
                       </ul>
                       <Link
                         href="/about-us"
-                        className="text-white link-with-icon text-decoration-none mt-4">
+                        className="text-white link-with-icon text-decoration-none mt-4"
+                        legacyBehavior>
                         Know More About Us<i><FaArrowRight/></i>
 
                       </Link>

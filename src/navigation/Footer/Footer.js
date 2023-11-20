@@ -74,7 +74,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                     <ul className="list-unstyled footer-nav-list mb-lg-0">
                       {footerPrimaryPages.map((primaryPage, i) => (
                         <li key={i + 1}>
-                          <Link href={primaryPage.href} className="text-decoration-none">
+                          <Link href={primaryPage.href} className="text-decoration-none" legacyBehavior>
 
                             {' '}
                             {primaryPage.title}
@@ -91,7 +91,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                     <ul className="list-unstyled footer-nav-list mb-lg-0">
                       {footerPages.map((page, i) => (
                         <li key={i + 1}>
-                          <Link href={page.href} className="text-decoration-none">
+                          <Link href={page.href} className="text-decoration-none" legacyBehavior>
 
                             {' '}
                             {page.title}
@@ -108,7 +108,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                     <ul className="list-unstyled footer-nav-list mb-lg-0">
                       {footerTemplate.map((template, i) => (
                         <li key={i + 1}>
-                          <Link href={template.href} className="text-decoration-none">
+                          <Link href={template.href} className="text-decoration-none" legacyBehavior>
 
                             {' '}
                             {template.title}
@@ -151,28 +151,30 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                 <div className="footer-single-col text-start text-lg-end text-md-end">
                   <ul className="list-unstyled list-inline footer-social-list mb-0">
                     <li className="list-inline-item">
-                    <Link href="https://www.twitter.com/thurisalabs">
+                    <Link href="https://www.twitter.com/thurisalabs" legacyBehavior>
 
                       <FaTwitter />
 
                     </Link>
                     </li>
                     <li className="list-inline-item">
-                    <Link href="https://www.linkedin.com/company/thurisa-labs-llc/?viewAsMember=true">
+                    <Link
+                      href="https://www.linkedin.com/company/thurisa-labs-llc/?viewAsMember=true"
+                      legacyBehavior>
 
                       <FaLinkedin />
 
                     </Link>
                     </li>
                     <li className="list-inline-item">
-                    <Link href="https://www.github.com/mace-techno">
+                    <Link href="https://www.github.com/mace-techno" legacyBehavior>
 
                       <FaGithub />
 
                     </Link>
                   </li>
                    <li className="list-inline-item">
-                      <Link href="https://www.instagram.com/thurisalabs">
+                      <Link href="https://www.instagram.com/thurisalabs" legacyBehavior>
 
                         <FaInstagram />
 
