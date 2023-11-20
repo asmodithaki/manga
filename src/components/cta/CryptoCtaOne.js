@@ -14,11 +14,12 @@ const CryptoCtaOne = () => {
               If you use this site regularly and would like to help keep the
               site on the Internet, please consider donating a small.
             </p>
-            <Link href="/about-us" className="btn rounded-pill btn-primary" legacyBehavior>
-              <span className='pe-1'>Read Reviews</span>
-              <FaArrowRight/>
-
+            <Link href="/about-us" 
+            className="btn rounded-pill btn-primary" 
+            legacyBehavior>
             </Link>
+            <span className='pe-1'>Read Reviews</span>
+              <FaArrowRight/>
           </div>
         </div>
       </div>
