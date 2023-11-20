@@ -1,0 +1,65 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.loading__container {
+    text-align: center;
+}
+
+.loading__container__loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.loading__container__loader__ai-icon {
+    width: 60px;
+    height: 60px;
+    background: url('path_to_ai_icon_image') no-repeat center center;
+    background-size: cover;
+    /* Animation to rotate AI icon */
+    animation: rotate 2s linear infinite;
+}
+
+.loading__container__loader__circle {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: #007bff;
+    border-radius: 50%;
+    /* Animation for the circles */
+    animation: bounce 0.5s infinite alternate;
+}
+
+.loading__container__loader__circle:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.loading__container__loader__circle:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.loading__container__text {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Keyframes for animations */
+@keyframes bounce {
+    to {
+        opacity: 0.3;
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,6 +1,6 @@
 "use client"
 
-
+import React, { useEffect } from 'react';
 import Head from 'next/head';
 // import '@assets/css/bootstrap.min.css';
 import "@assets/scss/main.scss";
@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
 
       <body>
       <Head>
-            <script>
+            <script
                 dangerouslySetInnerHTML={{
                     __html: `(function(c,l,a,r,i,t,y){
             c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
           })(window, document, "clarity", "script", "hnujz6tfvp");`,
                 }}
-           </script>
+            />
            
            
 

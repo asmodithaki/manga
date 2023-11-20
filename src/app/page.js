@@ -1,16 +1,15 @@
-import Layout from "@layout/Layout";
-import Navbar from "@layout/Header/Navbar";
-import Footer from "@layout/Footer/Footer";
+'use client';
+
+import Layout from "./layout";
+import Navbar from "../navigation/Header/Navbar";
+
+import HeroSectionOne from "@components/hero-section/HeroSectionOne";
 import FeatureOne from "@components/features/FeatureOne";
 import SupportOne from "@components/support/SupportOne";
 import IntegrationOne from "@components/integration/IntegrationOne";
-import TestimonialOne from "@components/testimonial/TestimonialOne";
-import HeroSectionOne from "@components/hero-section/HeroSectionOne";
+import PaymentTestimonial from "@components/testimonial/PaymentTestimonial";
+import Footer from "@layout/Footer/Footer";
 
-export const metadata = {
-  title: 'Sage Ink',
-  description: 'Building unqiue solutions',
-}
 
 export default function Home() {
   return (
@@ -20,8 +19,8 @@ export default function Home() {
       <FeatureOne />
       <IntegrationOne />
       <SupportOne />
-      <TestimonialOne darkBg />
+      <PaymentTestimonial darkBg />
       <Footer footerGradient />
     </Layout>
-  )
+  );
 }

@@ -30,7 +30,7 @@ const  HeroSectionOne = () => {
           <div className="col-lg-6 col-md-10">
             <div className="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
               <h2 className="fw-bold display-4 ptb-100 text-white ">
-              AI Powered Business Management Software
+              AI Powered Business Management
               </h2>
               <p className="lead ">
                 <strong>

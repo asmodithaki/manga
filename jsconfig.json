@@ -9,7 +9,7 @@
       "@styles/*": ["src/styles/*"],
       "@utils/*": ["src/utils/*"]
     },
-    "types": ["node", "webpack-env"]
+    "types": ["node"]
   },
   "include": ["."],
   "exclude": ["node_modules"]

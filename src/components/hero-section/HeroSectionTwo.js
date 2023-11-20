@@ -1,9 +1,10 @@
-"use client"
+'useEffect'
 
 import React from 'react';
 import Link from 'next/link';
+import HeroSectionOne from './HeroDashBoard';
 
-const HeroSectionTwo = () => {
+export default function HeroSectionOne() {
   return (
     <section
       className="about-header-section ptb-120 position-relative overflow-hidden bg-dark"
@@ -43,7 +44,5 @@ const HeroSectionTwo = () => {
       </div>
       <div className="bg-white position-absolute bottom-0 h-25 bottom-0 left-0 right-0 z-2 py-5"></div>
     </section>
-  );
-};
-
-export default HeroSectionTwo;
+  )
+}
