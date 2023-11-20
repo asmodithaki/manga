@@ -8,7 +8,7 @@ import FeatureOne from "@components/features/FeatureOne";
 import SupportOne from "@components/support/SupportOne";
 import IntegrationOne from "@components/integration/IntegrationOne";
 import PaymentTestimonial from "@components/testimonial/PaymentTestimonial";
-import Footer from "@layout/Footer/Footer";
+import Footer from "../navigation/Footer/Footer";
 
 
 export default function Home() {
